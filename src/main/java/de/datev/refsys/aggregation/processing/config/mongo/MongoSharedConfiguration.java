@@ -5,22 +5,23 @@ import com.mongodb.ReadConcern;
 import com.mongodb.ReadPreference;
 import com.mongodb.TransactionOptions;
 import com.mongodb.WriteConcern;
-import com.mongodb.reactivestreams.client.MongoClient;
+import com.mongodb.client.MongoClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.data.mongodb.ReactiveMongoDatabaseFactory;
-import org.springframework.data.mongodb.ReactiveMongoTransactionManager;
-import org.springframework.data.mongodb.config.EnableReactiveMongoAuditing;
-import org.springframework.data.mongodb.core.SimpleReactiveMongoDatabaseFactory;
+import org.springframework.data.mongodb.MongoDatabaseFactory;
+import org.springframework.data.mongodb.MongoTransactionManager;
+import org.springframework.data.mongodb.config.EnableMongoAuditing;
+import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.data.mongodb.core.SimpleMongoDatabaseFactory;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import java.util.concurrent.TimeUnit;
 
 @Configuration
 @RequiredArgsConstructor
-@EnableReactiveMongoAuditing
+@EnableMongoAuditing
 @EnableTransactionManagement
 public class MongoSharedConfiguration {
 
@@ -31,13 +32,18 @@ public class MongoSharedConfiguration {
     private String databaseName;
 
     @Bean
-    public ReactiveMongoDatabaseFactory reactiveMongoDatabaseFactory(MongoClient updateMongoClient) {
-        return new SimpleReactiveMongoDatabaseFactory(updateMongoClient, databaseName);
+    public MongoDatabaseFactory mongoDatabaseFactory(MongoClient updateMongoClient) {
+        return new SimpleMongoDatabaseFactory(updateMongoClient, databaseName);
     }
 
     @Bean
-    public ReactiveMongoTransactionManager transactionManager(ReactiveMongoDatabaseFactory dbFactory) {
-        return new ReactiveMongoTransactionManager(dbFactory);
+    public MongoTransactionManager transactionManager(MongoDatabaseFactory dbFactory) {
+        return new MongoTransactionManager(dbFactory);
+    }
+
+    @Bean
+    public MongoTemplate mongoTemplate(MongoDatabaseFactory dbFactory) {
+        return new MongoTemplate(dbFactory);
     }
 
     @Bean

@@ -1,7 +1,7 @@
 package de.datev.refsys.aggregation.processing.config.mongo;
 
-import com.mongodb.reactivestreams.client.MongoClient;
-import com.mongodb.reactivestreams.client.MongoClients;
+import com.mongodb.client.MongoClient;
+import com.mongodb.client.MongoClients;
 import de.datev.refsys.aggregation.processing.constant.ProfileConstants;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

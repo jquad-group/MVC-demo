@@ -19,7 +19,7 @@
         <springdoc-openapi-ui-version>1.7.0</springdoc-openapi-ui-version>
         <shared.model.version>1.2.21</shared.model.version>
         <openapi-generator-maven-version>7.0.1</openapi-generator-maven-version>
-        <reactor-micrometer.version>1.1.10</reactor-micrometer.version>
+        <!-- Removed reactor-micrometer.version for MVC migration -->
         <modelmapper-spring.version>3.2.4</modelmapper-spring.version>
         <jacoco-maven-plugin.version>0.8.13</jacoco-maven-plugin.version>
         <mapstruct.version>1.6.3</mapstruct.version>
@@ -49,7 +49,7 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-webflux</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -57,7 +57,7 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-mongodb-reactive</artifactId>
+            <artifactId>spring-boot-starter-data-mongodb</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -88,11 +88,7 @@
             <artifactId>micrometer-registry-prometheus</artifactId>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/io.projectreactor.kafka/reactor-kafka -->
-        <dependency>
-            <groupId>io.projectreactor.kafka</groupId>
-            <artifactId>reactor-kafka</artifactId>
-        </dependency>
+        <!-- Removed reactor-kafka for MVC migration - using standard spring-kafka -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
@@ -115,10 +111,7 @@
             <version>${splunk.version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>io.projectreactor</groupId>
-            <artifactId>reactor-core-micrometer</artifactId>
-        </dependency>
+        <!-- Removed reactor-core-micrometer for MVC migration - using standard micrometer -->
 
         <dependency>
             <groupId>io.micrometer</groupId>
@@ -149,11 +142,7 @@
             <version>${resilience4j.version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>io.github.resilience4j</groupId>
-            <artifactId>resilience4j-reactor</artifactId>
-            <version>${resilience4j.version}</version>
-        </dependency>
+        <!-- Removed resilience4j-reactor for MVC migration - using synchronous resilience4j-spring-boot3 -->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -202,11 +191,7 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>io.projectreactor</groupId>
-            <artifactId>reactor-test</artifactId>
-            <scope>test</scope>
-        </dependency>
+        <!-- Removed reactor-test for MVC migration - using standard spring-test patterns -->
         <!-- cucumber dependencies-->
         <dependency>
             <groupId>io.cucumber</groupId>

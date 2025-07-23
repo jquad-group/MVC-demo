@@ -1,14 +1,13 @@
 package de.datev.refsys.aggregation.processing.service;
 
 import de.datev.refsys.aggregation.processing.model.ImportData;
-import reactor.core.publisher.Mono;
 
 public interface ImportService {
     /**
      * Imports all data
      *
      * @param importData contains MasterdataContext and StateDoc
-     * @return temporary return type until all importService has been completely refactored
+     * @return boolean indicating success/failure of the import operation
      */
-    Mono<Boolean> executeFullImport(ImportData importData);
+    Boolean executeFullImport(ImportData importData);
 }

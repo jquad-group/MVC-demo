@@ -3,9 +3,9 @@ package de.datev.refsys.aggregation.processing.repository;
 import com.mongodb.client.model.Updates;
 import com.mongodb.client.result.DeleteResult;
 import com.mongodb.client.result.UpdateResult;
-import com.mongodb.reactivestreams.client.ClientSession;
-import com.mongodb.reactivestreams.client.MongoClient;
-import com.mongodb.reactivestreams.client.MongoCollection;
+import com.mongodb.ClientSessionOptions;
+import com.mongodb.client.ClientSession;
+import com.mongodb.client.MongoClient;
 import de.datev.refsys.aggregation.document.model.AlternativeAccountTranslation;
 import de.datev.refsys.aggregation.document.model.CollectiveAccount;
 import de.datev.refsys.aggregation.document.model.CustomColumnStructureInfo;
@@ -24,8 +24,6 @@ import de.datev.refsys.aggregation.processing.util.LoggingUtil;
 import de.datev.refsys.aggregation.processing.util.QueryUtil;
 import io.github.resilience4j.circuitbreaker.CircuitBreaker;
 import io.github.resilience4j.circuitbreaker.CircuitBreakerRegistry;
-import io.github.resilience4j.reactor.circuitbreaker.operator.CircuitBreakerOperator;
-import io.github.resilience4j.reactor.retry.RetryOperator;
 import io.github.resilience4j.retry.Retry;
 import io.github.resilience4j.retry.RetryRegistry;
 import io.micrometer.core.instrument.MeterRegistry;
@@ -33,8 +31,12 @@ import lombok.extern.slf4j.Slf4j;
 import org.bson.conversions.Bson;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Repository;
-import reactor.core.observability.micrometer.Micrometer;
-import reactor.core.publisher.Mono;
+import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.data.mongodb.core.query.Query;
+import org.springframework.data.mongodb.core.query.Update;
+import org.springframework.util.StopWatch;
+import java.util.concurrent.TimeUnit;
+import java.util.function.Supplier;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -49,18 +51,16 @@ import static de.datev.refsys.aggregation.document.model.constants.CollectionCon
 @Repository
 public class MasterDataRepository {
     protected final MeterRegistry meterRegistry;
-    private final MongoCollection<MasterData> masterDataCollection;
-    private final MongoCollection<MasterData> transactionalMasterDataCollection;
+    private final MongoTemplate mongoTemplate;
     private final CircuitBreaker afterMovementDataCircuitBreaker;
     private final Retry mongoRetryInstance;
     private final String databaseName;
 
-    public MasterDataRepository(final MongoClient insertMongoClient, final MongoClient updateMongoClient, final MeterRegistry meterRegistry,
+    public MasterDataRepository(final MongoTemplate mongoTemplate, final MeterRegistry meterRegistry,
                                 @Value("${spring.data.mongodb.database}") final String databaseName,
                                 final CircuitBreakerRegistry circuitBreakerRegistry, final RetryRegistry retryRegistry) {
         this.databaseName = databaseName;
-        this.masterDataCollection = insertMongoClient.getDatabase(databaseName).getCollection(MASTER_DATA, MasterData.class);
-        this.transactionalMasterDataCollection = updateMongoClient.getDatabase(databaseName).getCollection(MASTER_DATA, MasterData.class);
+        this.mongoTemplate = mongoTemplate;
         this.afterMovementDataCircuitBreaker = circuitBreakerRegistry.circuitBreaker(ProcessingServiceConstants.AFTER_MOVEMENT_DATA_CIRCUIT_BREAKER);
         this.mongoRetryInstance = retryRegistry.retry(ProcessingServiceConstants.MONGODB_RETRY_INSTANCE_NAME);
         this.meterRegistry = meterRegistry;
@@ -74,9 +74,21 @@ public class MasterDataRepository {
      * @param fiscalYear fiscal year start
      * @return mongo DeleteResult object
      */
-    public Mono<DeleteResult> deleteOne(Integer consultant, Integer client, Integer fiscalYear) {
-        return Mono.from(masterDataCollection.deleteOne(QueryUtil.getByMasterDataBusinessKey(consultant, client, fiscalYear)))
-                   .elapsed().map(LoggingUtil.logDebugWithDuration(LoggingUtil.MASTER_DATA_REPOSITORY_DELETE_ONE_LOG));
+    public DeleteResult deleteOne(Integer consultant, Integer client, Integer fiscalYear) {
+        Supplier<DeleteResult> deleteOperation = () -> {
+            StopWatch stopWatch = StopWatch.createStarted();
+            try {
+                Query query = new Query().addCriteria(QueryUtil.getByMasterDataBusinessKey(consultant, client, fiscalYear));
+                DeleteResult result = mongoTemplate.remove(query, MasterData.class);
+                LoggingUtil.logDebugWithDuration(LoggingUtil.MASTER_DATA_REPOSITORY_DELETE_ONE_LOG)
+                          .accept(stopWatch.getTotalTimeMillis());
+                return result;
+            } finally {
+                stopWatch.stop();
+            }
+        };
+        
+        return afterMovementDataCircuitBreaker.executeSupplier(mongoRetryInstance.executeSupplier(deleteOperation));
     }
 
     /**
