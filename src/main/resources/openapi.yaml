@@ -1,0 +1,791 @@
+openapi: 3.0.1
+info:
+  title: Refsys Aggregation Processing Service
+  description: |
+    API Umfang für Refsys Aggregation Processing Service
+  version: 1.0.1
+  x-version-information: |
+    Schnittstellenbeschreibung auf openapi 3.0.1 Standard
+  x-ibm-name: $api_name
+servers:
+  - url: $oeffentliche_url
+    description: Development Stage
+tags:
+  - name: Initial Load
+  - name: Update Schema
+  - name: Update Version
+paths:
+  /aggregation-processing/consultants/{consultant}/clients/{client}/initial-load:
+    post:
+      tags:
+        - Initial Load
+      operationId: startInitialLoad
+      summary: Triggert die Erstbestückung
+      description: |
+        Startet eine Erstbestückung im Processing Service, welcher die Daten von ACDS holt.
+      parameters:
+        - name: consultant
+          in: path
+          description: (Beraternummer) Consultant-Number (v1)
+          required: true
+          schema:
+            minimum: 1000
+            maximum: 9999999
+            type: integer
+            format: int32
+            example: 29098
+        - name: client
+          in: path
+          description: (Mandantennummer) Client-Number (v1)
+          required: true
+          schema:
+            minimum: 0
+            maximum: 99999
+            type: integer
+            format: int32
+            example: 55003
+        - name: fiscal-year
+          in: query
+          description: Geschäftsjahr (v1)
+          required: true
+          schema:
+            minimum: 19500000
+            maximum: 22000000
+            type: integer
+            format: int32
+            example: 20210101
+        - name: base-version
+          in: query
+          description: Base Version
+          required: false
+          schema:
+            type: integer
+            format: int64
+            default: 0
+        - name: delta-version
+          in: query
+          description: Delta Version
+          required: false
+          schema:
+            type: integer
+            format: int64
+            default: 0
+        - name: x-correlation-id
+          in: header
+          description: Id zum Anwendungsübergreifenden Logging
+          required: false
+          schema:
+            type: string
+        - name: Request-Id
+          in: header
+          description: Id zum Anwendungsverfolgen Logging.
+          required: false
+          schema:
+            type: string
+      responses:
+        201:
+          description: Rückgabe
+        500:
+          description: Problem JSON
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/problem'
+        400:
+          description: Problem JSON
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/problem'
+        404:
+          description: Problem JSON
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/problem'
+        409:
+          description: Problem JSON
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/problem'
+    delete:
+      tags:
+        - Delete Inventory
+      operationId: deleteInventory
+      summary: Löscht einen Bestand
+      description: |
+        Löscht alle Daten eines Bestandes
+      parameters:
+        - name: consultant
+          in: path
+          description: (Beraternummer) Consultant-Number (v1)
+          required: true
+          schema:
+            minimum: 1000
+            maximum: 9999999
+            type: integer
+            format: int32
+            example: 29098
+        - name: client
+          in: path
+          description: (Mandantennummer) Client-Number (v1)
+          required: true
+          schema:
+            minimum: 0
+            maximum: 99999
+            type: integer
+            format: int32
+            example: 55003
+        - name: fiscal-year
+          in: query
+          description: Geschäftsjahr (v1)
+          required: true
+          schema:
+            minimum: 19500000
+            maximum: 22000000
+            type: integer
+            format: int32
+            example: 20210101
+        - name: x-correlation-id
+          in: header
+          description: Id zum Anwendungsübergreifenden Logging
+          required: false
+          schema:
+            type: string
+        - name: Request-Id
+          in: header
+          description: Id zum Anwendungsverfolgen Logging.
+          required: false
+          schema:
+            type: string
+      responses:
+        204:
+          description: Rückgabe
+        500:
+          description: Problem JSON
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/problem'
+        400:
+          description: Problem JSON
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/problem'
+        404:
+          description: Problem JSON
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/problem'
+        409:
+          description: Problem JSON
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/problem'
+
+  /aggregation-processing/consultants/{consultant}/clients/{client}/update-version:
+    post:
+      tags:
+        - Update Version
+      operationId: updateVersion
+      summary: Aktualisiert die Versionsinformationen für einen Bestand
+      description: |
+        Aktualisiert die Versionsinformationen für einen Bestand
+      parameters:
+        - name: consultant
+          in: path
+          description: (Beraternummer) Consultant-Number (v1)
+          required: true
+          schema:
+            minimum: 1000
+            maximum: 9999999
+            type: integer
+            format: int32
+            example: 29098
+        - name: client
+          in: path
+          description: (Mandantennummer) Client-Number (v1)
+          required: true
+          schema:
+            minimum: 0
+            maximum: 99999
+            type: integer
+            format: int32
+            example: 55003
+        - name: fiscal-year
+          in: query
+          description: Geschäftsjahr (v1)
+          required: true
+          schema:
+            minimum: 19500000
+            maximum: 22000000
+            type: integer
+            format: int32
+            example: 20210101
+        - name: x-correlation-id
+          in: header
+          description: Id zum Anwendungsübergreifenden Logging
+          required: false
+          schema:
+            type: string
+        - name: Request-Id
+          in: header
+          description: Id zum Anwendungsverfolgen Logging.
+          required: false
+          schema:
+            type: string
+      requestBody:
+        description: Version Information
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/delta-info"
+      responses:
+        200:
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/delta-info"
+        204:
+          description: NO CONTENT
+        400:
+          description: Problem JSON
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/problem'
+        404:
+          description: Problem JSON
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/problem'
+        409:
+          description: Conflict - there is an import in progress
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/delta-info"
+        500:
+          description: Server Error - unhandled Exception
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/problem'
+
+  /aggregation-processing/consultants/{consultant}/clients/{client}/update-schema:
+    post:
+      tags:
+        - Update Schema
+      operationId: updateSchema
+      summary: Triggert Update des Schemas
+      description: |
+        Startet eine Update des Schemas im Processing Service.
+      parameters:
+        - name: consultant
+          in: path
+          description: (Beraternummer) Consultant-Number (v1)
+          required: true
+          schema:
+            minimum: 1000
+            maximum: 9999999
+            type: integer
+            format: int32
+            example: 29098
+        - name: client
+          in: path
+          description: (Mandantennummer) Client-Number (v1)
+          required: true
+          schema:
+            minimum: 0
+            maximum: 99999
+            type: integer
+            format: int32
+            example: 55003
+        - name: fiscal-year
+          in: query
+          description: Geschäftsjahr (v1)
+          required: true
+          schema:
+            minimum: 19500000
+            maximum: 22000000
+            type: integer
+            format: int32
+            example: 20210101
+        - name: base-version
+          in: query
+          description: Base Version
+          required: false
+          schema:
+            type: integer
+            format: int64
+            default: 0
+        - name: delta-version
+          in: query
+          description: Delta Version
+          required: false
+          schema:
+            type: integer
+            format: int64
+            default: 0
+        - name: x-correlation-id
+          in: header
+          description: Id zum Anwendungsübergreifenden Logging
+          required: false
+          schema:
+            type: string
+        - name: Request-Id
+          in: header
+          description: Id zum Anwendungsverfolgen Logging.
+          required: false
+          schema:
+            type: string
+      responses:
+        201:
+          description: Rückgabe
+        204:
+          description: Keine Daten vorhanden
+        500:
+          description: Problem JSON
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/problem'
+        400:
+          description: Problem JSON
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/problem'
+        404:
+          description: Problem JSON
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/problem'
+        409:
+          description: Problem JSON
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/problem'
+
+  /aggregation-processing/consultants/{consultant}/clients/{client}/process-delta:
+    post:
+      tags:
+        - Process Delta
+      operationId: processDelta
+      summary: Triggert Verarbeitung eines Deltas
+      description: |
+        Startet eine Event-Verarbeitung im Processing Service.
+      parameters:
+        - name: consultant
+          in: path
+          description: (Beraternummer) Consultant-Number (v1)
+          required: true
+          schema:
+            minimum: 1000
+            maximum: 9999999
+            type: integer
+            format: int32
+            example: 29098
+        - name: client
+          in: path
+          description: (Mandantennummer) Client-Number (v1)
+          required: true
+          schema:
+            minimum: 0
+            maximum: 99999
+            type: integer
+            format: int32
+            example: 55003
+        - name: fiscal-year
+          in: query
+          description: Geschäftsjahr (v1)
+          required: true
+          schema:
+            minimum: 19500000
+            maximum: 22000000
+            type: integer
+            format: int32
+            example: 20210101
+        - name: base-version
+          in: query
+          description: Base Version
+          required: false
+          schema:
+            type: integer
+            format: int64
+            default: 0
+        - name: delta-version
+          in: query
+          description: Delta Version
+          required: false
+          schema:
+            type: integer
+            format: int64
+            default: 0
+        - name: x-correlation-id
+          in: header
+          description: Id zum Anwendungsübergreifenden Logging
+          required: false
+          schema:
+            type: string
+        - name: Request-Id
+          in: header
+          description: Id zum Anwendungsverfolgen Logging.
+          required: false
+          schema:
+            type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/delta-request'
+      responses:
+        201:
+          description: Rückgabe
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/delta-info'
+        204:
+          description: Keine Daten vorhanden
+        500:
+          description: Problem JSON
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/problem'
+        400:
+          description: Problem JSON
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/problem'
+        404:
+          description: Problem JSON
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/problem'
+        409:
+          description: Problem JSON
+          content:
+            application/problem+json:
+              schema:
+                $ref: '#/components/schemas/problem'
+
+components:
+  schemas:
+    delta-request:
+      type: object
+      required:
+        - contains_near_time_data
+      properties:
+        contains_near_time_data:
+          type: boolean
+          nullable: false
+          description: gibt an, ob für diesen Bestand aktuelle Daten vorhanden sind
+        account_sum_day_deltas:
+          x-field-extra-annotation: "@lombok.Builder.Default"
+          type: array
+          items:
+            $ref: '#/components/schemas/account-sum-day-delta'
+
+    account-sum-day-delta:
+      type: object
+      allOf:
+        - $ref: '#/components/schemas/movement-values-keys'
+        - $ref: '#/components/schemas/movement-day-values-keys'
+        - $ref: '#/components/schemas/movement-values-normal'
+        - $ref: '#/components/schemas/movement-values-extended'
+        - properties:
+            date:
+              type: integer
+              nullable: false
+              description: |
+                Belegdatum
+                <br /> x-source: u_irw_Kontobewegung (9760)/Belegdatum
+              format: int32
+              example: 20210517
+      required:
+        - date
+      description: |
+        Liefert Kontobewegung assoziert mit der KKEGesellschafterId aus dem Belegsatz.
+        Beide Tabellen sind über die MdtId, WJ, Stapelidentifikator, Belegidentifikator, Splittsatzzaehler und Folgebuchungszaehler miteinander verknüpft.<br />
+        Grundsätzlich können Buchungssätze auf tagesebene aggregiert/gruppiert werden, d.h. haben Einzelbuchungssätze identische Inhalte bei 'account_number', 
+        'month', 'date', 'accounting_reason_id', 'record_type', 'rw_shareholder_id', 'business_assets_assignment', 'tax_rate', 'accounting_committed', 
+        'cost1', 'cost2' und 'agriculture_and_forestry_account_type', so können die Einzelwerte von 'amount_debit', 'amount_credit' aber auch 
+        'quantity_credit', 'quantity_debit', 'weight_credit' und 'weight_debit' zusammengerechnet werden.
+
+    movement-values-keys:
+      type: object
+      required:
+        - account_number
+        - month
+        - accounting_reason_id
+        - record_type
+      properties:
+        account_number:
+          type: integer
+          nullable: false
+          description: |
+            (Kontonummer) Account number shown in maximum length (technical length)
+            <br /> x-source: u_irw_Kontobewegung (9760)/Kontonummer
+          format: int32
+          example: 45000000
+        month:
+          type: integer
+          nullable: false
+          description: |
+            Index des Monats auf den sich die Werte beziehen (Jan. bis Dez. = 1 - 12, EB-Werte = 0)
+            <br /> x-source: Monat aus u_irw_Kontobewegung (9760)/Belegdatum
+          format: int16
+          example: 5
+        accounting_reason_id:
+          type: integer
+          nullable: false
+          description: |
+            Id des Bereichs
+            <br /> x-source: u_irw_Kontobewegung (9760)/Bereichsnummer
+          format: int32
+          example: 0
+        record_type:
+          type: integer
+          nullable: false
+          description: |
+            (Buchungstyp) Record type (financial accounting = 1, annual financial statements = 2)
+            <br /> x-source: u_irw_Kontobewegung (9760)/Buchungstyp
+          format: int16
+          example: 1
+
+    movement-day-values-keys:
+      type: object
+      required:
+        - business_assets_assignment
+        - tax_rate
+        - accounting_committed
+      properties:
+        rw_shareholder_id:
+          type: string
+          format: uuid
+          nullable: true
+          description: |
+            Rechnungswesen Gesellschafter ID. Es handelt sich dabei um die Guid "KKEGesellschafterId" aus der Tabelle u_irw_Belegsatz (9741).
+            <br /> x-source: u_irw_Belegsatz (9741)/KKEGesellschafterId
+          example: 9c18c30b-ac17-451f-81c7-1b9b26dd73fe
+        business_assets_assignment:
+          type: integer
+          nullable: false
+          description: |
+            (BVVPosition) Zuordnung für den Betriebsvermögensvergleich.<br />
+            WICHTIG: Der Wert aus der Tabelle selbst ist nicht korrekt, weil unterschiedliche Folgebuchungen auf unterschiedliche BVV-Positionen zugeordnet werden können.
+            Um dies zu realisieren, wird die BVVPosition aufgeteilt: jeweils 4 Bit sind für die maximal 3 möglichen Buchungen vorgesehen.
+            Sehen die 16 Bits wie folgt aus '0000 1111 0101 1001' so erhält man den Wert 9 für die Folgebuchung 1, 5 für Folgebuchung 2 und 15 für Folgebuchung 3.
+            Vgl. dazu auch ft_irw_BVVPositionFormat in der IRW-Datenbank.
+            <br /> x-source: u_irw_StandardErweiterung/BVVPosition
+          format: int16
+          example: 0
+        tax_rate:
+          type: number
+          nullable: false
+          description: |
+            Steuersatz
+            <br /> x-source: u_irw_Kontobewegung (9760)/Steuersatz
+          format: float
+          example: 19.00
+        accounting_committed:
+          type: boolean
+          nullable: false
+          description: |
+            Zeigt an ab der Buchungssatz festgeschrieben ist oder nicht. Die Information ergibt sich aus der Festschreibenummer des Stapels, 
+            zu dem der Buchungssatz gehört. Ist diese von 0 verschieden, so ist der Stapel und damit die Buchung festgeschrieben.
+            <br /> x-source: u_irw_Buchungsstapel (9702)/Festschreibenummer
+          example: true
+          default: false
+        cost1:
+          type: string
+          nullable: true
+          example: "91"
+          description: |
+            Inhalt des KOST1-Feldes am Buchungssatz
+            <br /> x-source: u_irw_StandardErweiterung/Kost1Kostenstelle
+        cost2:
+          type: string
+          nullable: true
+          example: "A2"
+          description: |
+            Inhalt des KOST2-Feldes am Buchungssatz
+            <br /> x-source: u_irw_StandardErweiterung/Kost2Kostenstelle
+        agriculture_and_forestry_account_type:
+          type: integer
+          nullable: true
+          description: |
+            LuF-Buchnungsart gemäß DE 11010
+            <br /> x-source: u_irw_Kontobewegung (9760)/LufBuchungsart
+          format: int16
+          example: 25
+
+    movement-values-normal:
+      type: object
+      properties:
+        amount_debit:
+          type: number
+          nullable: true
+          description: |
+            Soll-Betrag
+            <br /> x-source: u_irw_Kontobewegung (9760)/SollHabenKennz;Teilumsatz
+          format: double
+          example: 343.56
+        amount_credit:
+          type: number
+          nullable: true
+          description: |
+            Haben-Betrag
+            <br /> x-source: u_irw_Kontobewegung (9760)/SollHabenKennz;Teilumsatz
+          format: double
+          example: 1832.65
+
+    movement-values-extended:
+      type: object
+      properties:
+        quantity_credit:
+          type: integer
+          nullable: true
+          description: |
+            Stückzahl (für LuF) im 'Haben'. Immer wenn ein Umsatz einer Kontobewegung im 'Haben' gebucht wird, 
+            so wird auch die 'Stueck'-Angabe in der Standard-Erweiterung als 'Haben'-Angabe auf dieses Feld summiert. 
+            Sollte der Umsatz einer Kontobewegung negativ sein (Generalumkehr), so wird auch das Vorzeichen der 'Stueck'-Angabe 
+            gedreht (mit -1 multipliziert) bevor es auf dieses Feld draufgerechnet wird.
+            <br /> x-source: u_irw_StandardErweiterung/Stueck
+          format: int32
+          example: 77
+        quantity_debit:
+          type: integer
+          nullable: true
+          description: |
+            Stückzahl (für LuF) im 'Soll'. Immer wenn ein Umsatz einer Kontobewegung im 'Soll' gebucht wird, 
+            so wird auch die 'Stueck'-Angabe in der Standard-Erweiterung als 'Soll'-Angabe auf dieses Feld summiert. 
+            Sollte der Umsatz einer Kontobewegung negativ sein (Generalumkehr), so wird auch das Vorzeichen der 'Stueck'-Angabe 
+            gedreht (mit -1 multipliziert) bevor es auf dieses Feld draufgerechnet wird.
+            <br /> x-source: u_irw_StandardErweiterung/Stueck
+          format: int32
+          example: 86
+        weight_credit:
+          type: number
+          nullable: true
+          description: |
+            Gewicht (für LuF) im 'Haben'. Immer wenn ein Umsatz einer Kontobewegung im 'Haben' gebucht wird, 
+            so wird auch die 'Gewicht'-Angabe in der Standard-Erweiterung als 'Haben'-Angabe auf dieses Feld summiert. 
+            Sollte der Umsatz einer Kontobewegung negativ sein (Generalumkehr), so wird auch das Vorzeichen der 'Gewicht'-Angabe 
+            gedreht (mit -1 multipliziert) bevor es auf dieses Feld draufgerechnet wird.
+            <br /> x-source: u_irw_StandardErweiterung/Gewicht
+          format: double
+          example: 116.76
+        weight_debit:
+          type: number
+          nullable: true
+          description: |
+            Gewicht (für LuF) im 'Soll'. Immer wenn ein Umsatz einer Kontobewegung im 'Soll' gebucht wird, 
+            so wird auch die 'Gewicht'-Angabe in der Standard-Erweiterung als 'Soll'-Angabe auf dieses Feld summiert. 
+            Sollte der Umsatz einer Kontobewegung negativ sein (Generalumkehr), so wird auch das Vorzeichen der 'Gewicht'-Angabe 
+            gedreht (mit -1 multipliziert) bevor es auf dieses Feld draufgerechnet wird.
+            <br /> x-source: u_irw_StandardErweiterung/Gewicht
+          format: double
+          example: 116.76
+
+    delta-info:
+      type: object
+      description: A result model containing base and delta versions
+      required:
+        - base_version
+        - delta_version
+      properties:
+        base_version:
+          type: integer
+          format: int64
+          minimum: 0
+          nullable: false
+        delta_version:
+          type: integer
+          format: int64
+          minimum: 0
+          nullable: false
+
+    problem:
+      title: An RFC 7807 problem object
+      type: object
+      additionalProperties: true
+      properties:
+        type:
+          type: string
+          format: uri-reference
+          description: A URI reference that identifies the problem type.
+          maxLength: 2056
+          pattern: (([^:/?#]+):)?(//([^/?#]*))?([^?#]*)(\?([^#]*))?(#(.*))
+        title:
+          type: string
+          description: A short, human-readable summary of the problem type.
+          maxLength: 256
+        status:
+          type: integer
+          description: >-
+            The HTTP status code generated by the origin server for this
+            occurrence of the problem.
+          minimum: 100
+          maximum: 599
+        detail:
+          type: string
+          maxLength: 300000
+          description: >-
+            A human-readable explanation specific to this occurrence of the
+            problem.
+        instance:
+          type: string
+          format: uri-reference
+          maxLength: 2056
+          pattern: (([^:/?#]+):)?(//([^/?#]*))?([^?#]*)(\?([^#]*))?(#(.*))
+          description: >-
+            A URI reference that identifies the specific occurrence of the
+            problem. It may or may not yield further information if
+            dereferenced.
+        request_id:
+          type: string
+          format: uuid
+          maxLength: 36
+          minLength: 36
+          pattern: "[0-9a-fA-F]{8}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{12}"
+          description: >-
+            UUID of the Request
+      required:
+        - status
+        - title
+      readOnly: true
+
+  securitySchemes:
+    datev-openid:
+      type: oauth2
+      flows:
+        authorizationCode:
+          authorizationUrl: $x-datev.authorizationUrl
+          tokenUrl: $x-datev.tokenUrl
+          scopes:
+            openid: openid
+      x-ibm-oauth-provider: datev-openid
+    client_secret:
+      type: apiKey
+      name: X-Datev-Client-Secret
+      in: header
+      x-key-type: client_secret
+    client_id:
+      type: apiKey
+      name: X-Datev-Client-ID
+      in: header
+      x-key-type: client_id

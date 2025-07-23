@@ -1,0 +1,52 @@
+[
+  {
+    "accounting_reason": 30,
+    "inventory_number": "140001",
+    "wg_id": 1,
+    "account_number": 14000000,
+    "description": "Firmenwert",
+    "separation_mark": null,
+    "flag_account_transfer": 0,
+    "ust_object": 1
+  },
+  {
+    "accounting_reason": 30,
+    "inventory_number": "140002",
+    "wg_id": 2,
+    "account_number": 14000001,
+    "description": "Grundstück Musterhobelweg 5",
+    "separation_mark": null,
+    "flag_account_transfer": 0,
+    "ust_object": 1
+  },
+  {
+    "accounting_reason": 50,
+    "inventory_number": "140003",
+    "wg_id": 3,
+    "account_number": 14000001,
+    "description": "Grundstück Musterhobelweg 10",
+    "separation_mark": null,
+    "flag_account_transfer": 0,
+    "ust_object": 1
+  },
+  {
+    "accounting_reason": 30,
+    "inventory_number": "140004",
+    "wg_id": 4,
+    "account_number": 14000002,
+    "description": "Anwesen Musterhobelweg 5",
+    "separation_mark": null,
+    "flag_account_transfer": 1,
+    "ust_object": 1
+  },
+  {
+    "accounting_reason": 50,
+    "inventory_number": "140005",
+    "wg_id": 5,
+    "account_number": 14000002,
+    "description": "Lagerhalle",
+    "separation_mark": null,
+    "flag_account_transfer": 1,
+    "ust_object": 1
+  }
+]

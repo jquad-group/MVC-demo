@@ -1,0 +1,42 @@
+[
+  {
+    "_id": {
+      "$oid": "65e05bf3bbef58cffd412162"
+    },
+    "client": 55003,
+    "consultant": 29098,
+    "base_version": 4,
+    "delta_version": 2,
+    "state": "DONE",
+    "schema_version": 1,
+    "state_timestamp": {
+      "dateTime": {
+        "$date": "2024-02-29T10:27:00.259Z"
+      },
+      "zone": "+01:00"
+    },
+    "year_begin": 20200101,
+    "year_end": 20201231,
+    "force_reftab_current_year": false
+  },
+  {
+    "_id": {
+      "$oid": "65e05bf3bbef58cffd412164"
+    },
+    "client": 55003,
+    "consultant": 29098,
+    "base_version": 4,
+    "delta_version": 2,
+    "state": "DONE",
+    "schema_version": 1,
+    "state_timestamp": {
+      "dateTime": {
+        "$date": "2024-02-29T10:27:00.259Z"
+      },
+      "zone": "+01:00"
+    },
+    "year_begin": 20210101,
+    "year_end": 20211231,
+    "force_reftab_current_year": false
+  }
+]

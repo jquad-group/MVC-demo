@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "65e5f71a6a18a00370a4771d"
+  },
+  "account_group_number": 1,
+  "accounting_reason_id": 0,
+  "additional_params": {
+    "agriculture_and_forestry_account_type": 25,
+    "cost1": "91",
+    "cost2": "A2",
+    "rw_shareholder_id": {
+      "$binary": {
+        "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+        "subType": "03"
+      }
+    },
+    "tax_rate": {
+      "$numberDecimal": "0.19"
+    }
+  },
+  "client": 55003,
+  "consultant": 29098,
+  "fiscal_year": 20210101,
+  "values": {
+    "m5": {
+      "amount_credit_usual": 34295,
+      "amount_debit_usual": 304265,
+      "amount_credit_unusual": 10000,
+      "quantity_credit": 231,
+      "quantity_debit": 258,
+      "weight_credit": 24210,
+      "weight_debit": 27180
+    }
+  }
+}

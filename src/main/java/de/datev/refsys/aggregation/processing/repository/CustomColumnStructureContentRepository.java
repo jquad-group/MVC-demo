@@ -1,0 +1,82 @@
+package de.datev.refsys.aggregation.processing.repository;
+
+import com.mongodb.bulk.BulkWriteResult;
+import com.mongodb.client.model.InsertOneModel;
+import com.mongodb.client.result.DeleteResult;
+import com.mongodb.reactivestreams.client.MongoClient;
+import com.mongodb.reactivestreams.client.MongoCollection;
+import de.datev.refsys.aggregation.document.model.CustomColumnStructureContent;
+import de.datev.refsys.aggregation.processing.constant.MetricConstants;
+import de.datev.refsys.aggregation.processing.constant.ProcessingServiceConstants;
+import de.datev.refsys.aggregation.processing.util.LoggingUtil;
+import de.datev.refsys.aggregation.processing.util.QueryUtil;
+import io.github.resilience4j.circuitbreaker.CircuitBreaker;
+import io.github.resilience4j.circuitbreaker.CircuitBreakerRegistry;
+import io.github.resilience4j.reactor.circuitbreaker.operator.CircuitBreakerOperator;
+import io.github.resilience4j.reactor.retry.RetryOperator;
+import io.github.resilience4j.retry.Retry;
+import io.github.resilience4j.retry.RetryRegistry;
+import io.micrometer.core.instrument.MeterRegistry;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Repository;
+import reactor.core.observability.micrometer.Micrometer;
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
+
+import java.util.List;
+
+import static de.datev.refsys.aggregation.document.model.constants.CollectionConstants.CUSTOM_COLUMN_STRUCTURE_CONTENTS;
+
+/**
+ * Repository class for operations with the CustomColumnStructureContents mongo collection
+ */
+@Slf4j
+@Repository
+public class CustomColumnStructureContentRepository {
+    private final MongoCollection<CustomColumnStructureContent> insertCustomColumnStructureCollection;
+    private final CircuitBreaker afterMovementDataCircuitBreaker;
+    private final Retry mongoRetryInstance;
+    private final MeterRegistry meterRegistry;
+
+    public CustomColumnStructureContentRepository(final MongoClient insertMongoClient, final MeterRegistry meterRegistry,
+                                                  @Value("${spring.data.mongodb.database}") final String databaseName,
+                                                  final CircuitBreakerRegistry circuitBreakerRegistry, final RetryRegistry retryRegistry) {
+        this.insertCustomColumnStructureCollection =
+                insertMongoClient.getDatabase(databaseName).getCollection(CUSTOM_COLUMN_STRUCTURE_CONTENTS, CustomColumnStructureContent.class);
+        this.afterMovementDataCircuitBreaker = circuitBreakerRegistry.circuitBreaker(ProcessingServiceConstants.AFTER_MOVEMENT_DATA_CIRCUIT_BREAKER);
+        this.mongoRetryInstance = retryRegistry.retry(ProcessingServiceConstants.MONGODB_RETRY_INSTANCE_NAME);
+        this.meterRegistry = meterRegistry;
+    }
+
+    /**
+     * Deletes many CustomColumnStructures  for consultant, client, yearBegin key
+     *
+     * @param consultant consultant
+     * @param client     client
+     * @param yearBegin  yearBegin
+     * @return Flux<DeleteResult>
+     */
+    public Mono<DeleteResult> deleteManyByBusinessKey(Integer consultant, Integer client, Integer yearBegin) {
+        return Mono.from(insertCustomColumnStructureCollection.deleteMany(QueryUtil.getByMasterDataBusinessKey(consultant, client, yearBegin)))
+                   .elapsed().map(LoggingUtil.logDebugWithDuration(LoggingUtil.CUSTOM_COLUMN_STRUCTURE_REPOSITORY_DELETE_MANY_LOG));
+    }
+
+    /**
+     * Bulk insert customColumnStructureContentSet
+     *
+     * @param customColumnStructureContentSet Set of CustomColumnStructureContents to be inserted
+     * @return mongo BulkWriteResult object
+     */
+    public Mono<BulkWriteResult> bulkInsert(List<CustomColumnStructureContent> customColumnStructureContentSet) {
+        return Mono.from(insertCustomColumnStructureCollection.bulkWrite(customColumnStructureContentSet.stream().map(InsertOneModel::new).toList()))
+                   .elapsed().map(LoggingUtil.logDebugWithDuration(LoggingUtil.CUSTOM_COLUMN_STRUCTURE_REPOSITORY_BULK_INSERT_LOG))
+                   .name(MetricConstants.METRIC_MONGO)
+                   .tag(MetricConstants.REPOSITORY, CUSTOM_COLUMN_STRUCTURE_CONTENTS)
+                   .tag(MetricConstants.METHOD, "bulkInsert")
+                   .tag(MetricConstants.METRIC_TYPE, MetricConstants.METRIC_WRITE)
+                   .tap(Micrometer.metrics(meterRegistry))
+                   .transformDeferred(CircuitBreakerOperator.of(afterMovementDataCircuitBreaker))
+                   .transformDeferred(RetryOperator.of(mongoRetryInstance));
+    }
+}

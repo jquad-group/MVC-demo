@@ -1,0 +1,2 @@
+### Erstbestückung -- am Beispiel:  Berater=29098 | Mandant=55003 | WJ=20220101
+POST http://localhost:8080/api/v1/aggregation-processing/consultants/29098/clients/55023/initial-load?fiscal-year=20220101

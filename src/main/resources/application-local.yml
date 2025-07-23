@@ -1,0 +1,64 @@
+debug: false
+server:
+  port: 8080
+
+spring:
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration
+      - org.springframework.boot.actuate.autoconfigure.security.reactive.ReactiveManagementWebSecurityAutoConfiguration
+  data:
+    mongodb:
+      uri: 'mongodb://localhost:27017/refsys-aggregation?replicaSet=rs0'
+      database: 'refsys-aggregation'
+
+  kafka:
+    bootstrap-servers: localhost:9092
+
+logging:
+  level:
+    root: INFO
+    org.mongodb: INFO
+    io.opentelemetry.exporter.internal.http.HttpExporter: OFF
+
+ref-sys:
+  iasd-enabled: true
+  mongodb:
+    transaction-timeout-in-ms: 120000
+  client:
+    acds:
+      base-path: https://acds-refsys.api.dev.datev.de/datev
+      client-id: 3cb5787470332314af099e3b07f7bfe7
+      client-secret: 5f0be737337da9416ee34c0ce7393724
+
+kafka-config:
+  # Conditional property to disable kafka in test environment
+  enabled: true
+  kafka-topic-aggregation-service-new-or-changed-data:
+     #Kafka topic name where the messages are consumed from
+     topic: local.changedata.events
+     #Kafka dead letter topic name where erroneous messages are sent
+     security-protocol: PLAINTEXT
+
+otel:
+  sdk:
+    disabled: false
+  exporter:
+    otlp:
+      #start docker.io/grafana/otel-lgtm to use this (https://hub.docker.com/r/grafana/otel-lgtm)
+      #podman run -p 3000:3000 -p 4317:4317 -p 4318:4318 --rm -ti grafana/otel-lgtm
+      endpoint: http://localhost:4318
+  resource:
+    attributes:
+      deployment.environment: local-test
+      deployment.environment.name: local_test
+      service:
+        name: processing-service
+        namespace: refsys.aggregation
+        instance.id: local
+        instance.number: 0
+      cloud:
+        provider: datev
+        datacenter: local
+        platform: local
+        resource.id: local

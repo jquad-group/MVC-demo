@@ -1,0 +1,28 @@
+[
+  {
+    "source_value_str": "A5463",
+    "target_value_int": 200000,
+    "caption": "A5463",
+    "sort1": 11,
+    "sort2": 0,
+    "rw_shareholder_id": {
+      "$binary": {
+        "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+        "subType": "03"
+      }
+    }
+  },
+  {
+    "source_value_str": "A5463",
+    "target_value_int": 200000,
+    "caption": "A5463",
+    "sort1": 11,
+    "sort2": 0,
+    "rw_shareholder_id": {
+      "$binary": {
+        "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+        "subType": "03"
+      }
+    }
+  }
+]

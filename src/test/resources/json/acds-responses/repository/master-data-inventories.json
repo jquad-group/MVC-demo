@@ -1,0 +1,12 @@
+[
+  {
+    "account_number": 350000,
+    "accounting_reason": 30,
+    "description": "Firmenwert",
+    "flag_account_transfer": 0,
+    "inventory_number": "35001",
+    "separation_mark": null,
+    "ust_object": 1,
+    "wg_id": 1
+  }
+]

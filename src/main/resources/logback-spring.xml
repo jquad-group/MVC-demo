@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+    <include resource="org/springframework/boot/logging/logback/console-appender.xml"/>
+
+    <springProfile name="dev-testing | dev | qs">
+        <springProperty name="instanceName" source="APPLICATION_NAME_SPLUNK"/>
+        <springProperty name="splunk_token" source="vcap.services.splunk.credentials.splunk_token"/>
+        <springProperty name="splunk_protocol" source="vcap.services.splunk.credentials.splunk_protocol"/>
+        <springProperty name="splunk_host" source="vcap.services.splunk.credentials.splunk_host"/>
+        <springProperty name="splunk_port" source="vcap.services.splunk.credentials.splunk_port"/>
+        <springProperty name="splunk_index" source="vcap.services.splunk.credentials.splunk_index"/>
+        <springProperty name="org_name" source="vcap.application.organization_name"/>
+        <springProperty name="space_name" source="vcap.application.space_name"/>
+        <springProperty name="application_name" source="APPLICATION_NAME_SPLUNK"/>
+
+        <appender name="SPLUNK" class="com.splunk.logging.HttpEventCollectorLogbackAppender">
+            <host>${instanceName}</host>
+            <url>${splunk_protocol}://${splunk_host}:${splunk_port}</url>
+            <source>${org_name}:${space_name}:${application_name}</source>
+            <token>${splunk_token}</token>
+            <sourcetype>json</sourcetype>
+            <disableCertificateValidation>true</disableCertificateValidation>
+            <batch_size_bytes>51200</batch_size_bytes>
+            <batch_interval>1000</batch_interval>
+            <messageFormat>text</messageFormat>
+            <layout class="ch.qos.logback.classic.PatternLayout">
+                <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger %mdc - %msg %kvp %.-5000xEx%n</pattern>
+            </layout>
+        </appender>
+
+            <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+            <encoder>
+                <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger %mdc - %msg %kvp %xEx%n</pattern>
+            </encoder>
+        </appender>
+
+        <root level="INFO">
+            <appender-ref ref="CONSOLE"/>
+            <appender-ref ref="SPLUNK"/>
+        </root>
+    </springProfile>
+
+    <springProfile name="prod">
+        <springProperty name="instanceName" source="APPLICATION_NAME_SPLUNK"/>
+        <springProperty name="splunk_token" source="vcap.services.splunk.credentials.splunk_token"/>
+        <springProperty name="splunk_protocol" source="vcap.services.splunk.credentials.splunk_protocol"/>
+        <springProperty name="splunk_host" source="vcap.services.splunk.credentials.splunk_host"/>
+        <springProperty name="splunk_port" source="vcap.services.splunk.credentials.splunk_port"/>
+        <springProperty name="splunk_index" source="vcap.services.splunk.credentials.splunk_index"/>
+        <springProperty name="org_name" source="vcap.application.organization_name"/>
+        <springProperty name="space_name" source="vcap.application.space_name"/>
+        <springProperty name="application_name" source="APPLICATION_NAME_SPLUNK"/>
+
+        <appender name="SPLUNK" class="com.splunk.logging.HttpEventCollectorLogbackAppender">
+            <host>${instanceName}</host>
+            <url>${splunk_protocol}://${splunk_host}:${splunk_port}</url>
+            <source>${org_name}:${space_name}:${application_name}</source>
+            <token>${splunk_token}</token>
+            <sourcetype>json</sourcetype>
+            <disableCertificateValidation>true</disableCertificateValidation>
+            <batch_size_bytes>51200</batch_size_bytes>
+            <batch_interval>1000</batch_interval>
+            <messageFormat>text</messageFormat>
+            <layout class="de.datev.refsys.aggregation.processing.logging.MaskingPatternLayout">
+                <maskPattern>consultant</maskPattern>
+                <maskPattern>client</maskPattern>
+                <maskPattern>fiscalYear</maskPattern>
+                <maskPattern>fiscal_year</maskPattern>
+                <maskPattern>yearBegin</maskPattern>
+                <maskPattern>year_begin</maskPattern>
+                <maskPattern>yearEnd</maskPattern>
+                <maskPattern>year_end</maskPattern>
+                <maskPattern>baseVersion</maskPattern>
+                <maskPattern>base_version</maskPattern>
+                <maskPattern>deltaVersion</maskPattern>
+                <maskPattern>delta_version</maskPattern>
+                <maskPattern>request_id</maskPattern>
+                <maskPattern>correlation_id</maskPattern>
+                <maskPattern>datev_client_id</maskPattern>
+                <maskPattern>duration</maskPattern>
+                <maskPattern>used</maskPattern>
+                <maskPattern>state</maskPattern>
+                <maskPattern>schema_version</maskPattern>
+                <!-- mongo fields in log messages -->
+                <maskPattern>code</maskPattern>
+                <maskPattern>message</maskPattern>
+                <maskPattern>$date</maskPattern>
+                <maskPattern>zone</maskPattern>
+
+                <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger %mdc - %msg %kvp %.-5000xEx%n</pattern>
+            </layout>
+        </appender>
+
+        <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+            <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+                <layout class="de.datev.refsys.aggregation.processing.logging.MaskingPatternLayout">
+                    <maskPattern>consultant</maskPattern>
+                    <maskPattern>client</maskPattern>
+                    <maskPattern>fiscalYear</maskPattern>
+                    <maskPattern>fiscal_year</maskPattern>
+                    <maskPattern>yearBegin</maskPattern>
+                    <maskPattern>year_begin</maskPattern>
+                    <maskPattern>yearEnd</maskPattern>
+                    <maskPattern>year_end</maskPattern>
+                    <maskPattern>baseVersion</maskPattern>
+                    <maskPattern>base_version</maskPattern>
+                    <maskPattern>deltaVersion</maskPattern>
+                    <maskPattern>delta_version</maskPattern>
+                    <maskPattern>request_id</maskPattern>
+                    <maskPattern>correlation_id</maskPattern>
+                    <maskPattern>datev_client_id</maskPattern>
+                    <maskPattern>duration</maskPattern>
+                    <maskPattern>used</maskPattern>
+                    <maskPattern>state</maskPattern>
+                    <maskPattern>schema_version</maskPattern>
+                    <!-- mongo fields in log messages -->
+                    <maskPattern>code</maskPattern>
+                    <maskPattern>message</maskPattern>
+                    <maskPattern>$date</maskPattern>
+                    <maskPattern>zone</maskPattern>
+
+                    <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger %mdc - %msg %kvp %xEx%n</pattern>
+                </layout>
+            </encoder>
+        </appender>
+
+        <root level="INFO">
+            <appender-ref ref="CONSOLE"/>
+            <appender-ref ref="SPLUNK"/>
+        </root>
+    </springProfile>
+
+
+    <springProfile name="local | test | log-test | kafka-test | security-test">
+        <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+            <encoder>
+                <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger %mdc - %msg %kvp %xEx%n</pattern>
+            </encoder>
+        </appender>
+
+        <root level="INFO">
+            <appender-ref ref="CONSOLE"/>
+        </root>
+
+        <logger name="org.springframework" level="INFO"/>
+        <logger name="de.datev.refsys.aggregation.processing" level="DEBUG"/>
+    </springProfile>
+
+</configuration>
+

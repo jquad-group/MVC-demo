@@ -1,0 +1,123 @@
+spring:
+  jackson:
+    default-property-inclusion: non_null
+
+logging:
+  level:
+    root: WARN
+    de:
+      datev: INFO
+
+management:
+  metrics:
+    enable:
+      http: false
+  health:
+    circuitbreakers:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: health, info, metrics
+
+# Custom properties start
+ref-sys:
+  circuitbreaker-enabled: false
+  initial-load:
+    max-import-duration-in-ms: 1200000
+    parking-time-in-ms: 120000
+    inventories-buffer-size: 500
+    account-sum-days-buffer-size: 500
+  update-schema:
+    schema-version: 4
+  mongodb:
+    max-idle-time-in-ms: 60000
+    min-pool-size: 5
+    max-pool-size: 200
+  client:
+    acds:
+      #10 minutes -> wegen Großbestaenden; nochmal anschauen wenn ACDS streamt
+      timeout-in-ms: 600000
+      response-body-size-in-kb: 6144
+
+resilience4j:
+  retry:
+#    retry will be executed before circuit breaker (the higher value = the higher priority)
+    retryAspectOrder: 2
+    configs:
+      shared-retry-config:
+        max-attempts: 3
+        wait-duration: 1s
+        enable-exponential-backoff: true
+        exponential-backoff-multiplier: 1.5
+        exponential-max-wait-duration: 10s
+    instances:
+      mongodb-retry:
+        base-config: shared-retry-config
+        ignore-exceptions:
+          - org.bson.BsonMaximumSizeExceededException
+        retry-exception-predicate: de.datev.refsys.aggregation.processing.exception.RetryMongodbExceptionPredicate
+      http-client-retry:
+        base-config: shared-retry-config
+        retry-exception-predicate: de.datev.refsys.aggregation.processing.exception.HttpCallRetryExceptionPredicate
+    metrics:
+      enabled: true
+  circuitbreaker:
+#    circuit breaker will be executed after retry
+    circuitBreakerAspectOrder: 1
+    configs:
+      shared-config:
+        slidingWindowSize: 50
+        minimumNumberOfCalls: 25
+        waitDurationInOpenState: 3s
+        automatic-transition-from-open-to-half-open-enabled: true
+        permitted-number-of-calls-in-half-open-state: 6
+        failure-rate-threshold: 50
+    instances:
+#     --HttpClient circuit breaker--
+      movementDataCircuitBreaker:
+        # circuit breaker for AccountSumDays and AccountSumMonths
+        base-config: shared-config
+        record-failure-predicate: de.datev.refsys.aggregation.processing.exception.HttpCallRetryExceptionPredicate
+      masterDataContextCircuitBreaker:
+        # circuit breaker for MasterdataContext
+        base-config: shared-config
+        record-failure-predicate: de.datev.refsys.aggregation.processing.exception.HttpCallRetryExceptionPredicate
+      purposeMappingsCaptionsMasterInventoriesAndShareholderCircuitBreaker:
+        # circuit breaker for AccountPurposeMappings, AccountCaptions, Masterdata Inventories and Shareholder
+        base-config: shared-config
+        record-failure-predicate: de.datev.refsys.aggregation.processing.exception.HttpCallRetryExceptionPredicate
+      collectiveAccountsInventoriesAndTranslationCircuitBreaker:
+        # circuit breaker for CollectiveAccounts, Movementdata Inventories and Translation
+        base-config: shared-config
+        record-failure-predicate: de.datev.refsys.aggregation.processing.exception.HttpCallRetryExceptionPredicate
+      collectiveAccountsMovementInventoriesAndTranslationCircuitBreaker:
+        # circuit breaker for MovementdataInventories
+        base-config: shared-config
+        record-failure-predicate: de.datev.refsys.aggregation.processing.exception.HttpCallRetryExceptionPredicate
+#     --MongoDB circuit breaker--
+      stateDocCircuitBreaker:
+        # circuit breaker for the stateDoc collection
+        base-config: shared-config
+      importMovementDataCircuitBreaker:
+        # circuit breaker for the movementDataDays and movementDataMonths collections
+        base-config: shared-config
+      afterMovementDataCircuitBreaker:
+        # circuit breaker for the masterData, masterDataAccounts, movementDataPersonGroupDays and movementDataPersonGroupMonths collections
+        base-config: shared-config
+    metrics:
+      enabled: true
+
+otel:
+  instrumentation:
+    common:
+      default-enabled: false
+    spring-webflux:
+      enabled: true
+    micrometer:
+      enabled: true
+    kafka:
+      enabled: true
+      experimental-span-attributes: true
+    logback-appender:
+      enabled: true

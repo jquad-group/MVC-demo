@@ -1,0 +1,1 @@
+{"addressee_id":{"$binary":{"base64":"H0UXrAvDGJz+c90mmxvHgQ==","subType":"03"}},"addressee_type":1,"name":"Peter Tester","identification_number":"12345678911","company_name":"Müller GmbH","first_name":"Peter","last_name":"Tester","academic_degree":"Dr.","title_of_nobility":"Baron","name_prefix":"von","date_from":20220101,"date_to":20220630}

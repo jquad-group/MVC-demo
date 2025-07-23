@@ -1,0 +1,24 @@
+[
+  {
+    "client": 55003,
+    "consultant": 29098,
+    "year_begin": 20210101,
+    "year_end": 20211231,
+    "content": "<Listbild><ListbildLines><ListbilderLine><ListbildLineId>2</ListbildLineId><Reihenfolge>1</Reihenfolge><ListbildLineKey>6ce66845-9d80-4530-9c3f-68ab634c8737</ListbildLineKey><CrossLinkTyp>1</CrossLinkTyp></ListbilderLine></ListbildLines><ListbilderColumnDefinitions><ListbilderColumnDefinitions><ColumnId>1</ColumnId><Reihenfolge>1</Reihenfolge><ListbildColumnKey>8aaec312-c861-467b-9f9e-14f0d8c40738</ListbildColumnKey><CrossLinkTyp>1</CrossLinkTyp><ColumnSizeType>1</ColumnSizeType><IndentHierarchieMM>4</IndentHierarchieMM><NummerierungOffsetMM>1</NummerierungOffsetMM></ListbilderColumnDefinitions></ListbilderColumnDefinitions><ListbildCells><ListbilderCells><ListbildLineId>2</ListbildLineId><ColumnId>1</ColumnId><Translation SprachId=\"de-DE\"><Text>RechKredVRechKredVRechKredVRechKredV</Text></Translation><DiffCategories>1</DiffCategories></ListbilderCells></ListbildCells></Listbild>",
+    "indiv_no": 2,
+    "national_right": "DE",
+    "indiv_level": 20,
+    "column_structure_id": 10010000
+  },
+  {
+    "client": 55003,
+    "consultant": 29098,
+    "year_begin": 20210101,
+    "year_end": 20211231,
+    "content": "<Listbild><ListbildLines><ListbilderLine><ListbildLineId>1</ListbildLineId><Reihenfolge>1</Reihenfolge><ListbildLineKey>ab9b1b03-9f5f-4027-b5e0-9b3072635077</ListbildLineKey><CrossLinkTyp>1</CrossLinkTyp></ListbilderLine></ListbildLines><ListbilderColumnDefinitions><ListbilderColumnDefinitions><ColumnId>1</ColumnId><Reihenfolge>1</Reihenfolge><ListbildColumnKey>9973ecb7-9fe7-4e48-9d0b-0515a78fdd20</ListbildColumnKey><CrossLinkTyp>1</CrossLinkTyp><ColumnSizeType>1</ColumnSizeType><IndentHierarchieMM>4</IndentHierarchieMM><NummerierungOffsetMM>1</NummerierungOffsetMM></ListbilderColumnDefinitions><ListbilderColumnDefinitions><ColumnId>2</ColumnId><Reihenfolge>2</Reihenfolge><ListbildColumnKey>3c191280-93c3-4b9b-8168-3d92de6d1ed6</ListbildColumnKey><CrossLinkTyp>1</CrossLinkTyp><ColumnSizeType>1</ColumnSizeType><IndentHierarchieMM>4</IndentHierarchieMM><NummerierungOffsetMM>1</NummerierungOffsetMM></ListbilderColumnDefinitions><ListbilderColumnDefinitions><ColumnId>3</ColumnId><Reihenfolge>3</Reihenfolge><ListbildColumnKey>0fc1b22f-7040-4dea-9300-85496d37690e</ListbildColumnKey><CrossLinkTyp>1</CrossLinkTyp><ColumnSizeType>1</ColumnSizeType><IndentHierarchieMM>4</IndentHierarchieMM><NummerierungOffsetMM>1</NummerierungOffsetMM></ListbilderColumnDefinitions><ListbilderColumnDefinitions><ColumnId>4</ColumnId><Reihenfolge>4</Reihenfolge><ListbildColumnKey>d286934b-a8c0-4473-b403-3b00971c2573</ListbildColumnKey><CrossLinkTyp>1</CrossLinkTyp><ColumnSizeType>1</ColumnSizeType><IndentHierarchieMM>4</IndentHierarchieMM><NummerierungOffsetMM>1</NummerierungOffsetMM></ListbilderColumnDefinitions></ListbilderColumnDefinitions><ListbildCells><ListbilderCells><ListbildLineId>1</ListbildLineId><ColumnId>1</ColumnId><Translation SprachId=\"de-DE\"><Text>Posten</Text></Translation><DiffCategories>1</DiffCategories></ListbilderCells><ListbilderCells><ListbildLineId>1</ListbildLineId><ColumnId>2</ColumnId><Translation SprachId=\"de-DE\"><Text>Beschriftung</Text></Translation><DiffCategories>1</DiffCategories></ListbilderCells><ListbilderCells><ListbildLineId>1</ListbildLineId><ColumnId>3</ColumnId><Translation SprachId=\"de-DE\"><Text>Vorspalte</Text></Translation><DiffCategories>1</DiffCategories></ListbilderCells><ListbilderCells><ListbildLineId>1</ListbildLineId><ColumnId>4</ColumnId><Translation SprachId=\"de-DE\"><Text>Hauptspalte</Text></Translation><DiffCategories>1</DiffCategories></ListbilderCells></ListbildCells></Listbild>",
+    "indiv_no": 1,
+    "national_right": "EN",
+    "indiv_level": 10,
+    "column_structure_id": 10010002
+  }
+]

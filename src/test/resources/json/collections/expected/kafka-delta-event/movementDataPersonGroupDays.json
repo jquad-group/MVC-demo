@@ -1,0 +1,543 @@
+[
+  {
+    "_id": {
+      "$oid": "6557b1149c68957fa643e04a"
+    },
+    "account_group_number": 2,
+    "accounting_reason_id": 0,
+    "additional_params": {
+      "agriculture_and_forestry_account_type": 25,
+      "cost1": "91",
+      "cost2": "A2",
+      "rw_shareholder_id": {
+        "$binary": {
+          "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+          "subType": "03"
+        }
+      },
+      "tax_rate": {
+        "$numberDecimal": "0.19"
+      }
+    },
+    "client": 55003,
+    "consultant": 29098,
+    "fiscal_year": 20210101,
+    "values": {
+      "d20210502": {
+        "amount_credit_usual": 100065,
+        "amount_debit_usual": 10055,
+        "quantity_credit": 77,
+        "quantity_debit": 86,
+        "weight_credit": 8070,
+        "weight_debit": 9060
+      },
+      "d20210601": {
+        "amount_credit_usual": 100065,
+        "amount_debit_usual": 10055,
+        "quantity_credit": 77,
+        "quantity_debit": 86,
+        "weight_credit": 8070,
+        "weight_debit": 9060
+      },
+      "d20210501": {
+        "amount_credit_usual": 200130,
+        "amount_debit_usual": 20110,
+        "quantity_credit": 154,
+        "quantity_debit": 172,
+        "weight_credit": 16140,
+        "weight_debit": 18120
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6557b1149c68957fa643e04b"
+    },
+    "account_group_number": 3,
+    "accounting_reason_id": 0,
+    "additional_params": {
+      "agriculture_and_forestry_account_type": 25,
+      "cost1": "91",
+      "cost2": "A2",
+      "rw_shareholder_id": {
+        "$binary": {
+          "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+          "subType": "03"
+        }
+      },
+      "tax_rate": {
+        "$numberDecimal": "0.19"
+      }
+    },
+    "client": 55003,
+    "consultant": 29098,
+    "fiscal_year": 20210101,
+    "values": {
+      "d20210101": {
+        "amount_credit_usual": 100065,
+        "amount_debit_usual": 10055,
+        "quantity_credit": 77,
+        "quantity_debit": 86,
+        "weight_credit": 8070,
+        "weight_debit": 9060
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6557b1149c68957fa643e04c"
+    },
+    "account_group_number": 1,
+    "accounting_reason_id": 0,
+    "additional_params": {
+      "agriculture_and_forestry_account_type": 25,
+      "business_assets_assignment": 1,
+      "cost1": "91",
+      "cost2": "A2",
+      "rw_shareholder_id": {
+        "$binary": {
+          "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+          "subType": "03"
+        }
+      },
+      "tax_rate": {
+        "$numberDecimal": "0.19"
+      }
+    },
+    "client": 55003,
+    "consultant": 29098,
+    "fiscal_year": 20210101,
+    "values": {
+      "d20210501": {
+        "amount_credit_usual": 100065,
+        "amount_debit_usual": 10055,
+        "quantity_credit": 77,
+        "quantity_debit": 86,
+        "weight_credit": 8070,
+        "weight_debit": 9060
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6557b1149c68957fa643e04d"
+    },
+    "account_group_number": 1,
+    "accounting_reason_id": 0,
+    "additional_params": {
+      "agriculture_and_forestry_account_type": 25,
+      "cost1": "91",
+      "cost2": "A2",
+      "rw_shareholder_id": {
+        "$binary": {
+          "base64": "H0UXrAvDGJz6c90mmxvHgQ==",
+          "subType": "03"
+        }
+      },
+      "tax_rate": {
+        "$numberDecimal": "0.19"
+      }
+    },
+    "client": 55003,
+    "consultant": 29098,
+    "fiscal_year": 20210101,
+    "values": {
+      "d20210501": {
+        "amount_credit_usual": 100065,
+        "amount_debit_usual": 10055,
+        "quantity_credit": 77,
+        "quantity_debit": 86,
+        "weight_credit": 8070,
+        "weight_debit": 9060
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6557b1149c68957fa643e04e"
+    },
+    "account_group_number": 1,
+    "accounting_reason_id": 0,
+    "additional_params": {
+      "agriculture_and_forestry_account_type": 25,
+      "cost1": "91",
+      "cost2": "A2",
+      "record_type": 2,
+      "rw_shareholder_id": {
+        "$binary": {
+          "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+          "subType": "03"
+        }
+      },
+      "tax_rate": {
+        "$numberDecimal": "0.19"
+      }
+    },
+    "client": 55003,
+    "consultant": 29098,
+    "fiscal_year": 20210101,
+    "values": {
+      "d20210501": {
+        "amount_credit_usual": 100065,
+        "amount_debit_usual": 10055,
+        "quantity_credit": 77,
+        "quantity_debit": 86,
+        "weight_credit": 8070,
+        "weight_debit": 9060
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6557b1149c68957fa643e04f"
+    },
+    "account_group_number": 1,
+    "accounting_reason_id": 1,
+    "additional_params": {
+      "agriculture_and_forestry_account_type": 25,
+      "cost1": "91",
+      "cost2": "A2",
+      "rw_shareholder_id": {
+        "$binary": {
+          "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+          "subType": "03"
+        }
+      },
+      "tax_rate": {
+        "$numberDecimal": "0.19"
+      }
+    },
+    "client": 55003,
+    "consultant": 29098,
+    "fiscal_year": 20210101,
+    "values": {
+      "d20210501": {
+        "amount_credit_usual": 100065,
+        "amount_debit_usual": 10055,
+        "quantity_credit": 77,
+        "quantity_debit": 86,
+        "weight_credit": 8070,
+        "weight_debit": 9060
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6557b1149c68957fa643e050"
+    },
+    "account_group_number": 1,
+    "accounting_reason_id": 0,
+    "additional_params": {
+      "agriculture_and_forestry_account_type": 25,
+      "cost1": "91",
+      "cost2": "A2",
+      "rw_shareholder_id": {
+        "$binary": {
+          "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+          "subType": "03"
+        }
+      },
+      "tax_rate": {
+        "$numberDecimal": "0.19"
+      }
+    },
+    "client": 55003,
+    "consultant": 29098,
+    "fiscal_year": 20210101,
+    "values": {
+      "d20210502": {
+        "amount_credit_usual": 200130,
+        "amount_debit_usual": 20110,
+        "quantity_credit": 154,
+        "quantity_debit": 172,
+        "weight_credit": 16140,
+        "weight_debit": 18120
+      },
+      "d20210501": {
+        "amount_credit_usual": 100065,
+        "amount_debit_usual": 10055,
+        "quantity_credit": 77,
+        "quantity_debit": 86,
+        "weight_credit": 8070,
+        "weight_debit": 9060
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6557b1149c68957fa643e051"
+    },
+    "account_group_number": 1,
+    "accounting_reason_id": 0,
+    "additional_params": {
+      "agriculture_and_forestry_account_type": 25,
+      "cost1": "91",
+      "cost2": "A1",
+      "rw_shareholder_id": {
+        "$binary": {
+          "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+          "subType": "03"
+        }
+      },
+      "tax_rate": {
+        "$numberDecimal": "0.19"
+      }
+    },
+    "client": 55003,
+    "consultant": 29098,
+    "fiscal_year": 20210101,
+    "values": {
+      "d20210501": {
+        "amount_credit_usual": 100065,
+        "amount_debit_usual": 10055,
+        "quantity_credit": 77,
+        "quantity_debit": 86,
+        "weight_credit": 8070,
+        "weight_debit": 9060
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6557b1149c68957fa643e052"
+    },
+    "account_group_number": 1,
+    "accounting_reason_id": 0,
+    "additional_params": {
+      "accounting_committed": false,
+      "agriculture_and_forestry_account_type": 25,
+      "cost1": "91",
+      "cost2": "A2",
+      "rw_shareholder_id": {
+        "$binary": {
+          "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+          "subType": "03"
+        }
+      },
+      "tax_rate": {
+        "$numberDecimal": "0.19"
+      }
+    },
+    "client": 55003,
+    "consultant": 29098,
+    "fiscal_year": 20210101,
+    "values": {
+      "d20210501": {
+        "amount_credit_usual": 100065,
+        "amount_debit_usual": 10055,
+        "quantity_credit": 77,
+        "quantity_debit": 86,
+        "weight_credit": 8070,
+        "weight_debit": 9060
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6557b1149c68957fa643e053"
+    },
+    "account_group_number": 1,
+    "accounting_reason_id": 0,
+    "additional_params": {
+      "agriculture_and_forestry_account_type": 25,
+      "cost1": "92",
+      "cost2": "A2",
+      "rw_shareholder_id": {
+        "$binary": {
+          "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+          "subType": "03"
+        }
+      },
+      "tax_rate": {
+        "$numberDecimal": "0.19"
+      }
+    },
+    "client": 55003,
+    "consultant": 29098,
+    "fiscal_year": 20210101,
+    "values": {
+      "d20210501": {
+        "amount_credit_usual": 100065,
+        "amount_debit_usual": 10055,
+        "quantity_credit": 77,
+        "quantity_debit": 86,
+        "weight_credit": 8070,
+        "weight_debit": 9060
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6557b1149c68957fa643e054"
+    },
+    "account_group_number": 6,
+    "accounting_reason_id": 0,
+    "additional_params": {
+      "agriculture_and_forestry_account_type": 25,
+      "cost1": "91",
+      "cost2": "A2",
+      "rw_shareholder_id": {
+        "$binary": {
+          "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+          "subType": "03"
+        }
+      },
+      "tax_rate": {
+        "$numberDecimal": "0.19"
+      }
+    },
+    "client": 55003,
+    "consultant": 29098,
+    "fiscal_year": 20210101,
+    "values": {
+      "d20210201": {
+        "amount_credit_usual": 100065,
+        "amount_debit_usual": 10055,
+        "quantity_credit": 77,
+        "quantity_debit": 86,
+        "weight_credit": 8070,
+        "weight_debit": 9060
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6557b1149c68957fa643e055"
+    },
+    "account_group_number": 5,
+    "accounting_reason_id": 0,
+    "additional_params": {
+      "agriculture_and_forestry_account_type": 25,
+      "cost1": "91",
+      "cost2": "A2",
+      "rw_shareholder_id": {
+        "$binary": {
+          "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+          "subType": "03"
+        }
+      },
+      "tax_rate": {
+        "$numberDecimal": "0.19"
+      }
+    },
+    "client": 55003,
+    "consultant": 29098,
+    "fiscal_year": 20210101,
+    "values": {
+      "d20210102": {
+        "amount_credit_usual": 100065,
+        "amount_debit_usual": 10055,
+        "quantity_credit": 77,
+        "quantity_debit": 86,
+        "weight_credit": 8070,
+        "weight_debit": 9060
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6557b1149c68957fa643e056"
+    },
+    "account_group_number": 4,
+    "accounting_reason_id": 0,
+    "additional_params": {
+      "agriculture_and_forestry_account_type": 25,
+      "cost1": "91",
+      "cost2": "A2",
+      "rw_shareholder_id": {
+        "$binary": {
+          "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+          "subType": "03"
+        }
+      },
+      "tax_rate": {
+        "$numberDecimal": "0.19"
+      }
+    },
+    "client": 55003,
+    "consultant": 29098,
+    "fiscal_year": 20210101,
+    "values": {
+      "d20210101": {
+        "amount_credit_usual": 100065,
+        "amount_debit_usual": 10055,
+        "quantity_credit": 77,
+        "quantity_debit": 86,
+        "weight_credit": 8070,
+        "weight_debit": 9060
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6557b1149c68957fa643e057"
+    },
+    "account_group_number": 1,
+    "accounting_reason_id": 0,
+    "additional_params": {
+      "agriculture_and_forestry_account_type": 25,
+      "cost1": "91",
+      "cost2": "A2",
+      "rw_shareholder_id": {
+        "$binary": {
+          "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+          "subType": "03"
+        }
+      },
+      "tax_rate": {
+        "$numberDecimal": "0.11"
+      }
+    },
+    "client": 55003,
+    "consultant": 29098,
+    "fiscal_year": 20210101,
+    "values": {
+      "d20210501": {
+        "amount_credit_usual": 100065,
+        "amount_debit_usual": 10055,
+        "quantity_credit": 77,
+        "quantity_debit": 86,
+        "weight_credit": 8070,
+        "weight_debit": 9060
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6557b1149c68957fa643e058"
+    },
+    "account_group_number": 1,
+    "accounting_reason_id": 0,
+    "additional_params": {
+      "agriculture_and_forestry_account_type": 26,
+      "cost1": "91",
+      "cost2": "A2",
+      "rw_shareholder_id": {
+        "$binary": {
+          "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+          "subType": "03"
+        }
+      },
+      "tax_rate": {
+        "$numberDecimal": "0.19"
+      }
+    },
+    "client": 55003,
+    "consultant": 29098,
+    "fiscal_year": 20210101,
+    "values": {
+      "d20210502": {
+        "amount_credit_usual": 100065,
+        "amount_debit_usual": 10055
+      },
+      "d20210501": {
+        "amount_credit_usual": 100065,
+        "amount_debit_usual": 10055,
+        "quantity_credit": 77,
+        "quantity_debit": 86,
+        "weight_credit": 8070,
+        "weight_debit": 9060
+      }
+    }
+  }
+]

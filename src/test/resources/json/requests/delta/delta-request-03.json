@@ -1,0 +1,23 @@
+{
+  "contains_near_time_data": true,
+  "account_sum_day_deltas": [
+    {
+      "account_number": 11000000,
+      "month": 12,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": -500000,
+      "amount_credit": 0,
+      "date": 20211201
+    },
+    {
+      "account_number": 14900000,
+      "month": 12,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": -500000,
+      "date": 20211201
+    }
+  ]
+}

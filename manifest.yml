@@ -1,0 +1,38 @@
+applications:
+  - name: ((application-name))
+    health-check-type: http
+    health-check-http-endpoint: /actuator
+    instances: ((instances))
+    memory: ((memory))
+    disk_quota: 1024M
+    buildpacks:
+      - java_buildpack_offline
+    path: ./target/refsys-aggregation-processing-service.jar
+    # Nachfolgdenden Teil für automatische SACM Modellierung ergänzen
+    metadata:
+      labels:
+        datevServiceID: 300571
+
+    env:
+      spring.profiles.active: ((spring-profiles-active)), cloudfoundry
+      JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 17.+ }, memory_calculator: { stack_threads: 25 } }'
+      JBP_CONFIG_SPRING_AUTO_RECONFIGURATION: '{enabled: false}'
+      JAVA_OPTS: '-XX:MaxDirectMemorySize=1024M'
+      APP_LOG_LEVEL: INFO
+      ACDS_CLIENT_BASEPATH: ((acds-client-basepath))
+      JWT_KEYSET_URL: ((jwt-keyset-url))
+      TZ: Europe/Berlin
+      APPLICATION_NAME_SPLUNK: refsys-aggregation-processing-service
+      KMVZ_ENABLED: ((kmvz-enabled))
+      DELTA_EVENT_ENABLED: ((delta-event-enabled))
+      CIRCUITBREAKER_ENABLED: ((circuitbreaker-enabled))
+      IASD_ENABLED: ((iasd-enabled))
+
+    services:
+      - autoscaler
+      - splunk
+      - mongoee
+      - kafka-topic-aggregationservice-we-new-or-changed-data
+      - acds-creds
+      - basic-auth-admin-cred
+      - grafana-creds

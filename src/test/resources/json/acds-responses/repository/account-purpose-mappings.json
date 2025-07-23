@@ -1,0 +1,38 @@
+[
+  {
+    "ref_no": 11050,
+    "ref_type": 0,
+    "ref_subno": 0,
+    "industry_no": 45,
+    "section_no": 2,
+    "account_number_from": 200000,
+    "account_number_to": 299999
+  },
+  {
+    "ref_no": 11050,
+    "ref_type": 0,
+    "ref_subno": 0,
+    "industry_no": 45,
+    "section_no": 2,
+    "account_number_from": 300000,
+    "account_number_to": 399999
+  },
+  {
+    "ref_no": 11050,
+    "ref_type": 0,
+    "ref_subno": 0,
+    "industry_no": 45,
+    "section_no": 2,
+    "account_number_from": 14000000,
+    "account_number_to": 14499999
+  },
+  {
+    "ref_no": 11050,
+    "ref_type": 0,
+    "ref_subno": 0,
+    "industry_no": 45,
+    "section_no": 2,
+    "account_number_from": 14500000,
+    "account_number_to": 14509999
+  }
+]

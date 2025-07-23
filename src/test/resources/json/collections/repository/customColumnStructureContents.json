@@ -1,0 +1,28 @@
+[
+  {
+    "client": 55003,
+    "consultant": 29098,
+    "year_begin": 20210101,
+    "year_end": 20211231,
+    "content": "Test Content",
+    "industry_no": 1,
+    "section_no": 1,
+    "indiv_no": 1,
+    "national_right": "DE",
+    "indiv_level": 10,
+    "column_structure_id": 1
+  },
+  {
+    "client": 55003,
+    "consultant": 29098,
+    "year_begin": 20210101,
+    "year_end": 20211231,
+    "content": "Test Content",
+    "industry_no": null,
+    "section_no": null,
+    "indiv_no": 2,
+    "national_right": "EN",
+    "indiv_level": 20,
+    "column_structure_id": 2
+  }
+]

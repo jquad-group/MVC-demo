@@ -1,0 +1,546 @@
+[
+  {
+    "_id": {
+      "$oid": "65e05bf45776a63c57511de4"
+    },
+    "account_captions": [
+      {
+        "account_number": 200000,
+        "used": true
+      }
+    ],
+    "account_number_from": 200000,
+    "account_number_to": 299999,
+    "client": 55003,
+    "consultant": 29098,
+    "purpose": {
+      "industry_no": 45,
+      "ref_no": 11050,
+      "ref_subno": 0,
+      "ref_type": 0,
+      "section_no": 2
+    },
+    "used": true,
+    "year_begin": 20210101,
+    "year_end": 20211231
+  },
+  {
+    "_id": {
+      "$oid": "65e05bf45776a63c57511de5"
+    },
+    "account_captions": [
+      {
+        "account_number": 300000,
+        "used": true
+      }
+    ],
+    "account_number_from": 300000,
+    "account_number_to": 399999,
+    "client": 55003,
+    "consultant": 29098,
+    "purpose": {
+      "industry_no": 45,
+      "ref_no": 11050,
+      "ref_subno": 0,
+      "ref_type": 0,
+      "section_no": 2
+    },
+    "used": true,
+    "year_begin": 20210101,
+    "year_end": 20211231
+  },
+  {
+    "_id": {
+      "$oid": "65e05bf45776a63c57511de6"
+    },
+    "account_captions": [
+      {
+        "account_number": 14000000,
+        "used": true
+      },
+      {
+        "account_number": 14000001,
+        "used": true
+      },
+      {
+        "account_number": 14000002,
+        "used": true
+      }
+    ],
+    "account_number_from": 14000000,
+    "account_number_to": 14499999,
+    "client": 55003,
+    "consultant": 29098,
+    "inventories": [
+      {
+        "account_number": 14000000,
+        "anlag_accounting_reason": 30,
+        "asset_category": 1,
+        "inventory_name": "Firmenwert",
+        "inventory_number": "140001"
+      },
+      {
+        "account_number": 14000001,
+        "anlag_accounting_reason": 30,
+        "asset_category": 1,
+        "inventory_name": "Grundstück Musterhobelweg 5",
+        "inventory_number": "140002"
+      },
+      {
+        "account_number": 14000001,
+        "anlag_accounting_reason": 50,
+        "asset_category": 1,
+        "inventory_name": "Grundstück Musterhobelweg 10",
+        "inventory_number": "140003"
+      },
+      {
+        "account_number": 14000002,
+        "anlag_accounting_reason": 30,
+        "asset_category": 1,
+        "inventory_name": "Anwesen Musterhobelweg 5",
+        "inventory_number": "140004"
+      },
+      {
+        "account_number": 14000002,
+        "anlag_accounting_reason": 50,
+        "asset_category": 1,
+        "inventory_name": "Lagerhalle",
+        "inventory_number": "140005"
+      }
+    ],
+    "purpose": {
+      "industry_no": 45,
+      "ref_no": 11050,
+      "ref_subno": 0,
+      "ref_type": 0,
+      "section_no": 2
+    },
+    "used": true,
+    "year_begin": 20210101,
+    "year_end": 20211231
+  },
+  {
+    "_id": {
+      "$oid": "65e05bf45776a63c57511de0"
+    },
+    "account_captions": [
+      {
+        "account_number": 14500001,
+        "captions": {
+          "de-DE": {
+            "caption": "Geschäfts- oder Firmenwert"
+          },
+          "en-GB": {
+            "caption": "Goodwill"
+          }
+        },
+        "used": true
+      },
+      {
+        "account_number": 14500000,
+        "captions": {
+          "de-DE": {
+            "caption": "EDV-Software, entgeltl. erworben"
+          },
+          "en-GB": {
+            "caption": "Computer software"
+          }
+        },
+        "used": true
+      },
+      {
+        "account_number": 14500002,
+        "captions": {
+          "de-DE": {
+            "caption": "Unbebaute Grundstücke"
+          },
+          "en-GB": {
+            "caption": "Undeveloped land"
+          }
+        }
+      }
+    ],
+    "account_number_from": 14500000,
+    "account_number_to": 14509999,
+    "client": 55003,
+    "consultant": 29098,
+    "purpose": {
+      "industry_no": 45,
+      "ref_no": 11050,
+      "ref_subno": 0,
+      "ref_type": 0,
+      "section_no": 2
+    },
+    "used": true,
+    "year_begin": 20210101,
+    "year_end": 20211231
+  },
+  {
+    "_id": {
+      "$oid": "65e05bf45776a63c57511de7"
+    },
+    "account_captions": [
+      {
+        "account_number": 16000000,
+        "used": true
+      }
+    ],
+    "account_number_from": 16000000,
+    "account_number_to": 16009999,
+    "client": 55003,
+    "consultant": 29098,
+    "purpose": {
+      "industry_no": 45,
+      "ref_no": 11050,
+      "ref_subno": 0,
+      "ref_type": 0,
+      "section_no": 2
+    },
+    "used": true,
+    "year_begin": 20210101,
+    "year_end": 20211231
+  },
+  {
+    "_id": {
+      "$oid": "65e05bf45776a63c57511de1"
+    },
+    "account_captions": [
+      {
+        "account_number": 24500001,
+        "captions": {
+          "de-DE": {
+            "caption": "Fabrikbauten (eigene Grundstücke)"
+          },
+          "en-GB": {
+            "caption": "Industrial buildings"
+          }
+        }
+      },
+      {
+        "account_number": 24500000,
+        "captions": {
+          "de-DE": {
+            "caption": "Grundstückswert bebauter Grundstücke"
+          },
+          "en-GB": {
+            "caption": "Property values of developed land"
+          }
+        }
+      },
+      {
+        "account_number": 24500002,
+        "captions": {
+          "de-DE": {
+            "caption": "Maschinen"
+          },
+          "en-GB": {
+            "caption": "Machinery"
+          }
+        }
+      }
+    ],
+    "account_number_from": 24500000,
+    "account_number_to": 24509999,
+    "client": 55003,
+    "consultant": 29098,
+    "purpose": {
+      "industry_no": 45,
+      "ref_no": 11050,
+      "ref_subno": 0,
+      "ref_type": 0,
+      "section_no": 2
+    },
+    "year_begin": 20210101,
+    "year_end": 20211231
+  },
+  {
+    "_id": {
+      "$oid": "65e05bf45776a63c57511de9"
+    },
+    "account_number_from": 24600000,
+    "account_number_to": 24609999,
+    "client": 55003,
+    "consultant": 29098,
+    "purpose": {
+      "industry_no": 45,
+      "ref_no": 11050,
+      "ref_subno": 0,
+      "ref_type": 0,
+      "section_no": 2
+    },
+    "year_begin": 20210101,
+    "year_end": 20211231
+  },
+  {
+    "_id": {
+      "$oid": "65e05bf45776a63c57511de4"
+    },
+    "account_captions": [
+      {
+        "account_number": 200000,
+        "used": true
+      }
+    ],
+    "account_number_from": 200000,
+    "account_number_to": 299999,
+    "client": 55003,
+    "consultant": 29098,
+    "purpose": {
+      "industry_no": 45,
+      "ref_no": 11050,
+      "ref_subno": 0,
+      "ref_type": 0,
+      "section_no": 2
+    },
+    "used": true,
+    "year_begin": 20200101,
+    "year_end": 20201231
+  },
+  {
+    "_id": {
+      "$oid": "65e05bf45776a63c57511de5"
+    },
+    "account_captions": [
+      {
+        "account_number": 300000,
+        "used": true
+      }
+    ],
+    "account_number_from": 300000,
+    "account_number_to": 399999,
+    "client": 55003,
+    "consultant": 29098,
+    "purpose": {
+      "industry_no": 45,
+      "ref_no": 11050,
+      "ref_subno": 0,
+      "ref_type": 0,
+      "section_no": 2
+    },
+    "used": true,
+    "year_begin": 20200101,
+    "year_end": 20201231
+  },
+  {
+    "_id": {
+      "$oid": "65e05bf45776a63c57511de6"
+    },
+    "account_captions": [
+      {
+        "account_number": 14000000,
+        "used": true
+      },
+      {
+        "account_number": 14000001,
+        "used": true
+      },
+      {
+        "account_number": 14000002,
+        "used": true
+      }
+    ],
+    "account_number_from": 14000000,
+    "account_number_to": 14499999,
+    "client": 55003,
+    "consultant": 29098,
+    "inventories": [
+      {
+        "account_number": 14000000,
+        "anlag_accounting_reason": 30,
+        "asset_category": 1,
+        "inventory_name": "Firmenwert",
+        "inventory_number": "140001"
+      },
+      {
+        "account_number": 14000001,
+        "anlag_accounting_reason": 30,
+        "asset_category": 1,
+        "inventory_name": "Grundstück Musterhobelweg 5",
+        "inventory_number": "140002"
+      },
+      {
+        "account_number": 14000001,
+        "anlag_accounting_reason": 50,
+        "asset_category": 1,
+        "inventory_name": "Grundstück Musterhobelweg 10",
+        "inventory_number": "140003"
+      },
+      {
+        "account_number": 14000002,
+        "anlag_accounting_reason": 30,
+        "asset_category": 1,
+        "inventory_name": "Anwesen Musterhobelweg 5",
+        "inventory_number": "140004"
+      },
+      {
+        "account_number": 14000002,
+        "anlag_accounting_reason": 50,
+        "asset_category": 1,
+        "inventory_name": "Lagerhalle",
+        "inventory_number": "140005"
+      }
+    ],
+    "purpose": {
+      "industry_no": 45,
+      "ref_no": 11050,
+      "ref_subno": 0,
+      "ref_type": 0,
+      "section_no": 2
+    },
+    "used": true,
+    "year_begin": 20200101,
+    "year_end": 20201231
+  },
+  {
+    "_id": {
+      "$oid": "65e05bf45776a63c57511de2"
+    },
+    "account_captions": [
+      {
+        "account_number": 14500001,
+        "captions": {
+          "de-DE": {
+            "caption": "Geschäfts- oder Firmenwert"
+          },
+          "en-GB": {
+            "caption": "Goodwill"
+          }
+        },
+        "used": true
+      },
+      {
+        "account_number": 14500000,
+        "captions": {
+          "de-DE": {
+            "caption": "EDV-Software, entgeltl. erworben"
+          },
+          "en-GB": {
+            "caption": "Computer software"
+          }
+        },
+        "used": true
+      },
+      {
+        "account_number": 14500002,
+        "captions": {
+          "de-DE": {
+            "caption": "Unbebaute Grundstücke"
+          },
+          "en-GB": {
+            "caption": "Undeveloped land"
+          }
+        }
+      }
+    ],
+    "account_number_from": 14500000,
+    "account_number_to": 14509999,
+    "client": 55003,
+    "consultant": 29098,
+    "purpose": {
+      "industry_no": 45,
+      "ref_no": 11050,
+      "ref_subno": 0,
+      "ref_type": 0,
+      "section_no": 2
+    },
+    "used": true,
+    "year_begin": 20200101,
+    "year_end": 20201231
+  },
+  {
+    "_id": {
+      "$oid": "65e05bf45776a63c57511df7"
+    },
+    "account_captions": [
+      {
+        "account_number": 16000000,
+        "used": true
+      }
+    ],
+    "account_number_from": 16000000,
+    "account_number_to": 16009999,
+    "client": 55003,
+    "consultant": 29098,
+    "purpose": {
+      "industry_no": 45,
+      "ref_no": 11050,
+      "ref_subno": 0,
+      "ref_type": 0,
+      "section_no": 2
+    },
+    "used": true,
+    "year_begin": 20200101,
+    "year_end": 20201231
+  },
+  {
+    "_id": {
+      "$oid": "65e05bf45776a63c57511de3"
+    },
+    "account_captions": [
+      {
+        "account_number": 24500001,
+        "captions": {
+          "de-DE": {
+            "caption": "Fabrikbauten (eigene Grundstücke)"
+          },
+          "en-GB": {
+            "caption": "Industrial buildings"
+          }
+        }
+      },
+      {
+        "account_number": 24500000,
+        "captions": {
+          "de-DE": {
+            "caption": "Grundstückswert bebauter Grundstücke"
+          },
+          "en-GB": {
+            "caption": "Property values of developed land"
+          }
+        }
+      },
+      {
+        "account_number": 24500002,
+        "captions": {
+          "de-DE": {
+            "caption": "Maschinen"
+          },
+          "en-GB": {
+            "caption": "Machinery"
+          }
+        }
+      }
+    ],
+    "account_number_from": 24500000,
+    "account_number_to": 24509999,
+    "client": 55003,
+    "consultant": 29098,
+    "purpose": {
+      "industry_no": 45,
+      "ref_no": 11050,
+      "ref_subno": 0,
+      "ref_type": 0,
+      "section_no": 2
+    },
+    "year_begin": 20200101,
+    "year_end": 20201231
+  },
+  {
+    "_id": {
+      "$oid": "65e05bf45776a63c57511de8"
+    },
+    "account_number_from": 24600000,
+    "account_number_to": 24609999,
+    "client": 55003,
+    "consultant": 29098,
+    "purpose": {
+      "industry_no": 45,
+      "ref_no": 11050,
+      "ref_subno": 0,
+      "ref_type": 0,
+      "section_no": 2
+    },
+    "year_begin": 20200101,
+    "year_end": 20201231
+  }
+]

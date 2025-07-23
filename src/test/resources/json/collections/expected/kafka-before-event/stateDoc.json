@@ -1,0 +1,25 @@
+[
+  {
+    "_id": {
+      "$oid": "6557b114a3b754af6d491d03"
+    },
+    "client": 55003,
+    "consultant": 29098,
+    "data_timestamp": {
+      "dateTime": {
+        "$date": "2022-01-02T10:05:18.290Z"
+      },
+      "zone": "Z"
+    },
+    "state": "DONE",
+    "state_timestamp": {
+      "dateTime": {
+        "$date": "2023-11-17T18:29:40.041Z"
+      },
+      "zone": "+01:00"
+    },
+    "year_begin": 20210101,
+    "year_end": 20211231,
+    "force_reftab_current_year": false
+  }
+]

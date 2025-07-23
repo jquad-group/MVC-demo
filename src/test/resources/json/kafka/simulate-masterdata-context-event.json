@@ -1,0 +1,13 @@
+{
+  "consultant": 272277,
+  "client": 73,
+  "fiscalYear": 20080101,
+  "baseVersion": 33,
+  "deltaVersion": 2,
+  "containsNearTimeData": true,
+  "unknownField": "this value should be ignored",
+  "changedType": [
+    "masterdata_context"
+  ],
+  "accountSumDiff": []
+}

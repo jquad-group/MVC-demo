@@ -1,0 +1,76 @@
+spring:
+  data:
+    mongodb:
+      database: 'refsys-aggregation-processing'
+  kafka:
+    bootstrap-servers: ${spring.embedded.kafka.brokers}
+    consumer:
+      # Kafka security mechanism
+      group-id: REFSYS-PROCESSING-SERVICE-LOCAL-GROUP
+      max-poll-records: 1
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration
+      - org.springframework.boot.actuate.autoconfigure.security.reactive.ReactiveManagementWebSecurityAutoConfiguration
+
+wiremock:
+  server:
+    port: 0
+
+ref-sys:
+  iasd-enabled: true
+  mongodb:
+    # if you have a breakpoint in the AccountingDataServiceA2.processEventInTransaction method, increase this value and revert it once done with debugging
+    transaction-timeout-in-ms: 300000
+  client:
+    acds:
+      base-path: http://localhost:${wiremock.server.port}/datev
+      client-id: ---
+      client-secret: ---
+  initial-load:
+    max-import-duration-in-ms: 5000
+    parking-time-in-ms: 2000
+    inventories-buffer-size: 5
+  update-schema:
+    schema-version: 1
+
+kafka-config:
+  # Conditional property to disable kafka in test environment
+  enabled: true
+  kafka-topic-acds-aggregationservice-update:
+    # Kafka topic name where the messages are consumed from
+    topic: movementdata-event-topic
+    security-protocol: PLAINTEXT
+    sasl-mechanism: PLAIN
+    sasl-jaas-config: ''
+  dead-letter:
+    topic: movementdata-event-dlt
+    security-protocol: PLAINTEXT
+    sasl-mechanism: PLAIN
+    sasl-jaas-config: ''
+  kafka-topic-aggregation-service-new-or-changed-data:
+    topic: local.changedata.events
+    security-protocol: PLAINTEXT
+    sasl-mechanism: PLAIN
+    sasl-jaas-config: ''
+
+features:
+  kmvz-processing:
+    initial-load-enabled: false #has to be disabled at the moment since the tests aren't shaped for neartime data
+    delta-event-enabled: true
+
+logging:
+  level:
+    org:
+      apache:
+        kafka:
+          clients: ERROR
+      mongodb: WARN
+    kafka:
+      server:
+        KafkaConfig: WARN
+    reactor:
+      kafka:
+        receiver:
+          internals: ERROR
+    io.opentelemetry.exporter.internal.http.HttpExporter: OFF

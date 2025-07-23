@@ -1,0 +1,18 @@
+[
+  {
+    "inventory_number": "140002",
+    "stand_wj_beg_ahk": 10225838,
+    "stand_wj_beg_bw": 10225838,
+    "stand_wj_end_ahk": 10225838,
+    "stand_wj_end_bw": 10225838
+  },
+  {
+    "inventory_number": "140001",
+    "stand_wj_beg_abschr": 3834589,
+    "stand_wj_beg_ahk": 3834689,
+    "stand_wj_beg_bw": 100,
+    "stand_wj_end_abschr": 3834589,
+    "stand_wj_end_ahk": 3834689,
+    "stand_wj_end_bw": 100
+  }
+]

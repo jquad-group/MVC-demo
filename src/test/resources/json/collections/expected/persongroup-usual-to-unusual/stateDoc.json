@@ -1,0 +1,21 @@
+[
+  {
+    "_id": {
+      "$oid": "65e0ab448d2a869354f30d7c"
+    },
+    "client": 55003,
+    "consultant": 29098,
+    "base_version": 0,
+    "delta_version": 0,
+    "state": "DONE",
+    "state_timestamp": {
+      "dateTime": {
+        "$date": "2024-02-29T16:05:24.997Z"
+      },
+      "zone": "+01:00"
+    },
+    "year_begin": 20210101,
+    "year_end": 20211231,
+    "force_reftab_current_year": false
+  }
+]

@@ -1,0 +1,10 @@
+spring-profiles-active: qs
+acds-client-basepath: https://acds-refsys.api.qs.datev.de/datev
+jwt-keyset-url: https://api.qs.datev.de/certs
+kmvz-enabled: true
+delta-event-enabled: false
+circuitbreaker-enabled: false
+iasd-enabled: true
+application-name: refsys-aggregation-processing-service
+instances: 2
+memory: 3072M

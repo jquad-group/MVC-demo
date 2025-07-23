@@ -1,0 +1,7583 @@
+{
+  "contains_near_time_data": true,
+  "account_sum_day_deltas": [
+    {
+      "account_number": 270000,
+      "month": 0,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 2583,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 270000,
+      "month": 0,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 2583,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 270000,
+      "month": 1,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 48.75,
+      "date": 20210101
+    },
+    {
+      "account_number": 270000,
+      "month": 1,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 48.75,
+      "date": 20210101
+    },
+    {
+      "account_number": 270000,
+      "month": 2,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 48.75,
+      "date": 20210201
+    },
+    {
+      "account_number": 270000,
+      "month": 2,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 48.75,
+      "date": 20210201
+    },
+    {
+      "account_number": 270000,
+      "month": 3,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 48.75,
+      "date": 20210301
+    },
+    {
+      "account_number": 270000,
+      "month": 3,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 48.75,
+      "date": 20210301
+    },
+    {
+      "account_number": 350000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 650000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 408500,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 850000,
+      "month": 0,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 727381.83,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 850000,
+      "month": 0,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 727381.83,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 1000000,
+      "month": 0,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 422177,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 1000000,
+      "month": 0,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 422177,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 1000000,
+      "month": 1,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1798.15,
+      "date": 20210101
+    },
+    {
+      "account_number": 1000000,
+      "month": 1,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1798.15,
+      "date": 20210101
+    },
+    {
+      "account_number": 1000000,
+      "month": 2,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1798.16,
+      "date": 20210201
+    },
+    {
+      "account_number": 1000000,
+      "month": 2,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1798.16,
+      "date": 20210201
+    },
+    {
+      "account_number": 1000000,
+      "month": 3,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1798.15,
+      "date": 20210301
+    },
+    {
+      "account_number": 1000000,
+      "month": 3,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1798.15,
+      "date": 20210301
+    },
+    {
+      "account_number": 2100000,
+      "month": 0,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 160373,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 2100000,
+      "month": 0,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 160373,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 2100000,
+      "month": 1,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1223.53,
+      "date": 20210101
+    },
+    {
+      "account_number": 2100000,
+      "month": 1,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1223.53,
+      "date": 20210101
+    },
+    {
+      "account_number": 2100000,
+      "month": 2,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1223.59,
+      "date": 20210201
+    },
+    {
+      "account_number": 2100000,
+      "month": 2,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1223.59,
+      "date": 20210201
+    },
+    {
+      "account_number": 2100000,
+      "month": 3,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1223.53,
+      "date": 20210301
+    },
+    {
+      "account_number": 2100000,
+      "month": 3,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1223.53,
+      "date": 20210301
+    },
+    {
+      "account_number": 3200000,
+      "month": 0,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 36895,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 3200000,
+      "month": 0,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 36895,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 3200000,
+      "month": 1,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 824.24,
+      "date": 20210101
+    },
+    {
+      "account_number": 3200000,
+      "month": 1,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 824.24,
+      "date": 20210101
+    },
+    {
+      "account_number": 3200000,
+      "month": 2,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 824.25,
+      "date": 20210201
+    },
+    {
+      "account_number": 3200000,
+      "month": 2,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 824.25,
+      "date": 20210201
+    },
+    {
+      "account_number": 3200000,
+      "month": 3,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 824.24,
+      "date": 20210301
+    },
+    {
+      "account_number": 3200000,
+      "month": 3,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 824.24,
+      "date": 20210301
+    },
+    {
+      "account_number": 3500000,
+      "month": 0,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 6222,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 3500000,
+      "month": 0,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 6222,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 3500000,
+      "month": 1,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 259.16,
+      "date": 20210101
+    },
+    {
+      "account_number": 3500000,
+      "month": 1,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 259.16,
+      "date": 20210101
+    },
+    {
+      "account_number": 3500000,
+      "month": 2,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 259.17,
+      "date": 20210201
+    },
+    {
+      "account_number": 3500000,
+      "month": 2,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 259.17,
+      "date": 20210201
+    },
+    {
+      "account_number": 3500000,
+      "month": 3,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 259.16,
+      "date": 20210301
+    },
+    {
+      "account_number": 3500000,
+      "month": 3,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 259.16,
+      "date": 20210301
+    },
+    {
+      "account_number": 4000000,
+      "month": 0,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 9407,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 4000000,
+      "month": 0,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 9407,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 4000000,
+      "month": 1,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 145.48,
+      "date": 20210101
+    },
+    {
+      "account_number": 4000000,
+      "month": 1,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 145.48,
+      "date": 20210101
+    },
+    {
+      "account_number": 4000000,
+      "month": 2,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 145.51,
+      "date": 20210201
+    },
+    {
+      "account_number": 4000000,
+      "month": 2,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 145.51,
+      "date": 20210201
+    },
+    {
+      "account_number": 4000000,
+      "month": 3,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 112.98,
+      "date": 20210301
+    },
+    {
+      "account_number": 4000000,
+      "month": 3,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 112.98,
+      "date": 20210301
+    },
+    {
+      "account_number": 4200000,
+      "month": 0,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 4440,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 4200000,
+      "month": 0,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 4440,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 4200000,
+      "month": 1,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 46.07,
+      "date": 20210101
+    },
+    {
+      "account_number": 4200000,
+      "month": 1,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 46.07,
+      "date": 20210101
+    },
+    {
+      "account_number": 4200000,
+      "month": 2,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 46.09,
+      "date": 20210201
+    },
+    {
+      "account_number": 4200000,
+      "month": 2,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 46.09,
+      "date": 20210201
+    },
+    {
+      "account_number": 4200000,
+      "month": 3,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 46.07,
+      "date": 20210301
+    },
+    {
+      "account_number": 4200000,
+      "month": 3,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 46.07,
+      "date": 20210301
+    },
+    {
+      "account_number": 4400000,
+      "month": 0,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 6543,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 4400000,
+      "month": 0,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 6543,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 4400000,
+      "month": 1,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 152.15,
+      "date": 20210101
+    },
+    {
+      "account_number": 4400000,
+      "month": 1,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 152.15,
+      "date": 20210101
+    },
+    {
+      "account_number": 4400000,
+      "month": 2,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 152.16,
+      "date": 20210201
+    },
+    {
+      "account_number": 4400000,
+      "month": 2,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 152.16,
+      "date": 20210201
+    },
+    {
+      "account_number": 4400000,
+      "month": 3,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 135.15,
+      "date": 20210301
+    },
+    {
+      "account_number": 4400000,
+      "month": 3,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 135.15,
+      "date": 20210301
+    },
+    {
+      "account_number": 4850000,
+      "month": 0,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 2162,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 4850000,
+      "month": 0,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 2162,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 4850000,
+      "month": 1,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 63.65,
+      "date": 20210101
+    },
+    {
+      "account_number": 4850000,
+      "month": 1,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 63.65,
+      "date": 20210101
+    },
+    {
+      "account_number": 4850000,
+      "month": 2,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 63.66,
+      "date": 20210201
+    },
+    {
+      "account_number": 4850000,
+      "month": 2,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 63.66,
+      "date": 20210201
+    },
+    {
+      "account_number": 4850000,
+      "month": 3,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 63.65,
+      "date": 20210301
+    },
+    {
+      "account_number": 4850000,
+      "month": 3,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 63.65,
+      "date": 20210301
+    },
+    {
+      "account_number": 4900000,
+      "month": 0,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 1,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 4900000,
+      "month": 0,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 1,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 4900000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2360.5,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 4900000,
+      "month": 2,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 65.67,
+      "date": 20210201
+    },
+    {
+      "account_number": 4900000,
+      "month": 2,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 65.67,
+      "date": 20210201
+    },
+    {
+      "account_number": 4900000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1035.25,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 4900000,
+      "month": 3,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 76.51,
+      "date": 20210301
+    },
+    {
+      "account_number": 4900000,
+      "month": 3,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 76.51,
+      "date": 20210301
+    },
+    {
+      "account_number": 5170000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 90000,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 5250000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 240000,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 6910000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 25022.46,
+      "date": 20210101
+    },
+    {
+      "account_number": 6910000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 541.15,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 6910000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 541.15,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 6910000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 541.15,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 6920000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 31355.69,
+      "date": 20210101
+    },
+    {
+      "account_number": 6920000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 907.76,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 6920000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 910.43,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 6920000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 913.11,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 6950000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 40113.21,
+      "date": 20210101
+    },
+    {
+      "account_number": 6950000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 678.72,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 6950000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 678.72,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 6950000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 678.72,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 7550000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 132525,
+      "date": 20210101
+    },
+    {
+      "account_number": 8000000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 260000,
+      "date": 20210101
+    },
+    {
+      "account_number": 8550000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 910000,
+      "date": 20210101
+    },
+    {
+      "account_number": 8600000,
+      "month": 0,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 844879.12,
+      "date": 20210101
+    },
+    {
+      "account_number": 8600000,
+      "month": 0,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 877473.01,
+      "date": 20210101
+    },
+    {
+      "account_number": 9500000,
+      "month": 0,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 200085.85,
+      "date": 20210101
+    },
+    {
+      "account_number": 9510000,
+      "month": 0,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 225118.4,
+      "date": 20210101
+    },
+    {
+      "account_number": 9650000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 35000,
+      "date": 20210101
+    },
+    {
+      "account_number": 9660000,
+      "month": 0,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 4961.3,
+      "date": 20210101
+    },
+    {
+      "account_number": 9660000,
+      "month": 0,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 3836.07,
+      "date": 20210101
+    },
+    {
+      "account_number": 9740000,
+      "month": 0,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 23278.38,
+      "date": 20210101
+    },
+    {
+      "account_number": 9740000,
+      "month": 0,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 20324.27,
+      "date": 20210101
+    },
+    {
+      "account_number": 9770000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 7119,
+      "date": 20210101
+    },
+    {
+      "account_number": 9800000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1702,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 9800000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 395.75,
+      "date": 20210101
+    },
+    {
+      "account_number": 9800000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2928,
+      "amount_credit": 395.75,
+      "date": 20210201
+    },
+    {
+      "account_number": 9800000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 395.75,
+      "date": 20210301
+    },
+    {
+      "account_number": 9850000,
+      "month": 0,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 1436.97,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 9860000,
+      "month": 0,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 22894.4,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 9860000,
+      "month": 0,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 22894.4,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 9860000,
+      "month": 1,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 425.02,
+      "date": 20210101
+    },
+    {
+      "account_number": 9860000,
+      "month": 1,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 425.02,
+      "date": 20210101
+    },
+    {
+      "account_number": 9860000,
+      "month": 2,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 418.84,
+      "date": 20210201
+    },
+    {
+      "account_number": 9860000,
+      "month": 2,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 418.84,
+      "date": 20210201
+    },
+    {
+      "account_number": 9860000,
+      "month": 3,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 412.65,
+      "date": 20210301
+    },
+    {
+      "account_number": 9860000,
+      "month": 3,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 412.65,
+      "date": 20210301
+    },
+    {
+      "account_number": 9960000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 4475,
+      "date": 20210101
+    },
+    {
+      "account_number": 9980000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 2925,
+      "date": 20210101
+    },
+    {
+      "account_number": 10000000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 196.13,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 10000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1650,
+      "amount_credit": 1415.1,
+      "date": 20210101
+    },
+    {
+      "account_number": 10000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1450,
+      "amount_credit": 1778.03,
+      "date": 20210201
+    },
+    {
+      "account_number": 10000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 600,
+      "amount_credit": 653.23,
+      "date": 20210301
+    },
+    {
+      "account_number": 11000000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 81399.93,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 11000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 23713.91,
+      "amount_credit": 12188.27,
+      "date": 20210101
+    },
+    {
+      "account_number": 11000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 12518.88,
+      "date": 20210201
+    },
+    {
+      "account_number": 11000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 61262.36,
+      "amount_credit": 14363.35,
+      "date": 20210301
+    },
+    {
+      "account_number": 12000000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 70836.64,
+      "date": 20210101
+    },
+    {
+      "account_number": 12000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 114408.49,
+      "amount_credit": 89592.88,
+      "date": 20210101
+    },
+    {
+      "account_number": 12000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 62300.73,
+      "amount_credit": 118593.97,
+      "date": 20210201
+    },
+    {
+      "account_number": 12000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 176498.69,
+      "amount_credit": 136963.03,
+      "date": 20210301
+    },
+    {
+      "account_number": 12250000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3200.41,
+      "amount_credit": 667.42,
+      "date": 20210301
+    },
+    {
+      "account_number": 12300000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 25082.06,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 12300000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 116601.05,
+      "amount_credit": 164368.66,
+      "date": 20210101
+    },
+    {
+      "account_number": 12300000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 189423.68,
+      "amount_credit": 112816.44,
+      "date": 20210201
+    },
+    {
+      "account_number": 12300000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 132884.44,
+      "amount_credit": 235158.21,
+      "date": 20210301
+    },
+    {
+      "account_number": 12900000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 100230.02,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 12900000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2283.48,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 12950000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1000,
+      "amount_credit": 1000,
+      "date": 20210101
+    },
+    {
+      "account_number": 12950000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1000,
+      "amount_credit": 1000,
+      "date": 20210201
+    },
+    {
+      "account_number": 12950000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1000,
+      "amount_credit": 1000,
+      "date": 20210301
+    },
+    {
+      "account_number": 13560000,
+      "month": 0,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 107270,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 13570000,
+      "month": 0,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 103788,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 13600000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1650,
+      "amount_credit": 1650,
+      "date": 20210101
+    },
+    {
+      "account_number": 13600000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1450,
+      "amount_credit": 1450,
+      "date": 20210201
+    },
+    {
+      "account_number": 13600000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1563,
+      "amount_credit": 1563,
+      "date": 20210301
+    },
+    {
+      "account_number": 13690000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 207.62,
+      "amount_credit": 207.62,
+      "date": 20210101
+    },
+    {
+      "account_number": 13690000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 215.56,
+      "amount_credit": 215.56,
+      "date": 20210201
+    },
+    {
+      "account_number": 13690000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 178.48,
+      "amount_credit": 178.57,
+      "date": 20210301
+    },
+    {
+      "account_number": 14000000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 170307.03,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 14000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 195069.35,
+      "amount_credit": 148377.77,
+      "date": 20210101
+    },
+    {
+      "account_number": 14000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 199341.09,
+      "amount_credit": 202231.36,
+      "date": 20210201
+    },
+    {
+      "account_number": 14000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 201769.24,
+      "amount_credit": 199942,
+      "date": 20210301
+    },
+    {
+      "account_number": 15000000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 29814.07,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 15000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 8103.07,
+      "date": 20210101
+    },
+    {
+      "account_number": 15400000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 686,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 15400000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 686,
+      "date": 20210101
+    },
+    {
+      "account_number": 15480000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 42.41,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 15480000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 42.41,
+      "date": 20210301
+    },
+    {
+      "account_number": 15490000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1326.55,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 15490000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1326.55,
+      "date": 20210101
+    },
+    {
+      "account_number": 15710000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 120.08,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 15710000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 79.9,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 15710000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 237.01,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 15740000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1354.8,
+      "amount_credit": 48.11,
+      "date": 20210101
+    },
+    {
+      "account_number": 15740000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1449.19,
+      "amount_credit": 23.31,
+      "date": 20210201
+    },
+    {
+      "account_number": 15760000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 17099.31,
+      "amount_credit": 45.89,
+      "date": 20210101
+    },
+    {
+      "account_number": 15760000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 17242.55,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 15760000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 42.41,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 15760000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2915.38,
+      "amount_credit": 21.33,
+      "date": 20210201
+    },
+    {
+      "account_number": 15760000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 19720.7,
+      "amount_credit": 85.53,
+      "date": 20210301
+    },
+    {
+      "account_number": 15770000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 17.46,
+      "date": 20210201
+    },
+    {
+      "account_number": 15770000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 834.79,
+      "amount_credit": 25.04,
+      "date": 20210301
+    },
+    {
+      "account_number": 15880000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 129.72,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 15910000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 722.2,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 15930000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 900,
+      "amount_credit": 900,
+      "date": 20210101
+    },
+    {
+      "account_number": 15930000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 400,
+      "amount_credit": 400,
+      "date": 20210201
+    },
+    {
+      "account_number": 16000000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 154404.92,
+      "date": 20210101
+    },
+    {
+      "account_number": 16000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 75434.6,
+      "amount_credit": 94981.05,
+      "date": 20210101
+    },
+    {
+      "account_number": 16000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 94699.26,
+      "amount_credit": 115885.65,
+      "date": 20210201
+    },
+    {
+      "account_number": 16000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 121234.4,
+      "amount_credit": 107879.13,
+      "date": 20210301
+    },
+    {
+      "account_number": 17000000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 4322.65,
+      "date": 20210101
+    },
+    {
+      "account_number": 17000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 243.33,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 17000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4079.32,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 17100000,
+      "month": 0,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1436.97,
+      "date": 20210101
+    },
+    {
+      "account_number": 17180000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 7563.03,
+      "date": 20210101
+    },
+    {
+      "account_number": 17180000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 756.3,
+      "date": 20210101
+    },
+    {
+      "account_number": 17180000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1092.43,
+      "amount_credit": 336.13,
+      "date": 20210201
+    },
+    {
+      "account_number": 17260000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 722.2,
+      "date": 20210101
+    },
+    {
+      "account_number": 17360000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1127.35,
+      "date": 20210101
+    },
+    {
+      "account_number": 17360000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1127.35,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 17400000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 25709.31,
+      "amount_credit": 25709.31,
+      "date": 20210101
+    },
+    {
+      "account_number": 17400000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 24896.03,
+      "amount_credit": 24896.03,
+      "date": 20210201
+    },
+    {
+      "account_number": 17400000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 22282.13,
+      "amount_credit": 22282.13,
+      "date": 20210301
+    },
+    {
+      "account_number": 17410000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 8752.33,
+      "date": 20210101
+    },
+    {
+      "account_number": 17410000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 8752.33,
+      "amount_credit": 9100.25,
+      "date": 20210101
+    },
+    {
+      "account_number": 17410000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 9100.25,
+      "amount_credit": 8812.38,
+      "date": 20210201
+    },
+    {
+      "account_number": 17410000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 8812.38,
+      "amount_credit": 7887.14,
+      "date": 20210301
+    },
+    {
+      "account_number": 17420000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 18959.56,
+      "amount_credit": 18959.56,
+      "date": 20210101
+    },
+    {
+      "account_number": 17420000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 18359.8,
+      "amount_credit": 18359.8,
+      "date": 20210201
+    },
+    {
+      "account_number": 17420000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 16432.16,
+      "amount_credit": 16432.16,
+      "date": 20210301
+    },
+    {
+      "account_number": 17460000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 47475,
+      "date": 20210101
+    },
+    {
+      "account_number": 17550000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 53998.2,
+      "amount_credit": 53998.2,
+      "date": 20210101
+    },
+    {
+      "account_number": 17550000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 52297.29,
+      "amount_credit": 52297.29,
+      "date": 20210201
+    },
+    {
+      "account_number": 17550000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 46830.51,
+      "amount_credit": 46830.51,
+      "date": 20210301
+    },
+    {
+      "account_number": 17590000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 18959.56,
+      "amount_credit": 18959.56,
+      "date": 20210101
+    },
+    {
+      "account_number": 17590000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 18359.8,
+      "amount_credit": 18359.8,
+      "date": 20210201
+    },
+    {
+      "account_number": 17590000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 16432.16,
+      "amount_credit": 16432.16,
+      "date": 20210301
+    },
+    {
+      "account_number": 17670000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 161.68,
+      "amount_credit": 2062.26,
+      "date": 20210101
+    },
+    {
+      "account_number": 17670000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 10.78,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 17680000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 200.34,
+      "date": 20210101
+    },
+    {
+      "account_number": 17740000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 48.11,
+      "amount_credit": 1354.8,
+      "date": 20210101
+    },
+    {
+      "account_number": 17740000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 23.31,
+      "amount_credit": 1449.19,
+      "date": 20210201
+    },
+    {
+      "account_number": 17760000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 18.43,
+      "amount_credit": 22405.81,
+      "date": 20210101
+    },
+    {
+      "account_number": 17760000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 233.27,
+      "amount_credit": 11384.99,
+      "date": 20210201
+    },
+    {
+      "account_number": 17760000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 145.07,
+      "amount_credit": 19114.11,
+      "date": 20210301
+    },
+    {
+      "account_number": 17800000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5213.88,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 17810000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1654,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 17870000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 17.46,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 17870000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 25.04,
+      "amount_credit": 834.79,
+      "date": 20210301
+    },
+    {
+      "account_number": 17900000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1842.09,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 17900000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1842.09,
+      "date": 20210301
+    },
+    {
+      "account_number": 17970000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 10418.15,
+      "date": 20210101
+    },
+    {
+      "account_number": 17970000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2222.94,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 17970000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 8195.21,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 21000000,
+      "month": 1,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 413.06,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 21000000,
+      "month": 1,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 413.06,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 21000000,
+      "month": 2,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 406.89,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 21000000,
+      "month": 2,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 406.89,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 21000000,
+      "month": 3,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 400.68,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 21000000,
+      "month": 3,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 400.68,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 21100000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 962.72,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 21200000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 92.24,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 21200000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 89.57,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 21200000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 86.89,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 22000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5898,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 22080000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 324,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 23750000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 270,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 23810000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 250,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 23820000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 30,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 26500000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 81.54,
+      "date": 20210301
+    },
+    {
+      "account_number": 26610000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 5.32,
+      "date": 20210301
+    },
+    {
+      "account_number": 28930000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 70.33,
+      "date": 20210101
+    },
+    {
+      "account_number": 28930000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 70.33,
+      "date": 20210201
+    },
+    {
+      "account_number": 28930000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 70.33,
+      "date": 20210301
+    },
+    {
+      "account_number": 30300000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 17802.4,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 30300000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 17134.66,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 30310000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 14799.64,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 30310000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 13701.78,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 30320000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 8363.92,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 30320000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3235.87,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 30320000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 6435.18,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 30330000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 34181.11,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 30330000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 43813.75,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 30390000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 7197.67,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 30390000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4817.6,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 30390000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1241.34,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 30620000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 7130.55,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 30620000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 7627.29,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 31060000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 13076.12,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 31060000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 30850.14,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 31060000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4953.44,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 31230000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4393.61,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 31510000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 91.92,
+      "date": 20210201
+    },
+    {
+      "account_number": 31510000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 131.81,
+      "date": 20210301
+    },
+    {
+      "account_number": 32000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 638.04,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 34000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2529.73,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 34000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2390.66,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 34010000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 7139.31,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 34010000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 6141.87,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 35700000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3140,
+      "amount_credit": 3140,
+      "date": 20210101
+    },
+    {
+      "account_number": 35710000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 3140,
+      "date": 20210101
+    },
+    {
+      "account_number": 35720000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3140,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 37360000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 30.31,
+      "date": 20210101
+    },
+    {
+      "account_number": 37360000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 11.1,
+      "date": 20210301
+    },
+    {
+      "account_number": 37380000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 207.76,
+      "date": 20210101
+    },
+    {
+      "account_number": 37380000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 97.74,
+      "date": 20210201
+    },
+    {
+      "account_number": 37380000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 439.05,
+      "date": 20210301
+    },
+    {
+      "account_number": 37410000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 253.2,
+      "date": 20210101
+    },
+    {
+      "account_number": 37410000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 122.66,
+      "date": 20210201
+    },
+    {
+      "account_number": 38500000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 44.7,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 39710000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 36867.28,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 39720000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 17628.21,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 39730000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 15628.06,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 39740000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 20771.54,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 39750000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 7046.79,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 39760000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 10671.23,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 41100000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 29452.9,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 41100000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 29973.33,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 41100000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 23306.69,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 41200000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 16431.52,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 41200000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 16431.52,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 41200000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 16431.52,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 41240000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5000,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 41240000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5000,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 41240000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5000,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 41300000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2131.27,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 41300000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 104.93,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 41300000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1304.79,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 41380000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 905,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 41440000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 42,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 41490000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 8.43,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 41490000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 8.43,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 41490000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 8.43,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 41530000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 265.64,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 41530000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 265.64,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 41530000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 265.64,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 41750000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 50,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 41750000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 50,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 41750000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 50,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 41900000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 400,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 41900000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 400,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 41900000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 400,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 41940000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 41950000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 150,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 41990000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 100,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 41990000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 100,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 41990000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 100,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 42100000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1890.34,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 42100000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1890.34,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 42100000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1890.34,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 42400000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3234.14,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 42400000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2574.19,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 42400000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2425.95,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 42500000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1579.74,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 42500000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 968.67,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 42500000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1027.1,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 42600000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 390.08,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 42600000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2299.37,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 42700000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1185.98,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 42800000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 520.45,
+      "amount_credit": 3.5,
+      "date": 20210101
+    },
+    {
+      "account_number": 42800000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5.47,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 42800000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 329.16,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 43200000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 6868,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 43600000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5995.75,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 43600000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 795.75,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 43600000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 795.75,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 43700000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 500,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 43700000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 500,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 43700000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 500,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 45100000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 234.94,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 45100000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 194,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 45100000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 205,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 45200000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4949.07,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 45200000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 932.7,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 45300000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 597.28,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 45300000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 641.65,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 45300000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1176.51,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 45400000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 753.53,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 45400000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 895.15,
+      "amount_credit": 10.79,
+      "date": 20210201
+    },
+    {
+      "account_number": 45400000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1308.53,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 45500000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2000,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 45500000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2000,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 45500000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2000,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 45700000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1082.36,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 45700000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1082.36,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 45700000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1082.36,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 46000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 115.97,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 46000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 87.65,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 46300000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 20.17,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 46400000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 22.43,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 46400000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 17.76,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 46510000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 489.09,
+      "amount_credit": 146.73,
+      "date": 20210101
+    },
+    {
+      "account_number": 46510000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 434.46,
+      "amount_credit": 130.35,
+      "date": 20210201
+    },
+    {
+      "account_number": 46510000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 85.71,
+      "amount_credit": 25.71,
+      "date": 20210301
+    },
+    {
+      "account_number": 46540000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 146.73,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 46540000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 130.35,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 46540000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 25.71,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 46630000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 293.46,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 46630000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 192.52,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 46630000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1400,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 46640000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 448,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 46640000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 252,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 46640000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 896,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 46660000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 891.59,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 46660000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 425.23,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 46660000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1454.2,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 47100000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 850.83,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 47100000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 422.35,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 47300000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 667.65,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 47500000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 500.9,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 48000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1958.24,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 48000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1050.85,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 48000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1343.4,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 48100000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 827.12,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 48100000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 827.12,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 48100000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 827.12,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 48220000,
+      "month": 1,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 48.75,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 48220000,
+      "month": 1,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 48.75,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 48220000,
+      "month": 2,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 48.75,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 48220000,
+      "month": 2,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 48.75,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 48220000,
+      "month": 3,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 48.75,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 48220000,
+      "month": 3,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 48.75,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 48300000,
+      "month": 1,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 1567.23,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 48300000,
+      "month": 1,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 1567.23,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 48300000,
+      "month": 2,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 1633.02,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 48300000,
+      "month": 2,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 1633.02,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 48300000,
+      "month": 3,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 1594.24,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 48300000,
+      "month": 3,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 1594.24,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 48310000,
+      "month": 1,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 1798.15,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 48310000,
+      "month": 1,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 1798.15,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 48310000,
+      "month": 2,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 1798.16,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 48310000,
+      "month": 2,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 1798.16,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 48310000,
+      "month": 3,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 1798.15,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 48310000,
+      "month": 3,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 1798.15,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 48320000,
+      "month": 1,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 1083.4,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 48320000,
+      "month": 1,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 1083.4,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 48320000,
+      "month": 2,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 1083.42,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 48320000,
+      "month": 2,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 1083.42,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 48320000,
+      "month": 3,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 1083.4,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 48320000,
+      "month": 3,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 1083.4,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 48620000,
+      "month": 1,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 63.65,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 48620000,
+      "month": 1,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 63.65,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 48620000,
+      "month": 2,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 63.66,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 48620000,
+      "month": 2,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 63.66,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 48620000,
+      "month": 3,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 63.65,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 48620000,
+      "month": 3,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 63.65,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 49100000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 40,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 49100000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 155,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 49100000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 144,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 49200000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 75.95,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 49200000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 75.95,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 49210000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 73.91,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 49210000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 73.91,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 49300000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 104.19,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 49300000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 118.3,
+      "amount_credit": 3.76,
+      "date": 20210201
+    },
+    {
+      "account_number": 49300000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 32.61,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 49400000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 59.16,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 49400000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 57.06,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 49400000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 82.75,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 49450000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 380.67,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 49450000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1036.97,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 49450000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 393.28,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 49500000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 203.36,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 49550000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1080,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 49550000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1080,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 49550000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1080,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 49690000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1446.07,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 49690000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1429.65,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 49690000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2930.57,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 49700000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 30.71,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 49700000,
+      "month": 1,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 11.96,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 49700000,
+      "month": 1,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 11.96,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 49700000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 32.1,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 49700000,
+      "month": 2,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 11.95,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 49700000,
+      "month": 2,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 11.95,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 49700000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 109.34,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 49700000,
+      "month": 3,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 11.97,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 49700000,
+      "month": 3,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 11.97,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 49800000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 539.18,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 49800000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 240.61,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 49800000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 204.01,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 49930000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 70.33,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 49930000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 70.33,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 49930000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 70.33,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 70900000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 87105.41,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 70900000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 704.16,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 70900000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 966.3,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 70900000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 831.73,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 81200000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 4429.84,
+      "date": 20210201
+    },
+    {
+      "account_number": 81200000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 14843.07,
+      "date": 20210301
+    },
+    {
+      "account_number": 81250000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 3457.21,
+      "date": 20210101
+    },
+    {
+      "account_number": 81250000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 11227.18,
+      "date": 20210201
+    },
+    {
+      "account_number": 81250000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 6247.44,
+      "date": 20210301
+    },
+    {
+      "account_number": 82000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1001.72,
+      "date": 20210101
+    },
+    {
+      "account_number": 83200000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 808.42,
+      "amount_credit": 9971.25,
+      "date": 20210101
+    },
+    {
+      "account_number": 83360000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 6899.02,
+      "date": 20210301
+    },
+    {
+      "account_number": 83370000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 38503.58,
+      "date": 20210101
+    },
+    {
+      "account_number": 83370000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 114136.22,
+      "date": 20210201
+    },
+    {
+      "account_number": 83370000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 54523.22,
+      "date": 20210301
+    },
+    {
+      "account_number": 84000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 44145.77,
+      "date": 20210101
+    },
+    {
+      "account_number": 84000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 19586.79,
+      "date": 20210201
+    },
+    {
+      "account_number": 84000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 36458.21,
+      "date": 20210301
+    },
+    {
+      "account_number": 84010000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 20667.79,
+      "date": 20210101
+    },
+    {
+      "account_number": 84010000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 21452.4,
+      "date": 20210301
+    },
+    {
+      "account_number": 84020000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 4202.65,
+      "date": 20210301
+    },
+    {
+      "account_number": 84030000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 22337.07,
+      "date": 20210101
+    },
+    {
+      "account_number": 84030000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 14913.38,
+      "date": 20210201
+    },
+    {
+      "account_number": 84050000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 18256.79,
+      "date": 20210101
+    },
+    {
+      "account_number": 84050000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 4358.72,
+      "date": 20210201
+    },
+    {
+      "account_number": 84050000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 6697.62,
+      "date": 20210301
+    },
+    {
+      "account_number": 84060000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 7732.47,
+      "date": 20210101
+    },
+    {
+      "account_number": 84060000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 19143.64,
+      "date": 20210201
+    },
+    {
+      "account_number": 84060000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 27865.54,
+      "date": 20210301
+    },
+    {
+      "account_number": 84070000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 3644.13,
+      "date": 20210101
+    },
+    {
+      "account_number": 84070000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1197.34,
+      "date": 20210201
+    },
+    {
+      "account_number": 84070000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 3539.1,
+      "date": 20210301
+    },
+    {
+      "account_number": 86010000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 192.44,
+      "date": 20210101
+    },
+    {
+      "account_number": 86010000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 192.44,
+      "date": 20210201
+    },
+    {
+      "account_number": 86010000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 192.44,
+      "date": 20210301
+    },
+    {
+      "account_number": 86020000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 229,
+      "amount_credit": 36.56,
+      "date": 20210101
+    },
+    {
+      "account_number": 86020000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 229,
+      "amount_credit": 36.56,
+      "date": 20210201
+    },
+    {
+      "account_number": 86020000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 229,
+      "amount_credit": 36.56,
+      "date": 20210301
+    },
+    {
+      "account_number": 86110000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 192.5,
+      "date": 20210101
+    },
+    {
+      "account_number": 86110000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 192.5,
+      "date": 20210201
+    },
+    {
+      "account_number": 86110000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 192.5,
+      "date": 20210301
+    },
+    {
+      "account_number": 87300000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 48.98,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 87300000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 132.9,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 87360000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 96.98,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 87360000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 135.28,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 87360000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 763.54,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 87410000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 299.57,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 87410000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 182.49,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 87420000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 101.38,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 87430000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 103.72,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 87430000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 178.63,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 89750000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 704.16,
+      "date": 20210101
+    },
+    {
+      "account_number": 89750000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 966.3,
+      "date": 20210201
+    },
+    {
+      "account_number": 89750000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 831.73,
+      "date": 20210301
+    },
+    {
+      "account_number": 90000000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1599030.51,
+      "amount_credit": 1176498.37,
+      "date": 20210101
+    },
+    {
+      "account_number": 90000000,
+      "month": 0,
+      "accounting_reason_id": 1,
+      "record_type": 1,
+      "amount_debit": 1098237.2,
+      "amount_credit": 1504867.23,
+      "date": 20210101
+    },
+    {
+      "account_number": 90000000,
+      "month": 0,
+      "accounting_reason_id": 2,
+      "record_type": 1,
+      "amount_debit": 1103156.17,
+      "amount_credit": 1509786.2,
+      "date": 20210101
+    },
+    {
+      "account_number": 90080000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 170307.03,
+      "date": 20210101
+    },
+    {
+      "account_number": 90090000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 154404.92,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 92410000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1091.6,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 92410000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 2360.5,
+      "date": 20210201
+    },
+    {
+      "account_number": 92410000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2360.5,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 92440000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1091.6,
+      "date": 20210101
+    },
+    {
+      "account_number": 92440000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2360.5,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 92440000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 2360.5,
+      "date": 20210301
+    },
+    {
+      "account_number": 100000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1720.21,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 100000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1720.21,
+      "date": 20210201
+    },
+    {
+      "account_number": 100000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3674.96,
+      "amount_credit": 1308.72,
+      "date": 20210301
+    },
+    {
+      "account_number": 100020000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5767.18,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 100030000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1225.92,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 100040000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4110.01,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 100040000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 4110.01,
+      "date": 20210101
+    },
+    {
+      "account_number": 100070000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4819.22,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 100070000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 4819.22,
+      "date": 20210201
+    },
+    {
+      "account_number": 100110000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 10473.89,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 100110000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5038.76,
+      "amount_credit": 10473.89,
+      "date": 20210301
+    },
+    {
+      "account_number": 100120000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 10448.37,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 100120000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4559.73,
+      "amount_credit": 6439.75,
+      "date": 20210301
+    },
+    {
+      "account_number": 100180000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 6610.87,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 100180000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 6610.87,
+      "date": 20210101
+    },
+    {
+      "account_number": 100200000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 6098.35,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 100200000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 6098.35,
+      "date": 20210101
+    },
+    {
+      "account_number": 102000000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2440.11,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 102000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 2440.11,
+      "date": 20210101
+    },
+    {
+      "account_number": 102000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2409.03,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 102000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4211.9,
+      "amount_credit": 2409.03,
+      "date": 20210301
+    },
+    {
+      "account_number": 103000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2114.73,
+      "amount_credit": 2114.73,
+      "date": 20210301
+    },
+    {
+      "account_number": 104000000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4442.24,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 104000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3219.58,
+      "amount_credit": 4442.24,
+      "date": 20210101
+    },
+    {
+      "account_number": 104000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 3219.58,
+      "date": 20210201
+    },
+    {
+      "account_number": 104000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 7293.89,
+      "amount_credit": 1758.18,
+      "date": 20210301
+    },
+    {
+      "account_number": 106010000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2366.11,
+      "amount_credit": 1994.39,
+      "date": 20210301
+    },
+    {
+      "account_number": 107010000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2533.96,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 107010000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1941.72,
+      "amount_credit": 2533.96,
+      "date": 20210101
+    },
+    {
+      "account_number": 107010000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1941.72,
+      "date": 20210201
+    },
+    {
+      "account_number": 109000000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3379.4,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 109000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 3379.4,
+      "date": 20210101
+    },
+    {
+      "account_number": 109000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 6899.02,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 200000000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3180.83,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 200000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 3180.83,
+      "date": 20210101
+    },
+    {
+      "account_number": 200000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2624.81,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 201000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 900,
+      "amount_credit": 900,
+      "date": 20210101
+    },
+    {
+      "account_number": 201000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 11029.73,
+      "amount_credit": 600,
+      "date": 20210201
+    },
+    {
+      "account_number": 201000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 8196.74,
+      "date": 20210301
+    },
+    {
+      "account_number": 202000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3428.48,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 202010000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3310.55,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 202020000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1506.8,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 202030000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4007.24,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 202040000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2590,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 302000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2320.13,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 302000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 2320.13,
+      "date": 20210201
+    },
+    {
+      "account_number": 303000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3457.21,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 303000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2159.44,
+      "amount_credit": 3457.21,
+      "date": 20210201
+    },
+    {
+      "account_number": 303000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2977.17,
+      "amount_credit": 5136.61,
+      "date": 20210301
+    },
+    {
+      "account_number": 400000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4429.84,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 400000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 4429.84,
+      "date": 20210301
+    },
+    {
+      "account_number": 401000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 9067.74,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 401000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3270.27,
+      "amount_credit": 5954.11,
+      "date": 20210301
+    },
+    {
+      "account_number": 600070000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2479.54,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 600070000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 2479.54,
+      "date": 20210201
+    },
+    {
+      "account_number": 600140000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5290.36,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 600140000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 5290.36,
+      "date": 20210201
+    },
+    {
+      "account_number": 600350000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4566.68,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 600350000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 7588.66,
+      "amount_credit": 12155.34,
+      "date": 20210301
+    },
+    {
+      "account_number": 600560000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 9168.08,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 600560000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 6082.93,
+      "amount_credit": 9168.08,
+      "date": 20210101
+    },
+    {
+      "account_number": 600560000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 8764.36,
+      "amount_credit": 6082.93,
+      "date": 20210201
+    },
+    {
+      "account_number": 600560000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 8764.36,
+      "date": 20210301
+    },
+    {
+      "account_number": 600630000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5330.63,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 600630000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 5330.63,
+      "date": 20210201
+    },
+    {
+      "account_number": 600770000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2597.45,
+      "amount_credit": 2597.45,
+      "date": 20210301
+    },
+    {
+      "account_number": 600980000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3698.15,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 600980000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 7203.49,
+      "amount_credit": 3698.15,
+      "date": 20210101
+    },
+    {
+      "account_number": 600980000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 7203.49,
+      "date": 20210201
+    },
+    {
+      "account_number": 601050000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 9644.9,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 601050000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 9644.9,
+      "date": 20210101
+    },
+    {
+      "account_number": 601120000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2691.56,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 601120000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3089.97,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 601120000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 5781.53,
+      "date": 20210201
+    },
+    {
+      "account_number": 601190000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5883.69,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 601190000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 5883.69,
+      "date": 20210201
+    },
+    {
+      "account_number": 601260000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 6604.33,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 601260000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 6604.33,
+      "date": 20210201
+    },
+    {
+      "account_number": 601820000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 7150.94,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 601820000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 7150.94,
+      "date": 20210201
+    },
+    {
+      "account_number": 601890000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 7874.27,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 602030000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5460.44,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 602030000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 5460.44,
+      "date": 20210201
+    },
+    {
+      "account_number": 602240000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4314.99,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 602240000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 4314.99,
+      "date": 20210101
+    },
+    {
+      "account_number": 602380000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 6235.1,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 603000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 155,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 603010000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 450,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 603020000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 6615.73,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 603030000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5545.26,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 603030000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1150,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 603040000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 270,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 603090000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 300,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 603100000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 963,
+      "amount_credit": 963,
+      "date": 20210301
+    },
+    {
+      "account_number": 603110000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 550,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 603120000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5516.53,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 603130000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 965.25,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 603140000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 6097.25,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 603160000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4215.48,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 603160000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 4215.48,
+      "date": 20210201
+    },
+    {
+      "account_number": 603170000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5166.84,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 603170000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 5166.84,
+      "date": 20210201
+    },
+    {
+      "account_number": 603180000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1078.8,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 603190000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3625.01,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 603190000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 3625.01,
+      "date": 20210101
+    },
+    {
+      "account_number": 603210000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 6133.5,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 603250000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5369.2,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 603250000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 5369.2,
+      "date": 20210101
+    },
+    {
+      "account_number": 603260000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5875.65,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 603260000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 5875.65,
+      "date": 20210101
+    },
+    {
+      "account_number": 603270000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4721.28,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 603270000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5365.88,
+      "amount_credit": 4721.28,
+      "date": 20210101
+    },
+    {
+      "account_number": 603270000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 5365.88,
+      "date": 20210201
+    },
+    {
+      "account_number": 603290000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4050.76,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 603290000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 4050.76,
+      "date": 20210101
+    },
+    {
+      "account_number": 603300000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4420.11,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 603300000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 4420.11,
+      "date": 20210201
+    },
+    {
+      "account_number": 603330000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2128.21,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 603330000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2938.27,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 603330000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 5066.48,
+      "date": 20210201
+    },
+    {
+      "account_number": 603330000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5584.7,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 603340000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5733.06,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 603350000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4265.24,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 603350000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2644.05,
+      "amount_credit": 4265.24,
+      "date": 20210101
+    },
+    {
+      "account_number": 603350000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 2644.05,
+      "date": 20210201
+    },
+    {
+      "account_number": 603360000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5001.15,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 603380000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4274.75,
+      "amount_credit": 4274.75,
+      "date": 20210301
+    },
+    {
+      "account_number": 603420000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4024.8,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 603420000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 4024.8,
+      "date": 20210101
+    },
+    {
+      "account_number": 603490000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4423.04,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 603490000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 4423.04,
+      "date": 20210201
+    },
+    {
+      "account_number": 603500000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 6952.38,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 603510000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4166.82,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 603510000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 4166.82,
+      "date": 20210101
+    },
+    {
+      "account_number": 603540000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3889.54,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 603580000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3470.05,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 603580000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 3470.05,
+      "date": 20210101
+    },
+    {
+      "account_number": 603620000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4097.45,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 603620000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 4097.45,
+      "date": 20210101
+    },
+    {
+      "account_number": 603640000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3479.5,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 603690000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 8752.47,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 603700000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 25528.36,
+      "amount_credit": 25528.36,
+      "date": 20210301
+    },
+    {
+      "account_number": 603710000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 7647.22,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 603750000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4584.3,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 603750000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 4584.3,
+      "date": 20210101
+    },
+    {
+      "account_number": 603770000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5284.85,
+      "amount_credit": 5284.85,
+      "date": 20210301
+    },
+    {
+      "account_number": 603790000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2406.55,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 603790000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 24594.67,
+      "amount_credit": 2406.55,
+      "date": 20210101
+    },
+    {
+      "account_number": 603790000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 24594.67,
+      "date": 20210201
+    },
+    {
+      "account_number": 603810000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 7373.77,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 603810000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 7373.77,
+      "date": 20210201
+    },
+    {
+      "account_number": 603820000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 6747.56,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 603820000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 6747.56,
+      "date": 20210201
+    },
+    {
+      "account_number": 603820000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5545.04,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 603830000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 6812.86,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 603830000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 6812.86,
+      "date": 20210201
+    },
+    {
+      "account_number": 603860000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 6003.8,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 603880000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5909.92,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 603890000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2485.23,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 603900000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 10742.88,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 603900000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 4636.42,
+      "date": 20210301
+    },
+    {
+      "account_number": 603930000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 23509.78,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 603930000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 23509.78,
+      "date": 20210301
+    },
+    {
+      "account_number": 603940000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3018.38,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 603940000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 3018.38,
+      "date": 20210301
+    },
+    {
+      "account_number": 603950000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2664.59,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 603950000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 2664.59,
+      "date": 20210301
+    },
+    {
+      "account_number": 603980000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2930.63,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 604000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3025.69,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 604000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 3025.69,
+      "date": 20210201
+    },
+    {
+      "account_number": 604010000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3605.27,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 604010000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 3605.27,
+      "date": 20210201
+    },
+    {
+      "account_number": 604010000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3952.81,
+      "amount_credit": 3952.81,
+      "date": 20210301
+    },
+    {
+      "account_number": 604020000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4277.33,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 604020000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 4277.33,
+      "date": 20210101
+    },
+    {
+      "account_number": 604060000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1633.24,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 604060000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1633.24,
+      "date": 20210101
+    },
+    {
+      "account_number": 604070000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 7946.84,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 604070000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 7946.84,
+      "date": 20210301
+    },
+    {
+      "account_number": 604130000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2953.89,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 604150000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2474.62,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 604150000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 2474.62,
+      "date": 20210101
+    },
+    {
+      "account_number": 604170000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 8849.89,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 604170000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 8849.89,
+      "date": 20210201
+    },
+    {
+      "account_number": 604230000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 8134.21,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 604230000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 8134.21,
+      "date": 20210301
+    },
+    {
+      "account_number": 604240000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3112.55,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 604240000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 3112.55,
+      "date": 20210201
+    },
+    {
+      "account_number": 604270000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3187.52,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 604270000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 3187.52,
+      "date": 20210101
+    },
+    {
+      "account_number": 604280000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 9550.18,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 604280000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 9550.18,
+      "date": 20210301
+    },
+    {
+      "account_number": 604290000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3999.61,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 604290000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4286.26,
+      "amount_credit": 3999.61,
+      "date": 20210101
+    },
+    {
+      "account_number": 604290000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 4286.26,
+      "date": 20210201
+    },
+    {
+      "account_number": 604340000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3846.99,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 604340000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 3846.99,
+      "date": 20210101
+    },
+    {
+      "account_number": 604370000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4291.21,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 604380000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4868.63,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 604380000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 4868.63,
+      "date": 20210101
+    },
+    {
+      "account_number": 604410000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3831.08,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 604410000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 3831.08,
+      "date": 20210101
+    },
+    {
+      "account_number": 604420000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3805.83,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 604420000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 3805.83,
+      "date": 20210101
+    },
+    {
+      "account_number": 604440000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4491.39,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 604440000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 4491.39,
+      "date": 20210201
+    },
+    {
+      "account_number": 604450000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5881.69,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 604450000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 5881.69,
+      "date": 20210301
+    },
+    {
+      "account_number": 604460000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4758.64,
+      "amount_credit": 4758.64,
+      "date": 20210301
+    },
+    {
+      "account_number": 604520000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5447.81,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 604520000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 5447.81,
+      "date": 20210301
+    },
+    {
+      "account_number": 604530000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5514.32,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 604590000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4303.82,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 604590000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 4303.82,
+      "date": 20210101
+    },
+    {
+      "account_number": 604600000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5842.36,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 604600000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 5842.36,
+      "date": 20210301
+    },
+    {
+      "account_number": 604610000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2499.93,
+      "amount_credit": 2499.93,
+      "date": 20210301
+    },
+    {
+      "account_number": 604620000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4088.71,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 604620000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 4088.71,
+      "date": 20210201
+    },
+    {
+      "account_number": 604630000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5997.81,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 606000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4732.71,
+      "amount_credit": 970.1,
+      "date": 20210101
+    },
+    {
+      "account_number": 606000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 2482.26,
+      "date": 20210201
+    },
+    {
+      "account_number": 606010000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1048.39,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 606010000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1048.39,
+      "date": 20210201
+    },
+    {
+      "account_number": 606020000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1991.94,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 606020000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1991.94,
+      "date": 20210201
+    },
+    {
+      "account_number": 606030000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1376.88,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 606030000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1376.88,
+      "date": 20210201
+    },
+    {
+      "account_number": 606040000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 650,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 606040000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 650,
+      "date": 20210201
+    },
+    {
+      "account_number": 606050000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1887.11,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 606050000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1887.11,
+      "date": 20210201
+    },
+    {
+      "account_number": 606060000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1548.54,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 699990000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4821.81,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 699990000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4336.52,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 699990000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1424.83,
+      "amount_credit": 9158.33,
+      "date": 20210201
+    },
+    {
+      "account_number": 699990000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4211.53,
+      "amount_credit": 2314.26,
+      "date": 20210301
+    },
+    {
+      "account_number": 700000000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 48469.15,
+      "date": 20210101
+    },
+    {
+      "account_number": 700000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 35539.23,
+      "amount_credit": 26680.77,
+      "date": 20210101
+    },
+    {
+      "account_number": 700000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 15707.68,
+      "amount_credit": 39370.61,
+      "date": 20210201
+    },
+    {
+      "account_number": 700000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 25770.63,
+      "amount_credit": 40083.08,
+      "date": 20210301
+    },
+    {
+      "account_number": 701000000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 25730.54,
+      "date": 20210101
+    },
+    {
+      "account_number": 701000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 10471.77,
+      "amount_credit": 6578.92,
+      "date": 20210101
+    },
+    {
+      "account_number": 701000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 19135.85,
+      "amount_credit": 17610.03,
+      "date": 20210201
+    },
+    {
+      "account_number": 701000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 12223.77,
+      "amount_credit": 22122.22,
+      "date": 20210301
+    },
+    {
+      "account_number": 702000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 5719.03,
+      "date": 20210101
+    },
+    {
+      "account_number": 702000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5719.03,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 702000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 669.31,
+      "amount_credit": 2063.46,
+      "date": 20210301
+    },
+    {
+      "account_number": 710000000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 3064.09,
+      "date": 20210101
+    },
+    {
+      "account_number": 710000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3064.09,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 710000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4393.61,
+      "amount_credit": 4393.61,
+      "date": 20210301
+    },
+    {
+      "account_number": 730000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 638.04,
+      "amount_credit": 638.04,
+      "date": 20210301
+    },
+    {
+      "account_number": 800000000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 6006.9,
+      "date": 20210101
+    },
+    {
+      "account_number": 800000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 5468.72,
+      "date": 20210101
+    },
+    {
+      "account_number": 800000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3172.95,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 800000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5468.72,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 802000000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 6432.45,
+      "date": 20210101
+    },
+    {
+      "account_number": 802000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2941.41,
+      "amount_credit": 9519.06,
+      "date": 20210101
+    },
+    {
+      "account_number": 802000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 2096.07,
+      "date": 20210201
+    },
+    {
+      "account_number": 802000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 8022.92,
+      "amount_credit": 972.62,
+      "date": 20210301
+    },
+    {
+      "account_number": 803000000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 7968.8,
+      "date": 20210101
+    },
+    {
+      "account_number": 803000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5955.76,
+      "amount_credit": 4344.75,
+      "date": 20210101
+    },
+    {
+      "account_number": 803000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4344.75,
+      "amount_credit": 3636.88,
+      "date": 20210201
+    },
+    {
+      "account_number": 803000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 3636.88,
+      "amount_credit": 504.57,
+      "date": 20210301
+    },
+    {
+      "account_number": 804000000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1316.2,
+      "date": 20210101
+    },
+    {
+      "account_number": 804000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1594.86,
+      "date": 20210101
+    },
+    {
+      "account_number": 804000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2911.06,
+      "amount_credit": 674.59,
+      "date": 20210201
+    },
+    {
+      "account_number": 804000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1874.98,
+      "amount_credit": 1200.39,
+      "date": 20210301
+    },
+    {
+      "account_number": 811000000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 2805.25,
+      "date": 20210101
+    },
+    {
+      "account_number": 811000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 7479.16,
+      "date": 20210101
+    },
+    {
+      "account_number": 811000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2805.25,
+      "amount_credit": 3850.68,
+      "date": 20210201
+    },
+    {
+      "account_number": 811000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 11329.84,
+      "amount_credit": 7657.87,
+      "date": 20210301
+    },
+    {
+      "account_number": 812000000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 20286.53,
+      "date": 20210101
+    },
+    {
+      "account_number": 812000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 8228.55,
+      "amount_credit": 12858.74,
+      "date": 20210101
+    },
+    {
+      "account_number": 812000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 15939.23,
+      "amount_credit": 36711.67,
+      "date": 20210201
+    },
+    {
+      "account_number": 812000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 23096.09,
+      "amount_credit": 11165.03,
+      "date": 20210301
+    },
+    {
+      "account_number": 813000000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 22214.06,
+      "date": 20210101
+    },
+    {
+      "account_number": 813000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 8440.1,
+      "amount_credit": 7130.55,
+      "date": 20210101
+    },
+    {
+      "account_number": 813000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 15428.66,
+      "amount_credit": 7627.29,
+      "date": 20210201
+    },
+    {
+      "account_number": 813000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 13103.14,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 814000000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 4138.68,
+      "date": 20210101
+    },
+    {
+      "account_number": 814000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 5732.3,
+      "date": 20210101
+    },
+    {
+      "account_number": 814000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 4138.68,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 814000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 5732.3,
+      "amount_credit": 10749.13,
+      "date": 20210301
+    },
+    {
+      "account_number": 815000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 59.44,
+      "date": 20210101
+    },
+    {
+      "account_number": 815000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 59.44,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 815000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 15.25,
+      "date": 20210301
+    },
+    {
+      "account_number": 816000000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 149.02,
+      "date": 20210101
+    },
+    {
+      "account_number": 816000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 149.02,
+      "amount_credit": 97.1,
+      "date": 20210201
+    },
+    {
+      "account_number": 816000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 97.1,
+      "amount_credit": 14.39,
+      "date": 20210301
+    },
+    {
+      "account_number": 816060000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 2809,
+      "date": 20210201
+    },
+    {
+      "account_number": 816060000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2809,
+      "amount_credit": 0,
+      "date": 20210301
+    },
+    {
+      "account_number": 817000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1231.95,
+      "amount_credit": 1231.95,
+      "date": 20210301
+    },
+    {
+      "account_number": 818000000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 138.63,
+      "date": 20210101
+    },
+    {
+      "account_number": 818000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 138.63,
+      "amount_credit": 119.33,
+      "date": 20210101
+    },
+    {
+      "account_number": 818000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 6.51,
+      "date": 20210201
+    },
+    {
+      "account_number": 818000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 6.51,
+      "amount_credit": 391.7,
+      "date": 20210301
+    },
+    {
+      "account_number": 818500000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1299,
+      "date": 20210101
+    },
+    {
+      "account_number": 818500000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1299,
+      "amount_credit": 0,
+      "date": 20210101
+    },
+    {
+      "account_number": 819000000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 428.15,
+      "date": 20210101
+    },
+    {
+      "account_number": 819000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 428.15,
+      "amount_credit": 0,
+      "date": 20210201
+    },
+    {
+      "account_number": 819500000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 219.53,
+      "date": 20210201
+    },
+    {
+      "account_number": 819500000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 219.53,
+      "amount_credit": 1548.15,
+      "date": 20210301
+    },
+    {
+      "account_number": 820000000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1537.32,
+      "date": 20210101
+    },
+    {
+      "account_number": 820000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 1695.42,
+      "date": 20210101
+    },
+    {
+      "account_number": 820000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 1695.42,
+      "amount_credit": 910.08,
+      "date": 20210201
+    },
+    {
+      "account_number": 820000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 910.08,
+      "amount_credit": 733.67,
+      "date": 20210301
+    },
+    {
+      "account_number": 901000000,
+      "month": 2,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 265.61,
+      "date": 20210201
+    },
+    {
+      "account_number": 910000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 250,
+      "date": 20210301
+    },
+    {
+      "account_number": 911000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 594,
+      "date": 20210301
+    },
+    {
+      "account_number": 912000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 450,
+      "date": 20210301
+    },
+    {
+      "account_number": 913000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 500,
+      "date": 20210301
+    },
+    {
+      "account_number": 914000000,
+      "month": 3,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 600,
+      "date": 20210301
+    },
+    {
+      "account_number": 920000000,
+      "month": 0,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 0,
+      "amount_credit": 2420.15,
+      "date": 20210101
+    },
+    {
+      "account_number": 920000000,
+      "month": 1,
+      "accounting_reason_id": 0,
+      "record_type": 1,
+      "amount_debit": 2420.15,
+      "amount_credit": 0,
+      "date": 20210101
+    }
+  ]
+}

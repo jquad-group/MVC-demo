@@ -1,0 +1,16 @@
+[
+  {
+    "account_number": 14000000,
+    "anlag_accounting_reason": 30,
+    "asset_category": 1,
+    "inventory_name": "Firmenwert",
+    "inventory_number": "140001"
+  },
+  {
+    "account_number": 14000001,
+    "anlag_accounting_reason": 50,
+    "asset_category": 1,
+    "inventory_name": "Grundstück Musterhobelweg 10",
+    "inventory_number": "140002"
+  }
+]

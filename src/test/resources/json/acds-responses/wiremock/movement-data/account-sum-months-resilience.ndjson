@@ -1,0 +1,11 @@
+{"account_number":110000000,"month":5,"accounting_reason_id":0,"record_type":1,"amount_debit":1000.55,"amount_credit":100.65}
+{"account_number":110000001,"month":5,"accounting_reason_id":0,"record_type":1,"amount_debit":1000.55,"amount_credit":100.65}
+{"account_number":120000000,"month":5,"accounting_reason_id":1,"record_type":1,"amount_debit":1000.55,"amount_credit":100.65}
+{"account_number":210000000,"month":5,"accounting_reason_id":0,"record_type":1,"amount_debit":1000.55,"amount_credit":100.65}
+{"account_number":210000000,"month":5,"accounting_reason_id":0,"record_type":1,"amount_debit":1000.55,"amount_credit":100.65}
+{"account_number":210000000,"month":6,"accounting_reason_id":0,"record_type":1,"amount_debit":1000.55,"amount_credit":100.65}
+{"account_number":210000001,"month":5,"accounting_reason_id":0,"record_type":1,"amount_debit":1000.55,"amount_credit":100.65}
+{"account_number":310000000,"month":1,"accounting_reason_id":0,"record_type":1,"amount_debit":1000.55,"amount_credit":100.65}
+{"account_number":410000000,"month":1,"accounting_reason_id":0,"record_type":1,"amount_debit":1000.55,"amount_credit":100.65}
+{"account_number":510000000,"month":1,"accounting_reason_id":0,"record_type":1,"amount_debit":1000.55,"amount_credit":100.65}
+{"account_number":610000000,"month":2,"accounting_reason_id":0,"record_type":1,"amount_debit":1000.55,"amount_credit":100.65}

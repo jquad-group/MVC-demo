@@ -1,0 +1,67 @@
+[
+  {
+    "_id": {
+      "$oid": "65e5f7c4676b0d47d0169dd6"
+    },
+    "account_number": 100000000,
+    "accounting_reason_id": 0,
+    "additional_params": {
+      "cost1": "200",
+      "tax_rate": {
+        "$numberDecimal": "0.19"
+      }
+    },
+    "client": 55003,
+    "consultant": 29098,
+    "fiscal_year": 20210101,
+    "values": {
+      "m5": {
+        "amount_credit": 10065,
+        "amount_debit": 100055
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65e5f7c4676b0d47d0169dd9"
+    },
+    "account_number": 110000000,
+    "accounting_reason_id": 0,
+    "additional_params": {
+      "tax_rate": {
+        "$numberDecimal": "0.19"
+      }
+    },
+    "client": 55003,
+    "consultant": 29098,
+    "fiscal_year": 20210101,
+    "values": {
+      "m5": {
+        "amount_credit": 10065,
+        "amount_debit": 100055
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65e5f7c4676b0d47d0169dda"
+    },
+    "account_number": 110000000,
+    "accounting_reason_id": 0,
+    "additional_params": {
+      "record_type": 2,
+      "tax_rate": {
+        "$numberDecimal": "0.19"
+      }
+    },
+    "client": 55003,
+    "consultant": 29098,
+    "fiscal_year": 20210101,
+    "values": {
+      "m5": {
+        "amount_credit": 200065,
+        "amount_debit": 10055
+      }
+    }
+  }
+]

@@ -1,0 +1,12 @@
+# For manual push on service refsys-aggregation-query-service_develop
+# Use the following command: cf push -f manifest-for-testing.yml --vars-file vars-testing-manual.yml
+spring-profiles-active: dev
+acds-client-basepath: https://acds-refsys.api.dev.datev.de/datev
+jwt-keyset-url: https://api.dev.datev.de/certs
+kmvz-enabled: true
+delta-event-enabled: false
+circuitbreaker-enabled: false
+iasd-enabled: true
+application-name: refsys-aggregation-processing-service_develop
+memory: 2048M
+instances: 1

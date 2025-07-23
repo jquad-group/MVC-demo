@@ -1,0 +1,56 @@
+{
+  "shareholder_relations": [
+    {
+      "date_from": 20220101,
+      "date_to": 20220630,
+      "relation_shareholder_id": "ba3adcfd-35dc-4b50-ad82-237d2b3c53a1",
+      "rw_shareholder_id": "9c18c30b-ac17-451f-81c7-1b9b26dd73fe",
+      "valid_from": 20210101,
+      "valid_to": 20211231,
+      "investment_type": "TREUH",
+      "signatories_number": "3234WER234",
+      "earnings_share_percent": 15.1,
+      "earnings_share_fraction": "1/4",
+      "personal_share_percent": 1.15,
+      "personal_share_amount": 1832.65,
+      "personal_share_fraction": "1/4",
+      "liability": "VH"
+    }
+  ],
+  "shareholder_additions": [
+    {
+      "date_from": 20220101,
+      "date_to": 20220630,
+      "relation_shareholder_id": "ba3adcfd-35dc-4b50-ad82-237d2b3c53a1",
+      "rw_shareholder_id": "9c18c30b-ac17-451f-81c7-1b9b26dd73fe",
+      "account_name": 9601,
+      "investment_number": 12345
+    }
+  ],
+  "shareholder_addressees": [
+    {
+      "date_from": 20220101,
+      "date_to": 20220630,
+      "addressee_id": "9c18c30b-ac17-451f-81c7-1b9b26dd73fe",
+      "addressee_type": 1,
+      "identification_number": "12345678911",
+      "company_name": "Müller GmbH",
+      "first_name": "Peter",
+      "last_name": "Tester",
+      "academic_degree": "Dr.",
+      "title_of_nobility": "Baron",
+      "name_prefix": "von",
+      "name": "Peter Tester"
+    }
+  ],
+  "shareholder_tax_offices": [
+    {
+      "date_from": 20220101,
+      "date_to": 20220630,
+      "addressee_id": "9c18c30b-ac17-451f-81c7-1b9b26dd73fe",
+      "tax_office_no": "9201",
+      "tax_number": "201/201/80151",
+      "standardized_tax_number": "9201020180151"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+### Skip generation of these files and folders ###
+.gitignore
+.travis.yml
+build.gradle
+build.sbt
+git_push.sh
+gradle.properties
+gradlew
+gradlew.bat
+pom.xml
+settings.gradle
+README.md
+.github/
+.openapi-generator/
+api/
+gradle/
+src/main/AndroidManifest.xml

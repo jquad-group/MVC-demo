@@ -1,0 +1,92 @@
+spring:
+  data:
+    mongodb:
+      database: 'refsys-aggregation-processing'
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration
+      - org.springframework.boot.actuate.autoconfigure.security.reactive.ReactiveManagementWebSecurityAutoConfiguration
+
+wiremock:
+  server:
+    port: 7546
+
+ref-sys:
+  circuitbreaker-enabled: true
+  iasd-enabled: true
+  mongodb:
+    # if you have a breakpoint in the AccountingDataServiceA2.processEventInTransaction method, increase this value and revert it once done with debugging
+    transaction-timeout-in-ms: 300000
+  client:
+    acds:
+      base-path: http://localhost:${wiremock.server.port}/datev
+      client-id: ---
+      client-secret: ---
+      timeout-in-ms: 300
+  initial-load:
+    max-import-duration-in-ms: 1000
+    parking-time-in-ms: 500
+    inventories-buffer-size: 5
+    account-sum-days-buffer-size: 5
+  update-schema:
+    schema-version: 1
+
+
+kafka-config:
+  # Conditional property to disable kafka in test environment
+  enabled: false
+
+resilience4j:
+  retry:
+    retryAspectOrder: 2
+    configs:
+      shared-retry-config:
+        max-attempts: 2
+        wait-duration: 1
+        enable-exponential-backoff: true
+        exponential-backoff-multiplier: 0.1
+        exponential-max-wait-duration: 10
+  circuitbreaker:
+    circuitBreakerAspectOrder: 1
+    configs:
+      shared-config:
+        slidingWindowSize: 4
+        minimumNumberOfCalls: 2
+        waitDurationInOpenState: 50
+        automatic-transition-from-open-to-half-open-enabled: true
+        permitted-number-of-calls-in-half-open-state: 2
+        failure-rate-threshold: 50
+
+features:
+  kmvz-processing:
+    initial-load-enabled: true
+    delta-event-enabled: true
+
+logging:
+    level:
+      kafka:
+        server:
+          KafkaConfig: WARN
+      io.opentelemetry.exporter.internal.http.HttpExporter: OFF
+otel:
+  sdk:
+    disabled: false
+  exporter:
+    otlp:
+      #start docker.io/grafana/otel-lgtm to use this (https://hub.docker.com/r/grafana/otel-lgtm)
+      #podman run -p 3000:3000 -p 4317:4317 -p 4318:4318 --rm -ti grafana/otel-lgtm
+      endpoint: http://localhost:4318
+  resource:
+    attributes:
+      deployment.environment: local-test
+      deployment.environment.name: local_test
+      service:
+        name: processing-service
+        namespace: refsys.aggregation
+        instance.id: local
+        instance.number: 0
+      cloud:
+        provider: datev
+        datacenter: local
+        platform: local
+        resource.id: local

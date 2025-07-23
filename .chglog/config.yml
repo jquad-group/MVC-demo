@@ -1,0 +1,33 @@
+style: gitlab
+template: CHANGELOG.tpl.md
+info:
+  title: CHANGELOG
+  repository_url: https://git.datev.de/refsys-online/aggregation-service/refsys-aggregation-processing-service
+options:
+  tag_filter_pattern: '^(\d+\.\d+\.\d+)$'
+  commits:
+    filters:
+      Type:
+        - feat
+        - fix
+        - perf
+        - refactor
+        - chore
+  commit_groups:
+    group by: Type
+    title_maps:
+      feat: Features
+      fix: Bug Fixes
+      refactor: Code Refactoring
+      perf: Performance Improvements
+      test: Tests
+      chore: Others
+  header:
+    pattern: "^(\\w*)(?:\\(([\\w\\$\\.\\-\\*\\s]*)\\))?\\:\\s?(.*)$"
+    pattern_maps:
+      - Type
+      - Scope
+      - Subject
+  notes:
+    keywords:
+      - "| datasource | package "

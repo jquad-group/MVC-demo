@@ -1,0 +1,4 @@
+jenkins:
+  pipelines:
+    publishApiSpec:
+      multibranch: false

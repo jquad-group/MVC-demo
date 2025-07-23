@@ -1,0 +1,45 @@
+spring:
+  data:
+    mongodb:
+      database: 'refsys-aggregation-processing'
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration
+      - org.springframework.boot.actuate.autoconfigure.security.reactive.ReactiveManagementWebSecurityAutoConfiguration
+
+ref-sys:
+  circuitbreaker-enabled: false
+  iasd-enabled: false
+  mongodb:
+    # if you have a breakpoint in the AccountingDataServiceA2.processEventInTransaction method, increase this value and revert it once done with debugging
+    transaction-timeout-in-ms: 300000
+  client:
+    acds:
+      base-path: ---
+      client-id: ---
+      client-secret: ---
+      timeout-in-ms: 300
+  initial-load:
+    max-import-duration-in-ms: 1000
+    parking-time-in-ms: 500
+    inventories-buffer-size: 5
+    account-sum-days-buffer-size: 5
+  update-schema:
+    schema-version: 1
+
+kafka-config:
+  # Conditional property to disable kafka in test environment
+  enabled: false
+
+features:
+  kmvz-processing:
+    initial-load-enabled: true
+    delta-event-enabled: true
+
+logging:
+  level:
+    io.opentelemetry.exporter.internal.http.HttpExporter: OFF
+    root: info
+otel:
+  sdk:
+    disabled: true

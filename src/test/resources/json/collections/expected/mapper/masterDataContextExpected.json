@@ -1,0 +1,80 @@
+{
+  "consultant": 29098,
+  "client": 55003,
+  "client_name": "Musterholz GmbH",
+  "year_begin": 20210101,
+  "year_end": 20211231,
+  "account_system": 3,
+  "industry_no": 0,
+  "industry_id": 0,
+  "section_no": 0,
+  "account_purpose_mapping_enabled": "EXTERN",
+  "account_length": 4,
+  "base_currency_code": "EUR",
+  "use_skr_following_year": false,
+  "legal_form": "KAP",
+  "national_right": "DE",
+  "company_size_class": "KLEIN",
+  "income_statement_method": "GESAMTKOSTENVERFAHREN",
+  "type_of_income": "GEWERBEBETRIEB",
+  "special_taxation": "STANDARDBILANZ",
+  "is_using_shareholder_attribute": false,
+  "use_previous_year_account_translation": false,
+  "use_alternative_account_translation": false,
+  "alternative_account_translation_order_numeric": false,
+  "force_reftab_current_year": false,
+  "accounting_reasons": [
+    {
+      "id": 1,
+      "accounting_reason": "INDEPENDENT_FROM_ACCOUNTING_REASON",
+      "method_of_determining_net_income": "BILANZ",
+      "permitted_accounting_reasons": "UNBEKANNT"
+    },
+    {
+      "id": 2,
+      "accounting_reason": "RESERVED1",
+      "method_of_determining_net_income": "EUER",
+      "permitted_accounting_reasons": "HGB"
+    },
+    {
+      "id": 3,
+      "accounting_reason": "RESERVED2",
+      "method_of_determining_net_income": "GEUER",
+      "permitted_accounting_reasons": "STEUERRECHT"
+    },
+    {
+      "id": 4,
+      "accounting_reason": "TAX_LAW",
+      "method_of_determining_net_income": "UEBERSCHUSSRECHNER",
+      "permitted_accounting_reasons": "EINHEITSBILANZ"
+    },
+    {
+      "id": 5,
+      "accounting_reason": "FOR_CALCULATION",
+      "method_of_determining_net_income": "BILANZ",
+      "permitted_accounting_reasons": "IFRS"
+    },
+    {
+      "id": 6,
+      "accounting_reason": "COMMERCIAL_LAW",
+      "method_of_determining_net_income": "BILANZ",
+      "permitted_accounting_reasons": "KONZERN"
+    },
+    {
+      "id": 7,
+      "accounting_reason": "IFRS",
+      "method_of_determining_net_income": "BILANZ",
+      "permitted_accounting_reasons": "HGB"
+    }
+  ],
+  "reporting_options": [
+    {
+      "option_id": 0,
+      "element_id": 0
+    }
+  ],
+  "supported_languages": [
+    "de_DE",
+    "en_GB"
+  ]
+}

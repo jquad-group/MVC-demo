@@ -1,0 +1,278 @@
+[
+  {
+    "_id": {
+      "$oid": "66c2eaefff29b1c1ca81e416"
+    },
+    "account_number": 14000001,
+    "anlag_accounting_reason": 30,
+    "client": 55003,
+    "consultant": 29098,
+    "fiscal_year": 20210101,
+    "inventory_values": [
+      {
+        "inventory_number": "140002",
+        "stand_wj_beg_ahk": 10225838,
+        "stand_wj_beg_bw": 10225838,
+        "stand_wj_end_ahk": 10225838,
+        "stand_wj_end_bw": 10225838
+      },
+      {
+        "abschreibun_bw_summe": 250600,
+        "inventory_number": "140003",
+        "stand_wj_beg_abschr": 8018651,
+        "stand_wj_beg_ahk": 12526651,
+        "stand_wj_beg_bw": 4508000,
+        "stand_wj_end_abschr": 8269251,
+        "stand_wj_end_ahk": 12526651,
+        "stand_wj_end_bw": 4257400,
+        "zugang_abschr_summe": 250600
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66c2eaefff29b1c1ca81e417"
+    },
+    "account_number": 14000002,
+    "anlag_accounting_reason": 50,
+    "client": 55003,
+    "consultant": 29098,
+    "fiscal_year": 20210101,
+    "inventory_values": [
+      {
+        "abschreibun_bw_summe": 373700,
+        "inventory_number": "140004",
+        "stand_wj_beg_abschr": 8782390,
+        "stand_wj_beg_ahk": 9342990,
+        "stand_wj_beg_bw": 560600,
+        "stand_wj_end_abschr": 9156090,
+        "stand_wj_end_ahk": 9342990,
+        "stand_wj_end_bw": 186900,
+        "zugang_abschr_summe": 373700
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66c2eaefff29b1c1ca81e418"
+    },
+    "account_number": 14000002,
+    "anlag_accounting_reason": 30,
+    "client": 55003,
+    "consultant": 29098,
+    "fiscal_year": 20210101,
+    "inventory_values": [
+      {
+        "abschreibun_bw_summe": 373700,
+        "inventory_number": "140004",
+        "stand_wj_beg_abschr": 8782390,
+        "stand_wj_beg_ahk": 9342990,
+        "stand_wj_beg_bw": 560600,
+        "stand_wj_end_abschr": 9156090,
+        "stand_wj_end_ahk": 9342990,
+        "stand_wj_end_bw": 186900,
+        "zugang_abschr_summe": 373700
+      },
+      {
+        "abschreibun_bw_summe": 373700,
+        "inventory_number": "140005",
+        "stand_wj_beg_abschr": 8782390,
+        "stand_wj_beg_ahk": 9342990,
+        "stand_wj_beg_bw": 560600,
+        "stand_wj_end_abschr": 9156090,
+        "stand_wj_end_ahk": 9342990,
+        "stand_wj_end_bw": 186900,
+        "zugang_abschr_summe": 373700
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66c2eaefff29b1c1ca81e419"
+    },
+    "account_number": 14000001,
+    "anlag_accounting_reason": 50,
+    "client": 55003,
+    "consultant": 29098,
+    "fiscal_year": 20210101,
+    "inventory_values": [
+      {
+        "inventory_number": "140002",
+        "stand_wj_beg_ahk": 10225838,
+        "stand_wj_beg_bw": 10225838,
+        "stand_wj_end_ahk": 10225838,
+        "stand_wj_end_bw": 10225838
+      },
+      {
+        "abschreibun_bw_summe": 250600,
+        "inventory_number": "140003",
+        "stand_wj_beg_abschr": 8018651,
+        "stand_wj_beg_ahk": 12526651,
+        "stand_wj_beg_bw": 4508000,
+        "stand_wj_end_abschr": 8269251,
+        "stand_wj_end_ahk": 12526651,
+        "stand_wj_end_bw": 4257400,
+        "zugang_abschr_summe": 250600
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66c2eaefff29b1c1ca81e41a"
+    },
+    "account_number": 14000000,
+    "anlag_accounting_reason": 30,
+    "client": 55003,
+    "consultant": 29098,
+    "fiscal_year": 20210101,
+    "inventory_values": [
+      {
+        "inventory_number": "140001",
+        "stand_wj_beg_abschr": 3834589,
+        "stand_wj_beg_ahk": 3834689,
+        "stand_wj_beg_bw": 100,
+        "stand_wj_end_abschr": 3834589,
+        "stand_wj_end_ahk": 3834689,
+        "stand_wj_end_bw": 100
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66c2eaefff29b1c1ca81e416"
+    },
+    "account_number": 14000001,
+    "anlag_accounting_reason": 30,
+    "client": 55003,
+    "consultant": 29098,
+    "fiscal_year": 20200101,
+    "inventory_values": [
+      {
+        "inventory_number": "140002",
+        "stand_wj_beg_ahk": 10225838,
+        "stand_wj_beg_bw": 10225838,
+        "stand_wj_end_ahk": 10225838,
+        "stand_wj_end_bw": 10225838
+      },
+      {
+        "abschreibun_bw_summe": 250600,
+        "inventory_number": "140003",
+        "stand_wj_beg_abschr": 8018651,
+        "stand_wj_beg_ahk": 12526651,
+        "stand_wj_beg_bw": 4508000,
+        "stand_wj_end_abschr": 8269251,
+        "stand_wj_end_ahk": 12526651,
+        "stand_wj_end_bw": 4257400,
+        "zugang_abschr_summe": 250600
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66c2eaefff29b1c1ca81e417"
+    },
+    "account_number": 14000002,
+    "anlag_accounting_reason": 50,
+    "client": 55003,
+    "consultant": 29098,
+    "fiscal_year": 20200101,
+    "inventory_values": [
+      {
+        "abschreibun_bw_summe": 373700,
+        "inventory_number": "140004",
+        "stand_wj_beg_abschr": 8782390,
+        "stand_wj_beg_ahk": 9342990,
+        "stand_wj_beg_bw": 560600,
+        "stand_wj_end_abschr": 9156090,
+        "stand_wj_end_ahk": 9342990,
+        "stand_wj_end_bw": 186900,
+        "zugang_abschr_summe": 373700
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66c2eaefff29b1c1ca81e418"
+    },
+    "account_number": 14000002,
+    "anlag_accounting_reason": 30,
+    "client": 55003,
+    "consultant": 29098,
+    "fiscal_year": 20200101,
+    "inventory_values": [
+      {
+        "abschreibun_bw_summe": 373700,
+        "inventory_number": "140004",
+        "stand_wj_beg_abschr": 8782390,
+        "stand_wj_beg_ahk": 9342990,
+        "stand_wj_beg_bw": 560600,
+        "stand_wj_end_abschr": 9156090,
+        "stand_wj_end_ahk": 9342990,
+        "stand_wj_end_bw": 186900,
+        "zugang_abschr_summe": 373700
+      },
+      {
+        "abschreibun_bw_summe": 373700,
+        "inventory_number": "140005",
+        "stand_wj_beg_abschr": 8782390,
+        "stand_wj_beg_ahk": 9342990,
+        "stand_wj_beg_bw": 560600,
+        "stand_wj_end_abschr": 9156090,
+        "stand_wj_end_ahk": 9342990,
+        "stand_wj_end_bw": 186900,
+        "zugang_abschr_summe": 373700
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66c2eaefff29b1c1ca81e419"
+    },
+    "account_number": 14000001,
+    "anlag_accounting_reason": 50,
+    "client": 55003,
+    "consultant": 29098,
+    "fiscal_year": 20200101,
+    "inventory_values": [
+      {
+        "inventory_number": "140002",
+        "stand_wj_beg_ahk": 10225838,
+        "stand_wj_beg_bw": 10225838,
+        "stand_wj_end_ahk": 10225838,
+        "stand_wj_end_bw": 10225838
+      },
+      {
+        "abschreibun_bw_summe": 250600,
+        "inventory_number": "140003",
+        "stand_wj_beg_abschr": 8018651,
+        "stand_wj_beg_ahk": 12526651,
+        "stand_wj_beg_bw": 4508000,
+        "stand_wj_end_abschr": 8269251,
+        "stand_wj_end_ahk": 12526651,
+        "stand_wj_end_bw": 4257400,
+        "zugang_abschr_summe": 250600
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66c2eaefff29b1c1ca81e41a"
+    },
+    "account_number": 14000000,
+    "anlag_accounting_reason": 30,
+    "client": 55003,
+    "consultant": 29098,
+    "fiscal_year": 20200101,
+    "inventory_values": [
+      {
+        "inventory_number": "140001",
+        "stand_wj_beg_abschr": 3834589,
+        "stand_wj_beg_ahk": 3834689,
+        "stand_wj_beg_bw": 100,
+        "stand_wj_end_abschr": 3834589,
+        "stand_wj_end_ahk": 3834689,
+        "stand_wj_end_bw": 100
+      }
+    ]
+  }
+]

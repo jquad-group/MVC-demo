@@ -1,0 +1,17 @@
+{
+  "tax_rate": {
+    "$numberDecimal": "0.19"
+  },
+  "record_type": 0,
+  "rw_shareholder_id": {
+    "$binary": {
+      "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+      "subType": "03"
+    }
+  },
+  "cost1": "91",
+  "cost2": "A1",
+  "agriculture_and_forestry_account_type": 25
+}
+
+

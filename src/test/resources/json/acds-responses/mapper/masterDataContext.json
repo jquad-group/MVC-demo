@@ -1,0 +1,94 @@
+{
+  "consultant": 29098,
+  "client": 55003,
+  "client_name": "Musterholz GmbH",
+  "year_begin": 20210101,
+  "year_end": 20211231,
+  "account_system": 3,
+  "industry_no": 0,
+  "industry_id": 0,
+  "section_no": 0,
+  "account_purpose_mapping_enabled": 2,
+  "account_length": 4,
+  "base_currency_code": "EUR",
+  "use_skr_following_year": false,
+  "use_consultant_accounting_functions": false,
+  "use_client_accounting_functions": true,
+  "legal_form": 2,
+  "national_right": "DE",
+  "company_size_class": 4,
+  "income_statement_method": 1,
+  "type_of_income": 1,
+  "special_taxation": 0,
+  "is_using_shareholder_attribute": false,
+  "use_organisation_account_caption": false,
+  "use_previous_year_account_translation": false,
+  "use_alternative_account_translation": false,
+  "alternative_account_translation_order_numeric": false,
+  "use_refsys": false,
+  "force_reftab_current_year": false,
+  "kind_of_financial_institution": null,
+  "accounting_reasons": [
+    {
+      "id": 1,
+      "accounting_reason": 0,
+      "method_of_determining_net_income": 1,
+      "permitted_accounting_reasons": 0,
+      "caption": null
+    },
+    {
+      "id": 2,
+      "accounting_reason": 11,
+      "method_of_determining_net_income": 2,
+      "permitted_accounting_reasons": 1,
+      "caption": null
+    },
+    {
+      "id": 3,
+      "accounting_reason": 12,
+      "method_of_determining_net_income": 4,
+      "permitted_accounting_reasons": 2,
+      "caption": null
+    },
+    {
+      "id": 4,
+      "accounting_reason": 30,
+      "method_of_determining_net_income": 8,
+      "permitted_accounting_reasons": 3,
+      "caption": null
+    },
+    {
+      "id": 5,
+      "accounting_reason": 40,
+      "method_of_determining_net_income": 1,
+      "permitted_accounting_reasons": 4,
+      "caption": null
+    },
+    {
+      "id": 6,
+      "accounting_reason": 50,
+      "method_of_determining_net_income": 1,
+      "permitted_accounting_reasons": 8,
+      "caption": null
+    },
+    {
+      "id": 7,
+      "accounting_reason": 64,
+      "method_of_determining_net_income": 1,
+      "permitted_accounting_reasons": 1,
+      "caption": null
+    }
+  ],
+  "reporting_options": [
+    {
+      "option_id": 0,
+      "element_id": 0
+    }
+  ],
+  "supported_languages": [
+    "de_DE",
+    "en_GB"
+  ],
+  "base_version": 6,
+  "delta_version": 0
+}

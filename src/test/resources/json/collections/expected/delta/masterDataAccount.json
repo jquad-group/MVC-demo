@@ -1,0 +1,101 @@
+[
+  {
+    "_id": {
+      "$oid": "682b24105f364908ac3d1a2c"
+    },
+    "account_captions": [
+      {
+        "account_number": 110000000,
+        "captions": {
+          "de-DE": {
+            "caption": "Ähnl. Rechte, Werte, entgeltl. erworben"
+          },
+          "en-GB": {
+            "caption": "Other rights and assets"
+          }
+        },
+        "used": true
+      }
+    ],
+    "account_number_from": 110000000,
+    "account_number_to": 110000000,
+    "client": 55003,
+    "consultant": 29098,
+    "purpose": {
+      "industry_no": 0,
+      "ref_no": 11030,
+      "ref_subno": 0,
+      "ref_type": 0,
+      "section_no": 0
+    },
+    "used": true,
+    "year_begin": 20210101,
+    "year_end": 20211231
+  },
+  {
+    "_id": {
+      "$oid": "682b24105f364908ac3d1a2d"
+    },
+    "account_captions": [
+      {
+        "account_number": 110000001,
+        "captions": {
+          "de-DE": {
+            "caption": "EDV-Software, entgeltl. erworben"
+          },
+          "en-GB": {
+            "caption": "Computer software"
+          }
+        },
+        "used": true
+      }
+    ],
+    "account_number_from": 110000001,
+    "account_number_to": 110000001,
+    "client": 55003,
+    "consultant": 29098,
+    "purpose": {
+      "industry_no": 0,
+      "ref_no": 11040,
+      "ref_subno": 0,
+      "ref_type": 0,
+      "section_no": 0
+    },
+    "used": true,
+    "year_begin": 20210101,
+    "year_end": 20211231
+  },
+  {
+    "_id": {
+      "$oid": "682b24105f364908ac3d1a3d"
+    },
+    "account_captions": [
+      {
+        "account_number": 110000002,
+        "captions": {
+          "de-DE": {
+            "caption": "neu"
+          },
+          "en-GB": {
+            "caption": "neu"
+          }
+        },
+        "used": true
+      }
+    ],
+    "account_number_from": 110000002,
+    "account_number_to": 110000002,
+    "client": 55003,
+    "consultant": 29098,
+    "purpose": {
+      "industry_no": 0,
+      "ref_no": 11040,
+      "ref_subno": 0,
+      "ref_type": 0,
+      "section_no": 0
+    },
+    "used": true,
+    "year_begin": 20210101,
+    "year_end": 20211231
+  }
+]

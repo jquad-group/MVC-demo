@@ -1,0 +1,53 @@
+[
+  {
+    "report_structure_id": 1,
+    "industry_no": 1,
+    "section_no": 1,
+    "indiv_no": 1,
+    "is_organisation_data": true,
+    "administration_type": 1,
+    "copy_from_comprehensive_consultant": 1,
+    "major_version": 1,
+    "minor_version": 1,
+    "base_report_structure_id": 1,
+    "base_industry_no": 1,
+    "base_section_no": 1,
+    "base_indiv_no": 1,
+    "read_only": true,
+    "national_right": "DE",
+    "caption": "Test Caption",
+    "content": "Test Content"
+  },
+  {
+    "administration_type": 2,
+    "copy_from_comprehensive_consultant": 0,
+    "major_version": 2,
+    "minor_version": 2,
+    "base_report_structure_id": 2,
+    "base_industry_no": 2,
+    "base_section_no": 2,
+    "base_indiv_no": 2,
+    "read_only": false,
+    "caption": "Test Caption",
+    "content": "Test Content"
+  },
+  {
+    "report_structure_id": 2,
+    "industry_no": 0,
+    "section_no": 0,
+    "indiv_no": 2,
+    "is_organisation_data": false,
+    "administration_type": 2,
+    "copy_from_comprehensive_consultant": 2,
+    "major_version": 2,
+    "minor_version": 2,
+    "base_report_structure_id": 2,
+    "base_industry_no": 2,
+    "base_section_no": 2,
+    "base_indiv_no": 2,
+    "read_only": false,
+    "national_right": "CZ",
+    "caption": "Test Caption",
+    "content": "Test Content"
+  }
+]

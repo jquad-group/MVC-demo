@@ -1,0 +1,36 @@
+{
+  "consultant": 29098,
+  "client": 55003,
+  "year_begin": 20210101,
+  "year_end": 20211231,
+  "base_version": 0,
+  "delta_version": 0,
+  "state": "INVALID_DATA",
+  "schema_version": 1,
+  "state_timestamp": {
+    "dateTime": {
+      "$date": "2024-09-06T10:45:07.762Z"
+    },
+    "zone": "+02:00"
+  },
+  "created_timestamp": {
+    "dateTime": {
+      "$date": "2024-09-06T10:45:07.762Z"
+    },
+    "zone": "+02:00"
+  },
+  "processing_error": {
+    "source": "ACDS",
+    "problem_info": {
+      "type": "test type",
+      "title": "test title",
+      "detail": "test details",
+      "instance": "test instance"
+    },
+    "source_status_code": 555,
+    "source_endpoint": "AccountSumDays",
+    "correlation_id": "9d2dee33-7803-485a-a2b1-2c7538e597ee",
+    "retry_count": 1
+  },
+  "force_reftab_current_year": false
+}

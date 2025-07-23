@@ -1,0 +1,50 @@
+x-ibm-configuration:
+  cors:
+    enabled: true
+  gateway: datapower-api-gateway
+  type: rest
+  phase: realized
+  enforced: true
+  testable: true
+  properties:
+    target-url:
+      value: '$ziel_url_des_services' # Placeholder fuer die URL des Ziel-Services im RZ
+      description: The URL of the target service
+      encoded: false
+    foundation:
+      value: '$_foundation' # Placeholder fuer die URL des Ziel-Services im RZ
+      description: The URL of the target service
+      encoded: false
+    datev-service-id:
+      value: "300571" # Eintrag aus dem Servicekatalog
+  application-authentication:
+    certificate: false
+  assembly:
+    execute:
+      - datev-clientid-jwt-policy:
+          version: 2.0.0
+          title: DATEV clientid jwt policy
+      - invoke:
+          version: 2.2.0
+          title: invoke paas backend
+          verb: keep
+          target-url: $(target-url)/$(custom.resourcePath)$(request.search)
+          backend-type: json
+          timeout: 60
+          header-control:
+            type: blocklist
+            values:
+              - origin
+          parameter-control:
+            type: allowlist
+            values: []
+      - datev-block-dcal-bff-policy:              
+          version: 1.0.0
+          title: DATEV block dcal-bff calls
+          allow-valid-token-calls: false
+    finally: []
+    catch: []
+  activity-log:
+    enabled: true
+    success-content: activity
+    error-content: payload

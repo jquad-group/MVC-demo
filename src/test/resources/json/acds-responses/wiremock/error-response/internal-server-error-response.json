@@ -1,0 +1,6 @@
+{
+  "status": 500,
+  "type": "Aggregation-Processing-Service",
+  "title": "Server Error Exception",
+  "detail": "Test error"
+}

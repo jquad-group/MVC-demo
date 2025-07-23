@@ -1,0 +1,13 @@
+
+@consultant = 1030343
+@client = 70025
+@fiscal_year = 20040101
+
+### initial-load
+POST {{processing}}/api/v1/aggregation-processing/consultants/{{consultant}}/clients/{{client}}/initial-load?fiscal-year={{fiscal_year}}
+X-Datev-Client-ID: {{processing_client_id}}
+X-Datev-Client-Secret: {{processing_client_secret}}
+
+### delete
+DELETE {{processing_cloud_foundry}}/api/v1/aggregation-processing/consultants/{{consultant}}/clients/{{client}}/initial-load?fiscal-year={{fiscal_year}}
+Authorization: Basic {{basicAuthAdminUsername}} {{basicAuthAdminPassword}}

@@ -1,0 +1,56 @@
+spring:
+  data:
+    mongodb:
+      uri: ${vcap.services.mongoee-testing.credentials.uri}
+      database: ${vcap.services.mongoee-testing.credentials.default_database}
+  kafka:
+    bootstrap-servers:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: ${JWT_KEYSET_URL} #ENV welche durch das Manifest je Stage gesetzt wird
+
+# Custom properties start
+kafka-config:
+  # Conditional property to disable kafka in test environment
+  enabled: false
+
+ref-sys:
+  iasd-enabled: ${IASD_ENABLED}
+  mongodb:
+    cert: ${vcap.services.mongoee.credentials.cacrt}
+    transaction-timeout-in-ms: 30000
+  client:
+    acds:
+      base-path: ${ACDS_CLIENT_BASEPATH}
+      client-id: ${vcap.services.acds-creds.credentials.client-id}
+      client-secret: ${vcap.services.acds-creds.credentials.client-secret}
+  basic-auth-admin:
+    username: ${vcap.services.basic-auth-admin-cred.credentials.username}
+    password: ${vcap.services.basic-auth-admin-cred.credentials.password}
+
+otel:
+  exporter:
+    otlp:
+      endpoint: https://otel-collector.monitoring.prod.datev.de:4318
+      headers:
+        DATEV_OTEL_KEY: ${vcap.services.grafana-creds.credentials.apikey}
+      protocol: http/protobuf
+  resource:
+    attributes:
+      deployment.environment: ${FOUNDATION}
+      deployment.environment.name: ${FOUNDATION}
+      service:
+        name: processing-service-testing
+        namespace: refsys.aggregation
+        instance.id: ${CF_INSTANCE_INDEX}
+      cloud:
+        provider: datev
+        datacenter: cnrz
+        platform: datev_cnrz_tas
+        resource.id: ${FOUNDATION}
+      cloudfoundry:
+        org.name: ${vcap_application.organization_name}
+        space.name: ${vcap_application.space_name}
+        process.type: ${vcap_application.process_type}

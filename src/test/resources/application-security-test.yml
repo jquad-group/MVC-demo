@@ -1,0 +1,65 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:${wiremock.server.port}/certs
+  data:
+    mongodb:
+      database: 'refsys-aggregation-processing'
+
+wiremock:
+  server:
+    port: 0
+
+ref-sys:
+  iasd-enabled: true
+  mongodb:
+    # if you have a breakpoint in the AccountingDataServiceA2.processEventInTransaction method, increase this value and revert it once done with debugging
+    transaction-timeout-in-ms: 300000
+  client:
+    acds:
+      base-path: http://localhost:${wiremock.server.port}/datev
+      client-id: ---
+      client-secret: ---
+  initial-load:
+    max-import-duration-in-ms: 5000
+    parking-time-in-ms: 2000
+
+resilience4j:
+  retry:
+    retryAspectOrder: 2
+    configs:
+      shared-retry-config:
+        max-attempts: 2
+        wait-duration: 1
+        enable-exponential-backoff: true
+        exponential-backoff-multiplier: 0.1
+        exponential-max-wait-duration: 10
+  circuitbreaker:
+    circuitBreakerAspectOrder: 1
+    configs:
+      shared-config:
+        slidingWindowSize: 4
+        minimumNumberOfCalls: 2
+        waitDurationInOpenState: 50
+        automatic-transition-from-open-to-half-open-enabled: true
+        permitted-number-of-calls-in-half-open-state: 2
+        failure-rate-threshold: 50
+
+kafka-config:
+  # Conditional property to disable kafka in test environment
+  enabled: false
+
+features:
+  kmvz-processing:
+    initial-load-enabled: true
+    delta-event-enabled: true
+
+logging:
+    level:
+      org:
+          mongodb: WARN
+      kafka:
+        server:
+          KafkaConfig: WARN

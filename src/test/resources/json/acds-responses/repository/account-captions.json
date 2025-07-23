@@ -1,0 +1,74 @@
+[
+  {
+    "culture_code": "de-DE",
+    "account_number": 14500000,
+    "caption": "EDV-Software, entgeltl. erworben",
+    "caption_long": null
+  },
+  {
+    "culture_code": "de-DE",
+    "account_number": 14500001,
+    "caption": "Geschäfts- oder Firmenwert",
+    "caption_long": null
+  },
+  {
+    "culture_code": "de-DE",
+    "account_number": 14500002,
+    "caption": "Unbebaute Grundstücke",
+    "caption_long": null
+  },
+  {
+    "culture_code": "de-DE",
+    "account_number": 24500000,
+    "caption": "Grundstückswert bebauter Grundstücke",
+    "caption_long": null
+  },
+  {
+    "culture_code": "de-DE",
+    "account_number": 24500001,
+    "caption": "Fabrikbauten (eigene Grundstücke)",
+    "caption_long": null
+  },
+  {
+    "culture_code": "de-DE",
+    "account_number": 24500002,
+    "caption": "Maschinen",
+    "caption_long": null
+  },
+  {
+    "culture_code": "en-GB",
+    "account_number": 14500000,
+    "caption": "Computer software",
+    "caption_long": null
+  },
+  {
+    "culture_code": "en-GB",
+    "account_number": 14500001,
+    "caption": "Goodwill",
+    "caption_long": null
+  },
+  {
+    "culture_code": "en-GB",
+    "account_number": 14500002,
+    "caption": "Undeveloped land",
+    "caption_long": null
+  },
+  {
+    "culture_code": "en-GB",
+    "account_number": 24500000,
+    "caption": "Property values of developed land",
+    "caption_long": null
+  },
+  {
+    "culture_code": "en-GB",
+    "account_number": 24500001,
+    "caption": "Industrial buildings",
+    "caption_long": null
+  },
+  {
+    "culture_code": "en-GB",
+    "account_number": 24500002,
+    "caption": "Machinery",
+    "caption_long": null
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "timezone": "Europe/Berlin",
+  "schedule": [
+    "after 10pm every weekday",
+    "before 5am every weekday",
+    "every weekend"
+  ],
+  "dependencyDashboard": false,
+  "commitBodyTable": true,
+  "prBodyNotes": ["@T14110A @T12314A @T06868A @T06326A @T04354A @TF80478 @TF80951 @TF81070"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "pinDigest", "digest"],
+      "addLabels": [ "renovate", "automerge" ],
+      "automerge": true,
+      "groupName": "minor dependencies (with automerge)"
+    },
+    {
+      "matchPackagePrefixes": [
+        "org.openapitools"
+      ],
+      "allowedVersions": "<7.0.1"
+    },
+    {
+      "matchPackagePrefixes": [
+        "de.flapdoodle"
+      ],
+      "allowedVersions": "<4.12.2"
+    },
+    {
+      "matchPackagePrefixes": [
+        "io.cucumber"
+      ],
+      "allowedVersions": "<7.5.0"
+    },
+    {
+      "matchPackagePrefixes": [
+        "io.opentelemetry.instrumentation"
+      ],
+      "allowedVersions": "<2.11.0"
+    },
+    {
+      "matchPackagePrefixes": [
+        "org.apache.maven.plugins.maven-surefire-plugin"
+      ],
+      "allowedVersions": "<3.5.2"
+    }
+  ],
+  "extends": [":semanticCommits"]
+}

@@ -1,0 +1,727 @@
+[
+  {
+    "_id": {
+      "$oid": "65e0a67dd8e2a6a0e757990c"
+    },
+    "client": 55003,
+    "consultant": 29098,
+    "alternative_account_translations": [
+      {
+        "caption": "A5463",
+        "rw_shareholder_id": {
+          "$binary": {
+            "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+            "subType": "03"
+          }
+        },
+        "sort1": 11,
+        "sort2": 0,
+        "source_value_str": "A5463",
+        "target_value_int": 200000
+      },
+      {
+        "caption": "A5463",
+        "rw_shareholder_id": {
+          "$binary": {
+            "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+            "subType": "03"
+          }
+        },
+        "sort1": 11,
+        "sort2": 0,
+        "source_value_str": "A5463",
+        "target_value_int": 200000
+      }
+    ],
+    "collective_accounts": [
+      {
+        "account_number_from": 16000000,
+        "fe": 0,
+        "hf_no": 90
+      },
+      {
+        "account_number_from": 16000000,
+        "fe": 1,
+        "hf_no": 90
+      },
+      {
+        "account_number_from": 16000000,
+        "fe": 2,
+        "hf_no": 90
+      },
+      {
+        "account_number_from": 16000000,
+        "fe": 3,
+        "hf_no": 90
+      },
+      {
+        "account_number_from": 16000000,
+        "fe": 4,
+        "hf_no": 90
+      },
+      {
+        "account_number_from": 16000000,
+        "fe": 5,
+        "hf_no": 90
+      },
+      {
+        "account_number_from": 16000000,
+        "fe": 6,
+        "hf_no": 90
+      }
+    ],
+    "context": {
+      "account_length": 4,
+      "account_purpose_mapping_enabled": "EXTERN",
+      "account_system": 3,
+      "accounting_reasons": [
+        {
+          "accounting_reason": "COMMERCIAL_LAW",
+          "id": 1,
+          "method_of_determining_net_income": "BILANZ",
+          "permitted_accounting_reasons": "HGB"
+        },
+        {
+          "accounting_reason": "TAX_LAW",
+          "id": 2,
+          "method_of_determining_net_income": "BILANZ",
+          "permitted_accounting_reasons": "STEUERRECHT"
+        }
+      ],
+      "alternative_account_translation_order_numeric": false,
+      "base_currency_code": "EUR",
+      "client": 55003,
+      "client_name": "Musterholz GmbH",
+      "company_size_class": "KLEIN",
+      "consultant": 29098,
+      "force_reftab_current_year": false,
+      "income_statement_method": "GESAMTKOSTENVERFAHREN",
+      "industry_no": 0,
+      "industry_id": 0,
+      "is_using_shareholder_attribute": false,
+      "legal_form": "KAP",
+      "custom_column_structure_infos": [
+        {
+          "base_indiv_no": 0,
+          "base_industry_no": 0,
+          "base_section_no": 0,
+          "column_structure_id": 10010000,
+          "base_column_structure_id": 10010000,
+          "display_text": "Vorspalte Hauptspalte Kanzlei RechKredV",
+          "indiv_level": 20,
+          "indiv_no": 2,
+          "major_version": 1,
+          "minor_version": 0,
+          "national_right": "DE",
+          "sub_categorie": {
+            "$numberLong": "6151"
+          }
+        },
+        {
+          "base_indiv_no": 0,
+          "base_industry_no": 0,
+          "base_section_no": 0,
+          "column_structure_id": 10010002,
+          "base_column_structure_id": 10010002,
+          "display_text": "Kontennachweis Kanzlei",
+          "indiv_level": 10,
+          "indiv_no": 1,
+          "major_version": 1,
+          "minor_version": 0,
+          "national_right": "EN",
+          "sub_categorie": {
+            "$numberLong": "0"
+          }
+        }
+      ],
+      "custom_report_structure_infos": [
+        {
+          "base_indiv_no": 0,
+          "base_industry_no": 0,
+          "base_report_structure_id": 10000000,
+          "base_section_no": 0,
+          "display_text": "Mittlere Schrift (10 Pt.) Anlagenspiegel",
+          "indiv_level": 20,
+          "indiv_no": 2,
+          "major_version": 1,
+          "minor_version": 0,
+          "national_right": "DE",
+          "report_structure_id": 10000000
+        },
+        {
+          "base_indiv_no": 0,
+          "base_industry_no": 0,
+          "base_report_structure_id": 10000020,
+          "base_section_no": 0,
+          "display_text": "Mittlere Schrift Kanzlei",
+          "indiv_level": 10,
+          "indiv_no": 3,
+          "major_version": 1,
+          "minor_version": 0,
+          "national_right": "EN",
+          "report_structure_id": 10000020
+        }
+      ],
+      "national_right": "DE",
+      "reporting_options": [
+        {
+          "element_id": 0,
+          "option_id": 0
+        }
+      ],
+      "section_no": 0,
+      "special_taxation": "STANDARDBILANZ",
+      "supported_languages": [
+        "de-DE",
+        "en-GB"
+      ],
+      "type_of_income": "GEWERBEBETRIEB",
+      "use_alternative_account_translation": false,
+      "use_previous_year_account_translation": false,
+      "use_skr_following_year": false,
+      "year_begin": 20200101,
+      "year_end": 20201231,
+      "contains_near_time_data": false
+    },
+    "individual_person_account_numbers": [
+      320000000,
+      620000000,
+      120000000,
+      420000000,
+      220000001,
+      520000000
+    ],
+    "previous_year_account_translations": [
+      {
+        "source_value_int": 10000,
+        "target_non_profit_association_sphere_key": 1,
+        "target_value_int": 200000
+      },
+      {
+        "source_value_int": 15000,
+        "target_non_profit_association_sphere_key": 1,
+        "target_value_int": 300000
+      }
+    ],
+    "shareholder_additions": [
+      {
+        "account_name": 9601,
+        "date_from": 20200101,
+        "date_to": 20200630,
+        "investment_number": 12345,
+        "relation_shareholder_id": {
+          "$binary": {
+            "base64": "UEvcNf3cOrqhUzwrfSOCrQ==",
+            "subType": "03"
+          }
+        },
+        "rw_shareholder_id": {
+          "$binary": {
+            "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+            "subType": "03"
+          }
+        }
+      },
+      {
+        "account_name": 9601,
+        "date_from": 20200701,
+        "date_to": 20201231,
+        "investment_number": 12345,
+        "relation_shareholder_id": {
+          "$binary": {
+            "base64": "UEvcNf3cOrqhUzwrfSOCrQ==",
+            "subType": "03"
+          }
+        },
+        "rw_shareholder_id": {
+          "$binary": {
+            "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+            "subType": "03"
+          }
+        }
+      }
+    ],
+    "shareholder_addresses": [
+      {
+        "academic_degree": "Dr.",
+        "addressee_id": {
+          "$binary": {
+            "base64": "UEvcNf3cOrqhUzwrfSOCrQ==",
+            "subType": "03"
+          }
+        },
+        "addressee_type": 1,
+        "company_name": "Müller GmbH",
+        "date_from": 20200101,
+        "date_to": 20200630,
+        "first_name": "Peter",
+        "identification_number": "12345678911",
+        "last_name": "Tester",
+        "name": "Peter Tester",
+        "name_prefix": "von",
+        "title_of_nobility": "Baron"
+      },
+      {
+        "academic_degree": "Dr.",
+        "addressee_id": {
+          "$binary": {
+            "base64": "UEvcNf3cOrqhUzwrfSOCrQ==",
+            "subType": "03"
+          }
+        },
+        "addressee_type": 1,
+        "company_name": "Müller GmbH",
+        "date_from": 20200701,
+        "date_to": 20201231,
+        "first_name": "Peter",
+        "identification_number": "12345678911",
+        "last_name": "Tester",
+        "name": "Peter Tester",
+        "name_prefix": "von",
+        "title_of_nobility": "Baron"
+      }
+    ],
+    "shareholder_relations": [
+      {
+        "date_from": 20200101,
+        "date_to": 20200630,
+        "earnings_share_fraction": "1/4",
+        "earnings_share_percent": {
+          "$numberDecimal": "1.15"
+        },
+        "investment_type": "TREUH",
+        "liability": "VH",
+        "personal_share_amount": 183265,
+        "personal_share_fraction": "1/4",
+        "personal_share_percent": {
+          "$numberDecimal": "15.1"
+        },
+        "relation_shareholder_id": {
+          "$binary": {
+            "base64": "UEvcNf3cOrqhUzwrfSOCrQ==",
+            "subType": "03"
+          }
+        },
+        "rw_shareholder_id": {
+          "$binary": {
+            "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+            "subType": "03"
+          }
+        },
+        "signatories_number": "3234WER234",
+        "valid_from": 20200101,
+        "valid_to": 20201231
+      },
+      {
+        "date_from": 20200701,
+        "date_to": 20201231,
+        "earnings_share_fraction": "1/4",
+        "earnings_share_percent": {
+          "$numberDecimal": "2.33"
+        },
+        "investment_type": "TREUH",
+        "liability": "VH",
+        "personal_share_amount": 183260,
+        "personal_share_fraction": "1/4",
+        "personal_share_percent": {
+          "$numberDecimal": "33.2"
+        },
+        "relation_shareholder_id": {
+          "$binary": {
+            "base64": "UEvcNf3cOrqhUzwrfSOCrQ==",
+            "subType": "03"
+          }
+        },
+        "rw_shareholder_id": {
+          "$binary": {
+            "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+            "subType": "03"
+          }
+        },
+        "signatories_number": "3234WER234",
+        "valid_from": 20200101,
+        "valid_to": 20201231
+      }
+    ],
+    "shareholder_tax_offices": [
+      {
+        "addressee_id": {
+          "$binary": {
+            "base64": "UEvcNf3cOrqhUzwrfSOCrQ==",
+            "subType": "03"
+          }
+        },
+        "date_from": 20200101,
+        "date_to": 20200630,
+        "standardized_tax_number": "9201020180151",
+        "tax_number": "201/201/80151",
+        "tax_office_no": "9201"
+      },
+      {
+        "addressee_id": {
+          "$binary": {
+            "base64": "UEvcNf3cOrqhUzwrfSOCrQ==",
+            "subType": "03"
+          }
+        },
+        "date_from": 20200701,
+        "date_to": 20201231,
+        "standardized_tax_number": "9201020180151",
+        "tax_number": "201/201/80151",
+        "tax_office_no": "9201"
+      }
+    ],
+    "year_begin": 20200101,
+    "year_end": 20201231
+  },
+  {
+    "_id": {
+      "$oid": "65e0a67dd8e2a6a0e757990e"
+    },
+    "client": 55003,
+    "consultant": 29098,
+    "alternative_account_translations": [
+      {
+        "caption": "A5463",
+        "rw_shareholder_id": {
+          "$binary": {
+            "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+            "subType": "03"
+          }
+        },
+        "sort1": 11,
+        "sort2": 0,
+        "source_value_str": "A5463",
+        "target_value_int": 200000
+      },
+      {
+        "caption": "A5463",
+        "rw_shareholder_id": {
+          "$binary": {
+            "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+            "subType": "03"
+          }
+        },
+        "sort1": 11,
+        "sort2": 0,
+        "source_value_str": "A5463",
+        "target_value_int": 200000
+      }
+    ],
+    "collective_accounts": [
+      {
+        "account_number_from": 16000000,
+        "fe": 0,
+        "hf_no": 90
+      },
+      {
+        "account_number_from": 16000000,
+        "fe": 1,
+        "hf_no": 90
+      },
+      {
+        "account_number_from": 16000000,
+        "fe": 2,
+        "hf_no": 90
+      }
+    ],
+    "context": {
+      "account_length": 4,
+      "account_purpose_mapping_enabled": "EXTERN",
+      "account_system": 3,
+      "accounting_reasons": [
+        {
+          "accounting_reason": "COMMERCIAL_LAW",
+          "id": 1,
+          "method_of_determining_net_income": "BILANZ",
+          "permitted_accounting_reasons": "HGB"
+        },
+        {
+          "accounting_reason": "TAX_LAW",
+          "id": 2,
+          "method_of_determining_net_income": "BILANZ",
+          "permitted_accounting_reasons": "STEUERRECHT"
+        }
+      ],
+      "alternative_account_translation_order_numeric": false,
+      "base_currency_code": "EUR",
+      "client": 55003,
+      "client_name": "Musterholz GmbH",
+      "company_size_class": "KLEIN",
+      "consultant": 29098,
+      "force_reftab_current_year": false,
+      "income_statement_method": "GESAMTKOSTENVERFAHREN",
+      "industry_no": 0,
+      "industry_id": 0,
+      "is_using_shareholder_attribute": false,
+      "legal_form": "KAP",
+      "custom_column_structure_infos": [
+        {
+          "base_indiv_no": 0,
+          "base_industry_no": 0,
+          "base_section_no": 0,
+          "column_structure_id": 10010000,
+          "base_column_structure_id": 10010000,
+          "display_text": "Vorspalte Hauptspalte Kanzlei RechKredV",
+          "indiv_level": 20,
+          "indiv_no": 2,
+          "major_version": 1,
+          "minor_version": 0,
+          "national_right": "DE",
+          "sub_categorie": {
+            "$numberLong": "6151"
+          }
+        },
+        {
+          "base_indiv_no": 0,
+          "base_industry_no": 0,
+          "base_section_no": 0,
+          "column_structure_id": 10010002,
+          "base_column_structure_id": 10010002,
+          "display_text": "Kontennachweis Kanzlei",
+          "indiv_level": 10,
+          "indiv_no": 1,
+          "major_version": 1,
+          "minor_version": 0,
+          "national_right": "EN",
+          "sub_categorie": {
+            "$numberLong": "0"
+          }
+        }
+      ],
+      "custom_report_structure_infos": [
+        {
+          "base_indiv_no": 0,
+          "base_industry_no": 0,
+          "base_report_structure_id": 10000000,
+          "base_section_no": 0,
+          "display_text": "Mittlere Schrift (10 Pt.) Anlagenspiegel",
+          "indiv_level": 20,
+          "indiv_no": 2,
+          "major_version": 1,
+          "minor_version": 0,
+          "national_right": "DE",
+          "report_structure_id": 10000000
+        },
+        {
+          "base_indiv_no": 0,
+          "base_industry_no": 0,
+          "base_report_structure_id": 10000020,
+          "base_section_no": 0,
+          "display_text": "Mittlere Schrift Kanzlei",
+          "indiv_level": 10,
+          "indiv_no": 3,
+          "major_version": 1,
+          "minor_version": 0,
+          "national_right": "EN",
+          "report_structure_id": 10000020
+        }
+      ],
+      "national_right": "DE",
+      "reporting_options": [
+        {
+          "element_id": 0,
+          "option_id": 0
+        }
+      ],
+      "section_no": 0,
+      "special_taxation": "STANDARDBILANZ",
+      "supported_languages": [
+        "de-DE",
+        "en-GB"
+      ],
+      "type_of_income": "GEWERBEBETRIEB",
+      "use_alternative_account_translation": false,
+      "use_previous_year_account_translation": false,
+      "use_skr_following_year": false,
+      "year_begin": 20210101,
+      "year_end": 20211231,
+      "contains_near_time_data": false
+    },
+    "individual_person_account_numbers": [
+      120000000
+    ],
+    "previous_year_account_translations": [
+      {
+        "source_value_int": 10000,
+        "target_non_profit_association_sphere_key": 1,
+        "target_value_int": 200000
+      },
+      {
+        "source_value_int": 15000,
+        "target_non_profit_association_sphere_key": 1,
+        "target_value_int": 300000
+      }
+    ],
+    "shareholder_additions": [
+      {
+        "account_name": 9601,
+        "date_from": 20210101,
+        "date_to": 20210630,
+        "investment_number": 12345,
+        "relation_shareholder_id": {
+          "$binary": {
+            "base64": "UEvcNf3cOrqhUzwrfSOCrQ==",
+            "subType": "03"
+          }
+        },
+        "rw_shareholder_id": {
+          "$binary": {
+            "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+            "subType": "03"
+          }
+        }
+      },
+      {
+        "account_name": 9601,
+        "date_from": 20210701,
+        "date_to": 20211231,
+        "investment_number": 12345,
+        "relation_shareholder_id": {
+          "$binary": {
+            "base64": "UEvcNf3cOrqhUzwrfSOCrQ==",
+            "subType": "03"
+          }
+        },
+        "rw_shareholder_id": {
+          "$binary": {
+            "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+            "subType": "03"
+          }
+        }
+      }
+    ],
+    "shareholder_addresses": [
+      {
+        "academic_degree": "Dr.",
+        "addressee_id": {
+          "$binary": {
+            "base64": "UEvcNf3cOrqhUzwrfSOCrQ==",
+            "subType": "03"
+          }
+        },
+        "addressee_type": 1,
+        "company_name": "Müller GmbH",
+        "date_from": 20210101,
+        "date_to": 20210630,
+        "first_name": "Peter",
+        "identification_number": "12345678911",
+        "last_name": "Tester",
+        "name": "Peter Tester",
+        "name_prefix": "von",
+        "title_of_nobility": "Baron"
+      },
+      {
+        "academic_degree": "Dr.",
+        "addressee_id": {
+          "$binary": {
+            "base64": "UEvcNf3cOrqhUzwrfSOCrQ==",
+            "subType": "03"
+          }
+        },
+        "addressee_type": 1,
+        "company_name": "Müller GmbH",
+        "date_from": 20210701,
+        "date_to": 20211231,
+        "first_name": "Peter",
+        "identification_number": "12345678911",
+        "last_name": "Tester",
+        "name": "Peter Tester",
+        "name_prefix": "von",
+        "title_of_nobility": "Baron"
+      }
+    ],
+    "shareholder_relations": [
+      {
+        "date_from": 20210101,
+        "date_to": 20210630,
+        "earnings_share_fraction": "1/4",
+        "earnings_share_percent": {
+          "$numberDecimal": "1.15"
+        },
+        "investment_type": "TREUH",
+        "liability": "VH",
+        "personal_share_amount": 183265,
+        "personal_share_fraction": "1/4",
+        "personal_share_percent": {
+          "$numberDecimal": "15.1"
+        },
+        "relation_shareholder_id": {
+          "$binary": {
+            "base64": "UEvcNf3cOrqhUzwrfSOCrQ==",
+            "subType": "03"
+          }
+        },
+        "rw_shareholder_id": {
+          "$binary": {
+            "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+            "subType": "03"
+          }
+        },
+        "signatories_number": "3234WER234",
+        "valid_from": 20210101,
+        "valid_to": 20211231
+      },
+      {
+        "date_from": 20210701,
+        "date_to": 20211231,
+        "earnings_share_fraction": "1/4",
+        "earnings_share_percent": {
+          "$numberDecimal": "2.33"
+        },
+        "investment_type": "TREUH",
+        "liability": "VH",
+        "personal_share_amount": 183260,
+        "personal_share_fraction": "1/4",
+        "personal_share_percent": {
+          "$numberDecimal": "33.2"
+        },
+        "relation_shareholder_id": {
+          "$binary": {
+            "base64": "UEvcNf3cOrqhUzwrfSOCrQ==",
+            "subType": "03"
+          }
+        },
+        "rw_shareholder_id": {
+          "$binary": {
+            "base64": "H0UXrAvDGJz+c90mmxvHgQ==",
+            "subType": "03"
+          }
+        },
+        "signatories_number": "3234WER234",
+        "valid_from": 20210101,
+        "valid_to": 20211231
+      }
+    ],
+    "shareholder_tax_offices": [
+      {
+        "addressee_id": {
+          "$binary": {
+            "base64": "UEvcNf3cOrqhUzwrfSOCrQ==",
+            "subType": "03"
+          }
+        },
+        "date_from": 20210101,
+        "date_to": 20210630,
+        "standardized_tax_number": "9201020180151",
+        "tax_number": "201/201/80151",
+        "tax_office_no": "9201"
+      },
+      {
+        "addressee_id": {
+          "$binary": {
+            "base64": "UEvcNf3cOrqhUzwrfSOCrQ==",
+            "subType": "03"
+          }
+        },
+        "date_from": 20210701,
+        "date_to": 20211231,
+        "standardized_tax_number": "9201020180151",
+        "tax_number": "201/201/80151",
+        "tax_office_no": "9201"
+      }
+    ],
+    "year_begin": 20210101,
+    "year_end": 20211231
+  }
+]

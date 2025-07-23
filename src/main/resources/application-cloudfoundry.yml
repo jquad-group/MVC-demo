@@ -1,0 +1,87 @@
+spring:
+  data:
+    mongodb:
+      uri: ${vcap.services.mongoee.credentials.uri}
+      database: ${vcap.services.mongoee.credentials.default_database}
+  kafka:
+    bootstrap-servers: ${vcap.services.kafka-topic-aggregationservice-we-new-or-changed-data.credentials.bootstrap-servers}
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: ${JWT_KEYSET_URL} #ENV welche durch das Manifest je Stage gesetzt wird
+
+# Custom properties start
+kafka-config:
+  # Conditional property to disable kafka in test environment
+  enabled: true
+  kafka-topic-aggregation-service-new-or-changed-data:
+    # Kafka topic name when there are changed or newly data in Aggregation service for stock
+    topic: ${vcap.services.kafka-topic-aggregationservice-we-new-or-changed-data.credentials.topic}
+    security-protocol: ${vcap.services.kafka-topic-aggregationservice-we-new-or-changed-data.credentials.security-protocol}
+    sasl-mechanism: ${vcap.services.kafka-topic-aggregationservice-we-new-or-changed-data.credentials.sasl-mechanism}
+    sasl-jaas-config: ${vcap.services.kafka-topic-aggregationservice-we-new-or-changed-data.credentials.sasl-jaas-config}
+ref-sys:
+  circuitbreaker-enabled: ${CIRCUITBREAKER_ENABLED}
+  iasd-enabled: ${IASD_ENABLED}
+  mongodb:
+    transaction-timeout-in-ms: 30000
+  client:
+    acds:
+      base-path: ${ACDS_CLIENT_BASEPATH}
+      client-id: ${vcap.services.acds-creds.credentials.client-id}
+      client-secret: ${vcap.services.acds-creds.credentials.client-secret}
+  basic-auth-admin:
+    username: ${vcap.services.basic-auth-admin-cred.credentials.username}
+    password: ${vcap.services.basic-auth-admin-cred.credentials.password}
+
+logging:
+  level:
+    root: INFO
+
+otel:
+  sdk:
+    disabled: ${OTEL_DISABLED:false}
+  exporter:
+    otlp:
+      endpoint: https://otel-collector.monitoring.prod.datev.de:4318
+      headers:
+        DATEV_OTEL_KEY: ${vcap.services.grafana-creds.credentials.apikey}
+  resource:
+    attributes:
+      deployment.environment: ${FOUNDATION}
+      deployment.environment.name: ${FOUNDATION}
+      service:
+        name: processing-service
+        namespace: refsys.aggregation
+        instance.id: ${CF_INSTANCE_GUID}
+        instance.number: ${CF_INSTANCE_INDEX}
+      cloud:
+        provider: datev
+        datacenter: cnrz
+        platform: datev_cnrz_tas
+        resource.id: ${FOUNDATION}
+      cloudfoundry:
+        org.name: ${vcap.application.organization_name}
+        space.name: ${vcap.application.space_name}
+        process.type: ${vcap.application.process_type}
+
+management:
+  metrics:
+    tags:
+      deployment.environment: ${FOUNDATION}
+      deployment.environment.name: ${FOUNDATION}
+      service:
+        name: processing-service
+        namespace: refsys.aggregation
+        instance.id: ${CF_INSTANCE_GUID}
+        instance.number: ${CF_INSTANCE_INDEX}
+      cloud:
+        provider: datev
+        datacenter: cnrz
+        platform: datev_cnrz_tas
+        resource.id: ${FOUNDATION}
+      cloudfoundry:
+        org.name: ${vcap.application.organization_name}
+        space.name: ${vcap.application.space_name}
+        process.type: ${vcap.application.process_type}

@@ -1,0 +1,20 @@
+{
+  "account_number": 14500000,
+  "date": 20210501,
+  "month": 3,
+  "accounting_reason_id": 0,
+  "record_type": 1,
+  "rw_shareholder_id": "9c18c30b-ac17-451f-81c7-1b9b26dd73fe",
+  "business_assets_assignment": null,
+  "tax_rate": 0.19,
+  "accounting_committed": null,
+  "cost1": "91",
+  "cost2": "A2",
+  "agriculture_and_forestry_account_type": 25,
+  "amount_debit": 100.55,
+  "amount_credit": 1000.65,
+  "quantity_credit": 77,
+  "quantity_debit": 86,
+  "weight_credit": 80.7,
+  "weight_debit": 90.6
+}

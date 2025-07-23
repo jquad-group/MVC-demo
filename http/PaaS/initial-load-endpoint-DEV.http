@@ -1,0 +1,5 @@
+### Erstbestückung -- am Beispiel:  Berater=29098 | Mandant=55003 | WJ=20220101
+POST https://refsys-aggregation-processing-service-testing.api.dev.datev.de/datev/api/v1/aggregation-processing/consultants/29098/clients/55003/initial-load?
+    fiscal-year=20220101
+X-Datev-Client-ID: {{client-id}}
+X-Datev-Client-Secret: {{client-secret}}

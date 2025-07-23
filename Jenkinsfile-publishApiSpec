@@ -1,0 +1,125 @@
+#!/usr/bin/env groovy
+@Library('COMMUNITY@master') _
+import groovy.transform.Field
+
+properties([
+        disableConcurrentBuilds(),
+        gitLabConnection('git.datev.de'),
+        buildDiscarder(logRotator(numToKeepStr: '5'))
+])
+
+@Field final String PRODUCT_VERSION = '1'
+@Field final String PRODUCT_TITLE = 'Refsys Aggregation Processing Service'
+@Field final String PRODUCT_NAME = 'refsys-aggregation-processing-service'
+@Field final String DOMAIN_SUB_NAME = 'refsys-aggregation-processing-service'
+@Field final String SPACE = 'refsys-online'
+@Field final String CREDENTIALS_DEV = 'ApiGatewayUserDev'
+@Field final String CREDENTIALS_QS = 'ApiGatewayUserQS'
+@Field final String CREDENTIALS_PROD = 'ApiGatewayUserProd'
+
+@Field final String URL_DEV = 'https://dapims.apic.dev.datev.de/cnrz'
+@Field final String URL_QS = 'https://dapims.apic.qs.datev.de/cnrz'
+@Field final String URL_PROD = 'https://dapims.apic.datev.de/cnrz'
+
+@Field final String PUBLIC_URL_DEV = 'https://refsys-aggregation-processing-service.api.dev.datev.de/datev/api/v1'
+@Field final String PUBLIC_URL_DEV_TESTING = 'https://refsys-aggregation-processing-service-testing.api.dev.datev.de/datev/api/v1'
+@Field final String PUBLIC_URL_QS = 'https://refsys-aggregation-processing-service.api.qs.datev.de/datev/api/v1'
+@Field final String PUBLIC_URL_PROD = 'https://refsys-aggregation-processing-service.api.datev.de/datev/api/v1'
+
+@Field final String TARGET_URL_DEV = 'https://refsys-aggregation-processing-service.apps-internal.dev.datev.de/api/v1'
+@Field final String TARGET_URL_DEV_TESTING = 'https://refsys-aggregation-processing-service-testing.apps-internal.dev.datev.de/api/v1'
+@Field final String TARGET_URL_QS = 'https://refsys-aggregation-processing-service.apps-internal.qs.datev.de/api/v1'
+@Field final String TARGET_URL_PROD = 'https://refsys-aggregation-processing-service.apps-internal.datev.de/api/v1'
+
+@Field final String FOUNDATION_DEV = 'dev'
+@Field final String FOUNDATION_QS = 'qs'
+@Field final String FOUNDATION_PROD = 'prod'
+
+runPipeline()
+
+def runPipeline() {
+    // use the standard config
+    publishApi('dev-testing')
+    publishApi('dev')
+    publishApi('qs')
+    publishApi('prod')
+}
+
+def publishApi(String stageValue) {
+    stage('publish ' + stageValue) {
+        timeout(time: 30, unit: 'MINUTES') {
+            input message: 'Release API in ' + stageValue + '?'
+        }
+        productName = PRODUCT_NAME
+        productTitle = PRODUCT_TITLE
+        domainSubname = DOMAIN_SUB_NAME
+
+        if (stageValue == 'dev-testing' || stageValue == 'dev') {
+            url = URL_DEV
+            foundation = FOUNDATION_DEV
+            credentials = CREDENTIALS_DEV
+        }
+        if (stageValue == 'dev-testing') {
+            publicUrl = PUBLIC_URL_DEV_TESTING
+            targetUrl = TARGET_URL_DEV_TESTING
+            productName += '-testing'
+            productTitle += ' Testing'
+            domainSubname += '-testing'
+        }
+        if (stageValue == 'dev') {
+            publicUrl = PUBLIC_URL_DEV
+            targetUrl = TARGET_URL_DEV
+        }
+        if (stageValue == 'qs') {
+            url = URL_QS
+            publicUrl = PUBLIC_URL_QS
+            credentials = CREDENTIALS_QS
+            targetUrl = TARGET_URL_QS
+            foundation = FOUNDATION_QS
+        }
+        if (stageValue == 'prod') {
+            url = URL_PROD
+            publicUrl = PUBLIC_URL_PROD
+            credentials = CREDENTIALS_PROD
+            targetUrl = TARGET_URL_PROD
+            foundation = FOUNDATION_PROD
+        }
+
+        node('Linux') {
+            cleanWs()
+            checkout scm
+            script {
+                apispec.publish(
+                        title: productTitle,
+                        name: productName,
+                        version: PRODUCT_VERSION,
+                        space: SPACE,
+                        credentialsId: credentials,
+                        url: url,
+                        proxy : '',
+                        plans:   // Pläne mit denen eure Consumer die Abhängigkeit zu euren Produkt einstellen können
+                                ['1-vollstandig-abhangig-approval', '2-bedingt-abhangig-approval', '3-minimal-abhangig-approval'],
+                        apiSpecs:
+                                [
+                                        [
+                                                specFile    : 'src/main/resources/openapi.yaml', // OpenAPI Spec
+                                                definitions : ['src/main/resources/apispec/clientIdAndSecretSecurityDefinition.yaml', 'src/main/resources/apispec/gatewayDefinition.yaml'],
+                                                placeholders: [
+                                                        oeffentliche_url     : publicUrl,
+                                                        ziel_url_des_services: targetUrl,
+                                                        _foundation          : foundation,
+                                                        api_name             : productName
+                                                ],
+                                                dnsRecord   :
+                                                        [
+                                                                'cloudname'     : 'cnrz',                    // Rechenzentrum
+                                                                'ip-type'       : 'restricted',                    // Aufrufbarkeit
+                                                                'domain-subname': domainSubname        // mein API Name slugified (nur Kleinbuchstaben, Zahlen und - erlaubt)
+                                                        ]
+                                        ]
+                                ]
+                )
+            }
+        }
+    }
+}

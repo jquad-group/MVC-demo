@@ -1,0 +1,17 @@
+
+# Mandant 3, Jahre 2021, 2023, 2024 (2022 fehlt)
+
+@consultant = 1120225
+@client = 3
+@fiscal_year = 20220101
+GET {{fibu_stammdaten}}/api/v1/accounting-dataservices/consultants/{{consultant}}/clients/{{client}}/fiscal-years
+Accept: application/json
+X-Datev-Client-ID: {{client_id}}
+X-Datev-Client-Secret: {{client_secret}}
+
+###
+
+GET {{fibu_stammdaten}}/api/v1/accounting-dataservices/consultants/{{consultant}}/clients/{{client}}/acds-masterdata-context?fiscal-year={{fiscal_year}}
+Accept: application/json
+X-Datev-Client-ID: {{client_id}}
+X-Datev-Client-Secret: {{client_secret}}

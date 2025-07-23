@@ -1,0 +1,1 @@
+{"relation_shareholder_id":{"$binary":{"base64":"UEvcNf3cOrqhUzwrfSOCrQ==","subType":"03"}},"rw_shareholder_id":{"$binary":{"base64":"H0UXrAvDGJz+c90mmxvHgQ==","subType":"03"}},"account_name":9601,"investment_number":12345,"date_from":20220101,"date_to":20220630}

@@ -1,0 +1,12 @@
+
+@consultant = 1120225
+@client = 3
+@fiscal_year = 20220101
+@near_time_data = true
+@base_version = 0
+@delta_version = 0
+
+GET {{acds_refsys}}/api/v1/accounting-dataservices/consultants/{{consultant}}/clients/{{client}}/masterdata-context?fiscal-year={{fiscal_year}}&near-time-data={{near_time_data}}&base-version={{base_version}}&delta-version={{delta_version}}
+Content-Type: application/json
+X-Datev-Client-ID: {{client_id}}
+X-Datev-Client-Secret: {{client_secret}}
